@@ -1,0 +1,9 @@
+{
+  "username" : "testing",
+  "password" :
+    [
+      {
+        "password_array" : "testing2"
+      }
+    ]
+}

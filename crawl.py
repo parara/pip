@@ -52,7 +52,7 @@ us_trends = twitter_api.trends.place(_id=US_WOE_ID)
 q = '#RabuSoto' 
 # key pencarian
 
-count = 10
+count = 100
 
 # See https://dev.twitter.com/docs/api/1.1/get/search/tweets
 
