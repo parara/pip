@@ -51,13 +51,12 @@ for index in range(len(statuses)):
 
     with con:
       cur = con.cursor(mdb.cursors.DictCursor)
-      cur.execute("""INSERT INTO Lapor(Date, Name, Isi, Status) VALUES (%s,%s,%s,%s,%s,%s) """, (created_at,screen_name,text,kondisi))
+      cur.execute("""INSERT INTO Lapor(Date, Name, Isi, Status) VALUES (%s,%s,%s,%s) """, (created_at,screen_name,text,kondisi))
 
-    print 'Succesfully Inserted the values to DB !' 
     print "sukses"
 
-  else:
-    print index,"duplicate"
+  #else:
+  #  print index,"duplicate"
 
   #input to sql
 
