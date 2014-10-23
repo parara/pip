@@ -24,7 +24,9 @@ twitter_api = twitter.Twitter(auth=auth)
 # and is used throughout the remainder of this chapter.
 
 # key pencarian
-q = '#JMR2014' 
+q = '#JMR2014'
+
+# since:2010-12-27 
 
 # jumalh query
 count = 100
