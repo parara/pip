@@ -8,7 +8,7 @@ import json
 statuses = json.loads(open('jmr.json').read())
 
 status_texts = [ status ['text']
-  for status in statuses
+  for status in statusess
 ]
 
 print json.dumps(status_texts[0:5], indent=1)
