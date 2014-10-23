@@ -35,11 +35,13 @@ statuses = json.loads(open('crawling.json').read())
 for index in range(len(statuses)):
   text = statuses[index]['text']
   if (text[0:2] != 'RT'):
-    # if date same
+    # if date
     screen_name = '@'+statuses[index]['user']['screen_name']
     coordinates = statuses[index]['coordinates']
     created_at = statuses[index]['created_at']
 
+    print screen_name
+  
     #print '@'+statuses[index]['user']['screen_name']
     #print text
     #print statuses[index]['coordinates']
@@ -51,7 +53,7 @@ for index in range(len(statuses)):
 
     with con:
       cur = con.cursor(mdb.cursors.DictCursor)
-      cur.execute("INSERT INTO Lapor(Date, Name, Isi, Status) VALUES(created_at,screen_name,text,kondisi)")
+      cur.execute("INSERT INTO Writers(Name) VALUES(screen_name)")
     print "sukses"
 
   else:
