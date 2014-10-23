@@ -40,8 +40,6 @@ for index in range(len(statuses)):
     coordinates = statuses[index]['coordinates']
     created_at = statuses[index]['created_at']
 
-    print screen_name
-  
     #print '@'+statuses[index]['user']['screen_name']
     #print text
     #print statuses[index]['coordinates']
@@ -53,7 +51,7 @@ for index in range(len(statuses)):
 
     with con:
       cur = con.cursor(mdb.cursors.DictCursor)
-      cur.execute("INSERT INTO Writers(Name) VALUES(screen_name)")
+      cur.execute("INSERT INTO Lapor(Date, Name, Isi, Status) VALUES(%(created_at)s,%(screen_name)s,%(text)s,%(kondisi)s")
     print "sukses"
 
   else:
