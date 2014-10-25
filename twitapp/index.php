@@ -1,7 +1,6 @@
 <?php
-
-include('_inc/lock.php');
-include('_inc/config.php');
+include('lock.php');
+include('config.php');
 
 #$mod = $_GET['mod'];
 #  switch($mod){
