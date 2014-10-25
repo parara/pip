@@ -34,42 +34,32 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Login Page</title>
+<title>Administrator Login Form</title>
 
-<style type="text/css">
-body {
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:14px;
-}
-label {
-	font-weight:bold;
-	width:100px;
-	font-size:14px;
-}
-.box {
-	border:#666666 solid 1px;
-}
-</style>
+<link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
-<body bgcolor="#FFFFFF">
-
-<div align="center">
-	<div style="width:300px; border: solid 1px #333333; " align="left">
-		<div style="background-color:#333333; color:#FFFFFF; padding:3px;"><b>Login</b>
-		</div>
-
-
-		<div style="margin:30px">
-
-		<form action="" method="post">
+<body>
+<div id="stylized">
+	<div class="loginform">
+    <div class="logo"><img src="img/logo2.png" height="80" width="80"><br><br><br>
+    <p><b>Badan Pelayanan Perizinan Terpadu dan Penanaman Modal</b><br><font size="2">KOTA BOGOR</font></p>
+    </div>
+    <form action="" method="post">
+    	<div class="form">
+		
 		<label>UserName  :</label><input type="text" name="username" class="box"/><br /><br />
 		<label>Password  :</label><input type="password" name="password" class="box" /><br/><br />
-		<input type="submit" value=" Submit "/><br />
+		<input type="submit" value=" Submit "/><br/>
 
+			</div>
 		</form>
-		<div style="font-size:11px; color:#cc0000; margin-top:10px"><?php echo $error; ?></div>
-		</div>
-	</div>
+  </div>
+
+  <p style="margin-bottom: 50px;margin-left: 40px;"><span style="color: red;font-style: italic;"></span></p>
+  <div class="footer">
+    <h3>Copyright | 2014 Aplikasi Pelayanan Perizinan Terpadu</h3>
+  </div>
+	
 </div>
 
 </body>
