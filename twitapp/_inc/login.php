@@ -1,6 +1,6 @@
 <?php
 
-#include("config.php");
+include("config.php");
 session_start();
 
 if($_SERVER["REQUEST_METHOD"] == "POST")
@@ -62,7 +62,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 		</form>
   </div>
 
-  <p style="margin-bottom: 50px;margin-left: 40px;"><span style="color: red;font-style: italic;"></span></p>
+  <p style="margin-bottom: 10px;margin-left: 40px;"><span style="color: red;font-style: italic;"></span></p>
   <div class="footer">
     <h3>Copyright | 2014 Aplikasi Pelayanan Perizinan Terpadu</h3>
   </div>
