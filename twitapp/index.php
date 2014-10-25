@@ -3,6 +3,13 @@
 include('_inc/lock.php');
 include('_inc/config.php');
 
+#$mod = $_GET['mod'];
+#  switch($mod){
+#    case "login" :
+#      $view = "login.php";
+#      break;
+#  }
+#    include $view;
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -13,6 +20,6 @@ include('_inc/config.php');
 
 <body>
 	<h1>Welcome <?php echo $login_session; ?></h1> 
-	<h2><a href="_inc/logout.php">Sign Out</a></h2>
+	<h2><a href="logout.php">Sign Out</a></h2>
 </body>
 </html>

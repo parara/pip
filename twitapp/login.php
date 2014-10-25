@@ -16,13 +16,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 	$active=$row['active'];
 
 	$count=mysql_num_rows($result);
+  echo $count;
 
 	// If result matched $myusername and $mypassword, table row must be 1 row
 	if($count==1) {
 		$_SESSION['login_user']=$myusername;
-		header('location:welcome.php');
-		exit();
-  	
+		header('location:index.php');
+    exit();
+    #$error="masuk";	
 	}
 	else {
 		$error="Your Login Name or Password is invalid";
