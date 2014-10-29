@@ -23,7 +23,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 		$_SESSION['login_user']=$myusername;
 		header('location:index.php');
     exit();
-    #$error="masuk";	
+    ## set last login
 	}
 	else {
 		$error="Your Login Name or Password is invalid";
@@ -47,27 +47,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     	<div class="form">
     	<ul>
           <li><h2>Username</h2>&nbsp;<input name="username" id="username" type="text"></li>
-      </ul>
-      <ul>
           <li><h2>Password</h2>&nbsp;<input name="password" id="password" type="password"></li>
-      </ul>
-      <ul>
           <li><button type="submit">Log In</button></li>
       </ul>
-		
-		<!-- <label>UserName  :</label><input type="text" name="username" class="box"/><br /><br />
-		<label>Password  :</label><input type="password" name="password" class="box" /><br/><br />
-		<input type="submit" value="Log In"/><br/> -->
-
 			</div>
 		</form>
   </div>
-
   <p style="margin-bottom: 10px;margin-left: 40px;"><span style="color: red;font-style: italic;"></span></p>
   <div class="footer">
     <h3>Copyright | 2014 Aplikasi Pelayanan Perizinan Terpadu</h3>
   </div>
-	
 </div>
 
 </body>
