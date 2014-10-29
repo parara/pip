@@ -8,23 +8,36 @@
 
 import twitter
 import json
+import MySQLdb as mdb
 
-CONSUMER_KEY = 'C5lJE7T2QoQ4kCLmCYRj61SaD'
-CONSUMER_SECRET = 'DULtzlHgGfnkO0GNtIpyYBvqW1M4hEfHuWrZ0m5JKnmedj2ljy'
-OAUTH_TOKEN = '79529075-6fLXfXus6xyJN42KJG7vm2Apyqq5xQwanKM68vnMv'
-OAUTH_TOKEN_SECRET = 'dSteIYhb9FGPoeyX3gz6b5zVJT4ny0nlNNhQ31evGn0sr'
+con = mdb.connect('localhost','twitapp','tw1t4pp','testdb');
+
+with con:
+
+  cur = con.cursor()
+  cur.execute("SELECT * FROM Twitter")
+
+  for i in range(cur.rowcount):
+      
+    row = cur.fetchone()
+    CONSUMER_KEY = row[0]
+    CONSUMER_SECRET = row[1]
+    OAUTH_TOKEN = row[2]
+    OAUTH_TOKEN_SECRET = row[3]
+    q = row[4]
+
+# this value get from db;
+#CONSUMER_KEY = 'ZI1PLPq7emJnHWkcyq3tFDeWV'
+#CONSUMER_SECRET = 'YCqck9ZB6rWGuEG5tCRVoOjHHnDd0Y6iFHSbleq70cDIjqTMHQ'
+#OAUTH_TOKEN = '79529075-cnQlwAjcaiHYwYb8gGfe9Sq4W7mvhEwtpljLwstyL'
+#OAUTH_TOKEN_SECRET = 'QEUUgVjFR568jDXpcuxxyXDe7qouWYkOebQZziYXqGgIJ'
 
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                            CONSUMER_KEY, CONSUMER_SECRET)
 twitter_api = twitter.Twitter(auth=auth)
 
-# XXX: Set this variable to a trending topic, 
-# or anything else for that matter. The example query below
-# was a trending topic when this content was being developed
-# and is used throughout the remainder of this chapter.
-
 # key pencarian
-q = '#JMR2014'
+#q = '#RaboSoto'
 
 # since:2010-12-27 
 

@@ -15,6 +15,7 @@ include('config.php');
 <link href="css/carousel.css" rel="stylesheet">
 <link href="css/docs.min.css" rel="stylesheet">
 <link href="css/xeditable.css" rel="stylesheet">
+<link href="css/table.css" rel="stylesheet">
 
 <link href="css/justified-nav.css" rel="stylesheet">
 
@@ -32,9 +33,9 @@ include('config.php');
       	<a href="#home" role="tab" data-toggle="tab">Home</a>
       </li>
       <li><a href="#pengaduan" role="tab" data-toggle="tab">Pengaduan</a></li>
-      <li><a href="#">Langganan</a></li>
-      <li><a href="#">Pengaturan</a></li>
-      <li><a href="#">Akun</a></li>
+      <li><a href="#langganan" role="tab" data-toggle="tab">Langganan</a></li>
+      <li><a href="#pengaturan" role="tab" data-toggle="tab">Pengaturan</a></li>
+      <li><a href="#akun" role="tab" data-toggle="tab">Akun</a></li>
       <li><a href="logout.php">Sign Out</a></li>
     </ul>
   </div>
@@ -52,11 +53,11 @@ include('config.php');
   	<h2>Laporan yang telah masuk</h2>
   	list table
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      <table class="table table-hover sortable">
       <?php
       $tampil = mysql_query("SELECT * FROM Lapor limit 0,10");
       echo
-      "<table>
-				<tr>
+      "<tr>
             <th>No</th>
             <th>Tanggal</th>
             <th>Username</th>
@@ -71,10 +72,70 @@ include('config.php');
        	echo "<td>" . $row['Isi'] . "</td>";
        	echo "<td>" . $row['Status'] . "</td>";
        }
-			echo "</table>";
 			?>
+			</table>
   </div>
-  <div class="tab-pane" id="messages">...</div>
+  <div class="tab-pane" id="langganan">...
+
+  </div>
+  <div class="tab-pane" id="pengaturan">
+  	<h2>Pengaturan Twitter</h2>
+  	kode id, hastag
+		bikin form,
+		isi form query, klo udh pake metode insert
+		<?php 
+			// save
+			include('config.php');
+			if($_SERVER["REQUEST_METHOD"] == "POST") {
+				$CONSUMER_KEY=addslashes($_POST['KunciPelanggan']);
+		    $CONSUMER_SECRET= addslashes($_POST['KodeRahasiaPelanggan']);
+		    $OAUTH_TOKEN=addslashes($_POST['TokenAkses']);
+		    $OAUTH_TOKEN_SECRET=addslashes($_POST['KodeRahasiaToken']);
+		    $HASTAG=addslashes($_POST['hastag']);
+
+				$apdate = mysql_query("UPDATE Twitter SET CONSUMER_KEY='$CONSUMER_KEY', CONSUMER_SECRET='$CONSUMER_SECRET', OAUTH_TOKEN='$OAUTH_TOKEN', OAUTH_TOKEN_SECRET='$OAUTH_TOKEN_SECRET', HASTAG='$HASTAG' WHERE app='twitter'");
+			}
+		?>
+
+		<form role="form" action="#pengaturan" method="POST">
+		<?php
+		  $atur = mysql_query("SELECT * FROM Twitter");
+		  while ($row = mysql_fetch_array($atur)) { 
+		?>
+		  
+		  <div class="form-group">
+		    <label>Kunci Pelanggan</label> 
+		    <input type="text" class="form-control" name="KunciPelanggan"
+		    placeholder=<?php echo $row['CONSUMER_KEY'];?>>
+		  </div>
+		  <div class="form-group">
+		    <label>Kode Rahasia Pelanggan</label>
+		    <input type="text" class="form-control" name="KodeRahasiaPelanggan"
+		    placeholder=<?php echo $row['CONSUMER_SECRET'];?>>
+		  </div>
+		  <div class="form-group">
+		    <label>Token untuk Akses</label>
+		    <input type="text" class="form-control" name="TokenAkses"
+		    placeholder=<?php echo $row['OAUTH_TOKEN'];?>>
+		  </div>
+		  <div class="form-group">
+		    <label>Kode Rahasia Token</label>
+		    <input type="text" class="form-control" name="KodeRahasiaToken"
+		    placeholder=<?php echo $row['OAUTH_TOKEN_SECRET'];?>>
+		  </div>
+		  <div class="form-group">
+		    <label>Kode Pencarian</label>
+		    <input type="text" class="form-control" name="hastag"
+		    placeholder=<?php echo $row['HASTAG']; } ?>>
+		  </div>
+		  <button type="submit" class="btn btn-default">Simpan</button>
+		</form>
+  </div>
+
+
+  <div class="tab-pane" id="akun">
+  	ganti password
+  </div>
   <div class="tab-pane" id="settings">...</div>
 </div>
 
@@ -98,7 +159,8 @@ include('config.php');
 <!-- Placed at the end of the document so the pages load faster -->
   <script src="lib/jquery-1.11.0.js"></script>
   <script src="lib/bootstrap.js"></script>
-  <script src="lib/docs.min.js"></script>    
+  <script src="lib/docs.min.js"></script>
+  <script src="lib/sorttable.js"></script>  
 
 </body>
 </html>

@@ -16,16 +16,19 @@
 # connect db | done
 # insert db  | done, rejet if duplicate by date  
 
-# tampilin ke web,
-# bikin halaman login
-
 import json
 import MySQLdb as mdb
 
 #http://zetcode.com/db/mysqlpython/ & http://stackoverflow.com/questions/18465411/python-mysqldb-insert-with-variables-as-parameters
-# CREATE TABLE Lapor(Id INT PRIMARY KEY AUTO_INCREMENT, Date VARCHAR(25), Name VARCHAR(25), Isi VARCHAR (160), Status VARCHAR(15)); 
-con = mdb.connect('localhost','twitapp','tw1t4pp','testdb');
 
+## Tabel Lapor
+# CREATE TABLE Lapor(Id INT PRIMARY KEY AUTO_INCREMENT, Date VARCHAR(25),
+# Name VARCHAR(25), Isi VARCHAR (160), Status VARCHAR(15)); 
+
+## Tabel Twitter
+# CREATE TABLE Twitter(CONSUMER_KEY VARCHAR(50), CONSUMER_SECRET VARCHAR(50), OAUTH_TOKEN VARCHAR(50), OAUTH_TOKEN_SECRET VARCHAR(25), HASTAG VARCHAR(25));
+
+con = mdb.connect('localhost','twitapp','tw1t4pp','testdb');
 # read from http://www.tutorialspoint.com/python/python_for_loop.htm
 
 # add kondisi to nilai
