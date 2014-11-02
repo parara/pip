@@ -82,54 +82,71 @@ include('config.php');
   	<h2>Pengaturan Twitter</h2>
   	kode id, hastag
 		bikin form,
-		isi form query, klo udh pake metode insert
-		<?php 
-			// save
-			include('config.php');
-			if($_SERVER["REQUEST_METHOD"] == "POST") {
-				$CONSUMER_KEY=addslashes($_POST['KunciPelanggan']);
-		    $CONSUMER_SECRET= addslashes($_POST['KodeRahasiaPelanggan']);
-		    $OAUTH_TOKEN=addslashes($_POST['TokenAkses']);
-		    $OAUTH_TOKEN_SECRET=addslashes($_POST['KodeRahasiaToken']);
-		    $HASTAG=addslashes($_POST['hastag']);
+		isi form query, klo udh pake metode insert,
+		butuh validasi isi
 
-				$apdate = mysql_query("UPDATE Twitter SET CONSUMER_KEY='$CONSUMER_KEY', CONSUMER_SECRET='$CONSUMER_SECRET', OAUTH_TOKEN='$OAUTH_TOKEN', OAUTH_TOKEN_SECRET='$OAUTH_TOKEN_SECRET', HASTAG='$HASTAG' WHERE app='twitter'");
-			}
-		?>
+		<ul class="nav nav-tabs" role="tablist">
+		  <li role="presentation"><a href="#twitter" role="tab" data-toggle="tab">Twitter</a></li>
+		  <li role="presentation"><a href="#email" role="tab" data-toggle="tab">Surel</a></li>
+		  <li role="presentation" class="active"><a href="#disable" role="tab" data-toggle="tab">Back</a></li>
+		</ul>
 
-		<form role="form" action="#pengaturan" method="POST">
-		<?php
-		  $atur = mysql_query("SELECT * FROM Twitter");
-		  while ($row = mysql_fetch_array($atur)) { 
-		?>
-		  
-		  <div class="form-group">
-		    <label>Kunci Pelanggan</label> 
-		    <input type="text" class="form-control" name="KunciPelanggan"
-		    placeholder=<?php echo $row['CONSUMER_KEY'];?>>
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane active" id="disable"></div>
+		  <div role="tabpanel" class="tab-pane" id="twitter">
+		  	<?php 
+					// save
+					include('config.php');
+					if($_SERVER["REQUEST_METHOD"] == "POST") {
+						$CONSUMER_KEY=addslashes($_POST['KunciPelanggan']);
+				    $CONSUMER_SECRET= addslashes($_POST['KodeRahasiaPelanggan']);
+				    $OAUTH_TOKEN=addslashes($_POST['TokenAkses']);
+				    $OAUTH_TOKEN_SECRET=addslashes($_POST['KodeRahasiaToken']);
+				    $HASTAG=addslashes($_POST['hastag']);
+
+						$apdate = mysql_query("UPDATE Twitter SET CONSUMER_KEY='$CONSUMER_KEY', CONSUMER_SECRET='$CONSUMER_SECRET', OAUTH_TOKEN='$OAUTH_TOKEN', OAUTH_TOKEN_SECRET='$OAUTH_TOKEN_SECRET', HASTAG='$HASTAG' WHERE app='twitter'");
+					}
+				?>
+
+				<form role="form" action="" method="POST">
+				<?php
+				  $atur = mysql_query("SELECT * FROM Twitter");
+				  while ($row = mysql_fetch_array($atur)) { 
+				?>
+				  
+				  <div class="form-group">
+				    <label>Kunci Pelanggan</label> 
+				    <input type="text" class="form-control" name="KunciPelanggan"
+				    placeholder=<?php echo $row['CONSUMER_KEY'];?>>
+				  </div>
+				  <div class="form-group">
+				    <label>Kode Rahasia Pelanggan</label>
+				    <input type="text" class="form-control" name="KodeRahasiaPelanggan"
+				    placeholder=<?php echo $row['CONSUMER_SECRET'];?>>
+				  </div>
+				  <div class="form-group">
+				    <label>Token untuk Akses</label>
+				    <input type="text" class="form-control" name="TokenAkses"
+				    placeholder=<?php echo $row['OAUTH_TOKEN'];?>>
+				  </div>
+				  <div class="form-group">
+				    <label>Kode Rahasia Token</label>
+				    <input type="text" class="form-control" name="KodeRahasiaToken"
+				    placeholder=<?php echo $row['OAUTH_TOKEN_SECRET'];?>>
+				  </div>
+				  <div class="form-group">
+				    <label>Kode Pencarian</label>
+				    <input type="text" class="form-control" name="hastag"
+				    placeholder=<?php echo $row['HASTAG']; } ?>>
+				  </div>
+				  <button type="submit" class="btn btn-default">Simpan</button>
+				</form>
+
 		  </div>
-		  <div class="form-group">
-		    <label>Kode Rahasia Pelanggan</label>
-		    <input type="text" class="form-control" name="KodeRahasiaPelanggan"
-		    placeholder=<?php echo $row['CONSUMER_SECRET'];?>>
-		  </div>
-		  <div class="form-group">
-		    <label>Token untuk Akses</label>
-		    <input type="text" class="form-control" name="TokenAkses"
-		    placeholder=<?php echo $row['OAUTH_TOKEN'];?>>
-		  </div>
-		  <div class="form-group">
-		    <label>Kode Rahasia Token</label>
-		    <input type="text" class="form-control" name="KodeRahasiaToken"
-		    placeholder=<?php echo $row['OAUTH_TOKEN_SECRET'];?>>
-		  </div>
-		  <div class="form-group">
-		    <label>Kode Pencarian</label>
-		    <input type="text" class="form-control" name="hastag"
-		    placeholder=<?php echo $row['HASTAG']; } ?>>
-		  </div>
-		  <button type="submit" class="btn btn-default">Simpan</button>
-		</form>
+		  <div role="tabpanel" class="tab-pane" id="email">...</div>
+		</div>
+		
   </div>
 
 
