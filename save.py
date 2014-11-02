@@ -4,7 +4,6 @@
 #
 # Copyright (c) 2014, Estu Fardani <estu@di.blankon.in>
 # All rights reserved. Released under the MIT license.
-# need python, pip, twitter (pip), mysql-python (pip)
 
 import json
 import MySQLdb as mdb

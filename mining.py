@@ -5,7 +5,6 @@
 # Copyright (c) 2014, Estu Fardani <estu@di.blankon.in>
 # All rights reserved. Released under the MIT license.
 
-
 import twitter
 import json
 import MySQLdb as mdb
