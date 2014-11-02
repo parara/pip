@@ -44,8 +44,7 @@ count = 10
 search_results = twitter_api.search.tweets(q=q, count=count)
 statuses = search_results['statuses']
 
-
-# Iterate through 5 more batches of results by following the cursor
+# Iterate through count more batches of results by following the cursor
 for _ in range(count):
     #print "Length of statuses", len(statuses)
     try:

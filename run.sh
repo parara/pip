@@ -1,4 +1,4 @@
 #!/bin/bash
 
-pyhton crawl.py > crawling.json
-python input.py
+pyhton mining.py > mining.json
+python save.py
