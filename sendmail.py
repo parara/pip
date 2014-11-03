@@ -20,12 +20,15 @@ from email.mime.text import MIMEText
 
 # me == my email address | it retrive from machine or gmail setup
 # you == recipient's email address | its get from database
-me = "root@barito.kebakaranhutan.or.id"
-you = "andro.medh4@gmail.com"
+me = 'estu@btech.co.id'
+you = 'andro.medh4@gmail.com'
+
+username = 'estu@btech.co.id'
+passsword ='bengkalis'
 
 # Create message container - the correct MIME type is multipart/alternative.
 msg = MIMEMultipart('alternative')
-msg['Subject'] = "Link"
+msg['Subject'] = "Crawling Testing"
 msg['From'] = me
 msg['To'] = you
 
@@ -56,7 +59,10 @@ msg.attach(part1)
 msg.attach(part2)
 
 # Send the message via local SMTP server.
-s = smtplib.SMTP('localhost')
+s = smtplib.SMTP('smtp.gmail.com:587')
+s.starttls()
+s.login(username,password)
+
 # sendmail function takes 3 arguments: sender's address, recipient's address
 # and message to send - here it is sent as one string.
 s.sendmail(me, you, msg.as_string())
