@@ -9,34 +9,28 @@ import twitter
 import json
 import MySQLdb as mdb
 
-con = mdb.connect('localhost','twitapp','tw1t4pp','testdb');
+con = mdb.connect('localhost','twitapp','tw1t4pp','testdb', use_unicode=True,charset='utf8');
 
 with con:
 
-  cur = con.cursor()
+  cur = con.cursor(mdb.cursors.DictCursor)
   cur.execute("SELECT * FROM Twitter")
 
-  for i in range(cur.rowcount):
-      
-    row = cur.fetchone()
-    a = row[0]
-    b = row[1]
-    c = row[2]
-    d = row[3]
-    e = row[4]
+  rows = cur.fetchall()
+  for row in rows:
+    pass
+    CONSUMER_KEY = row["CONSUMER_KEY"]
+    CONSUMER_SECRET = row["CONSUMER_SECRET"]
+    OAUTH_TOKEN = row["OAUTH_TOKEN"]
+    OAUTH_TOKEN_SECRET = row["OAUTH_TOKEN_SECRET"]
+    q = row["HASTAG"]
 
-# this value get from db;
-CONSUMER_KEY = a
-CONSUMER_SECRET = b
-OAUTH_TOKEN = c
-OAUTH_TOKEN_SECRET = d
-q = e
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                            CONSUMER_KEY, CONSUMER_SECRET)
 twitter_api = twitter.Twitter(auth=auth)
 
 # since:2010-12-27 
-# jumalh query
+# jumlah query
 count = 1000
 
 # See https://dev.twitter.com/docs/api/1.1/get/search/tweets

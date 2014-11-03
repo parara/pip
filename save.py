@@ -9,7 +9,7 @@ import json
 import MySQLdb as mdb
 
 #http://zetcode.com/db/mysqlpython/ & http://stackoverflow.com/questions/18465411/python-mysqldb-insert-with-variables-as-parameters
-con = mdb.connect('localhost','twitapp','tw1t4pp','testdb');
+con = mdb.connect('localhost','twitapp','tw1t4pp','testdb', use_unicode=True,charset='utf8');
 # read from http://www.tutorialspoint.com/python/python_for_loop.htm
 
 # add kondisi to nilai
@@ -22,19 +22,23 @@ statuses = json.loads(open('mining.json').read())
 # discard retuit, how?  | done
 # add better algoritme?
 for index in range(len(statuses)):
-  text = statuses[index]['text']
-  if (text[0:2] != 'RT'):
-    # if date duplicate
-    screen_name = '@'+statuses[index]['user']['screen_name']
-    coordinates = statuses[index]['coordinates']
-    created_at = statuses[index]['created_at']
+  created_at = statuses[index]['created_at']
+  with con:
+    cur = con.cursor(mdb.cursors.DictCursor)
+    cur.execute("SELECT Tanggal FROM Lapor")
 
-    #input to sql
-    with con:
-      cur = con.cursor(mdb.cursors.DictCursor)
-      cur.execute("""INSERT INTO Lapor(Date, Name, Isi, Status) VALUES (%s,%s,%s,%s) """, (created_at,screen_name,text,kondisi))
+    text = statuses[index]['text']
+    if (text[0:2] != 'RT'):
+      # if date duplicate
+      screen_name = '@'+statuses[index]['user']['screen_name']
+      coordinates = statuses[index]['coordinates']
 
-    print "sukses"
+      #input to sql
+      with con:
+        cur = con.cursor(mdb.cursors.DictCursor)
+        cur.execute("""INSERT INTO Lapor(Tanggal, Name, Isi, Status) VALUES (%s,%s,%s,%s) """, (created_at,screen_name,text,kondisi))
+
+      print "sukses"
 
   #else:
   #  print index,"duplicate"
