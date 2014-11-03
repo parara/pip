@@ -37,7 +37,7 @@ twitter_api = twitter.Twitter(auth=auth)
 
 # since:2010-12-27 
 # jumalh query
-count = 10
+count = 1000
 
 # See https://dev.twitter.com/docs/api/1.1/get/search/tweets
 search_results = twitter_api.search.tweets(q=q, count=count)

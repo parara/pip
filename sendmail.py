@@ -38,14 +38,7 @@ with con:
     list = cur.fetchone()
     target = list[2]
 
-# Condition
-# Cek crawling 200 buah, hasil didapat, jam 3 pagi
-# Cek tanggal created twit, jika beda, inset ke database (dan ditampilkan) dengan status verifikasi 0. jam 4 pagi (atau berurutan),
-# Manusia melakukan pengecekan jam 8 pagi hingga 4 sore,
-# jika ada query dengan status verifiaksi (level 1) jam 5 sore
-# jika berubah level 2, lakukan twit setelah jam 9 (besoknya)
-
-# me == my email address | it retrive from machine or gmail setup
+# username == my email address | it retrive from machine or gmail setup
 # you == recipient's email address | its get from database
 username = a
 password = b
@@ -55,7 +48,7 @@ you = target #its target from langganan
 # Create message container - the correct MIME type is multipart/alternative.
 msg = MIMEMultipart('alternative')
 msg['Subject'] = "Crawling Testing"
-msg['From'] = me
+msg['From'] = username
 msg['To'] = you
 
 # Create the body of the message (a plain-text and an HTML version).

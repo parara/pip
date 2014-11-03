@@ -98,6 +98,7 @@ include('config.php');
         <h3>Pengaturan Crawling Twitter</h3>
 		  	<?php 
 					// save
+          // how if it no clue
 					include('config.php');
 					if($_SERVER["REQUEST_METHOD"] == "POST") {
 						$CONSUMER_KEY=addslashes($_POST['KunciPelanggan']);
