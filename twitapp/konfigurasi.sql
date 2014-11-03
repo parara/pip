@@ -25,5 +25,9 @@ CREATE TABLE Twitter(CONSUMER_KEY VARCHAR(50), CONSUMER_SECRET VARCHAR(50), OAUT
 INSERT INTO Twitter(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET, HASTAG, app) VALUES ('C5lJE7T2QoQ4kCLmCYRj61SaD','DULtzlHgGfnkO0GNtIpyYBvqW1M4hEfHuWrZ0m5JKnmedj2ljy','79529075-6fLXfXus6xyJN42KJG7vm2Apyqq5xQwanKM68vnMv','dSteIYhb9FGPoeyX3gz6b5zVJT4ny0nlNNhQ31evGn0sr','#JMR2014', 'twitter');
 
 ## Create table for target fordwarding, it contain email, category, name, id,
-CREATE TABLE langganan (id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(30), email VARCHAR(30), kategori VARCHAR(15)); 
-INSERT INTO langganan(name, email, kategori) VALUES ('admin','estu@btech.co.id','izin');
+CREATE TABLE langganan (id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(30), email VARCHAR(30), kategori VARCHAR(15), status VARCHAR(15)); 
+INSERT INTO langganan(name, email, kategori, status) VALUES ('admin','andro.medh4@gmail.com','izin','true');
+
+## bkin tabel daftar langganan
+CREATE TABLE mailserver (username VARCHAR(30), password VARCHAR(30), server VARCHAR(30), port VARCHAR(10));
+INSERT INTO mailserver(username, password, server, port) VALUES ('estu@btech.co.id','bengkalis','smtp.gmail.com','587');

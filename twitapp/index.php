@@ -95,6 +95,7 @@ include('config.php');
 		<div class="tab-content">
 			<div role="tabpanel" class="tab-pane active" id="disable"></div>
 		  <div role="tabpanel" class="tab-pane" id="twitter">
+        <h3>Pengaturan Crawling Twitter</h3>
 		  	<?php 
 					// save
 					include('config.php');
@@ -108,7 +109,6 @@ include('config.php');
 						$apdate = mysql_query("UPDATE Twitter SET CONSUMER_KEY='$CONSUMER_KEY', CONSUMER_SECRET='$CONSUMER_SECRET', OAUTH_TOKEN='$OAUTH_TOKEN', OAUTH_TOKEN_SECRET='$OAUTH_TOKEN_SECRET', HASTAG='$HASTAG' WHERE app='twitter'");
 					}
 				?>
-
 				<form role="form" action="" method="POST">
 				<?php
 				  $atur = mysql_query("SELECT * FROM Twitter");
@@ -142,9 +142,38 @@ include('config.php');
 				  </div>
 				  <button type="submit" class="btn btn-default">Simpan</button>
 				</form>
-
 		  </div>
-		  <div role="tabpanel" class="tab-pane" id="email">...</div>
+		  <div role="tabpanel" class="tab-pane" id="email">
+        Pengaturan Mail Server
+        <form role="form" action="" method="POST">
+        <?php
+          $mail = mysql_query("SELECT * FROM mailserver");
+          while ($row = mysql_fetch_array($mail)) { 
+        ?>
+          
+          <div class="form-group">
+            <label>Username Email</label> 
+            <input type="text" class="form-control" name="mailusername"
+            placeholder=<?php echo $row['username'];?>>
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" name="mailpassword"
+            placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;">
+          </div>
+          <div class="form-group">
+            <label>Alamat Server Email</label>
+            <input type="text" class="form-control" name="servermail"
+            placeholder=<?php echo $row['server'];?>>
+          </div>
+          <div class="form-group">
+            <label>Port SMTP</label>
+            <input type="text" class="form-control" name="port"
+            placeholder=<?php echo $row['port']; } ?>>
+          </div>
+          <button type="submit" class="btn btn-default">Simpan</button>
+        </form>
+      </div>
 		</div>
 		
   </div>
