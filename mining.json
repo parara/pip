@@ -2,11 +2,11 @@
  {
   "contributors": null, 
   "truncated": false, 
-  "text": "City Of Yours #3\n#jogja #jogjaasat #instamoment #hope #togua #instamoment #vector http://t.co/FASK2qPqb3", 
+  "text": "#JogjaAsat \ud83d\ude02", 
   "in_reply_to_status_id": null, 
-  "id": 529264825428639744, 
+  "id": 529465502553227264, 
   "favorite_count": 0, 
-  "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+  "source": "<a href=\"https://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android Tablets</a>", 
   "retweeted": false, 
   "coordinates": null, 
   "entities": {
@@ -15,114 +15,487 @@
    "hashtags": [
     {
      "indices": [
-      17, 
-      23
+      0, 
+      10
      ], 
-     "text": "jogja"
+     "text": "JogjaAsat"
+    }
+   ], 
+   "urls": []
+  }, 
+  "in_reply_to_screen_name": null, 
+  "in_reply_to_user_id": null, 
+  "retweet_count": 0, 
+  "id_str": "529465502553227264", 
+  "favorited": false, 
+  "user": {
+   "follow_request_sent": false, 
+   "profile_use_background_image": true, 
+   "profile_text_color": "333333", 
+   "default_profile_image": false, 
+   "id": 76236021, 
+   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+   "verified": false, 
+   "profile_location": null, 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/453505710798557184/9lk3jKYR_normal.jpeg", 
+   "profile_sidebar_fill_color": "DDEEF6", 
+   "entities": {
+    "url": {
+     "urls": [
+      {
+       "url": "http://t.co/V8LZlABJzm", 
+       "indices": [
+        0, 
+        22
+       ], 
+       "expanded_url": "http://www.facebook.com/yayaxzz", 
+       "display_url": "facebook.com/yayaxzz"
+      }
+     ]
+    }, 
+    "description": {
+     "urls": []
+    }
+   }, 
+   "followers_count": 1132, 
+   "profile_sidebar_border_color": "C0DEED", 
+   "id_str": "76236021", 
+   "profile_background_color": "C0DEED", 
+   "listed_count": 8, 
+   "is_translation_enabled": false, 
+   "utc_offset": 25200, 
+   "statuses_count": 93650, 
+   "description": "OrdinaryGirl in OrdinaryWorld:Staff @aikeikpop, Kewerr @jjangkewerr, Founder @yoboseyokpop, @kpoptripjogja Admin @jogjakpopfamily,This isn't an END it's an AND", 
+   "friends_count": 665, 
+   "location": "Yogyakarta to Seoul", 
+   "profile_link_color": "0084B4", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/453505710798557184/9lk3jKYR_normal.jpeg", 
+   "following": false, 
+   "geo_enabled": false, 
+   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+   "name": "#AYAYA", 
+   "lang": "en", 
+   "profile_background_tile": false, 
+   "favourites_count": 985, 
+   "screen_name": "yayaxzz", 
+   "notifications": false, 
+   "url": "http://t.co/V8LZlABJzm", 
+   "created_at": "Tue Sep 22 03:13:55 +0000 2009", 
+   "contributors_enabled": false, 
+   "time_zone": "Jakarta", 
+   "protected": false, 
+   "default_profile": true, 
+   "is_translator": false
+  }, 
+  "geo": null, 
+  "in_reply_to_user_id_str": null, 
+  "lang": "und", 
+  "created_at": "Tue Nov 04 02:49:47 +0000 2014", 
+  "in_reply_to_status_id_str": null, 
+  "place": null, 
+  "metadata": {
+   "iso_language_code": "und", 
+   "result_type": "recent"
+  }
+ }, 
+ {
+  "contributors": null, 
+  "truncated": false, 
+  "text": "My house . . \"killthedj's \"Perjuangan Warga Miliran #JogjaAsat by dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/b1r5fdXpJS\"", 
+  "in_reply_to_status_id": null, 
+  "id": 529465353454112768, 
+  "favorite_count": 0, 
+  "source": "<a href=\"https://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android Tablets</a>", 
+  "retweeted": false, 
+  "coordinates": null, 
+  "entities": {
+   "symbols": [], 
+   "user_mentions": [], 
+   "hashtags": [
+    {
+     "indices": [
+      52, 
+      62
+     ], 
+     "text": "JogjaAsat"
     }, 
     {
      "indices": [
-      24, 
-      34
+      82, 
+      96
      ], 
-     "text": "jogjaasat"
-    }, 
-    {
-     "indices": [
-      35, 
-      47
-     ], 
-     "text": "instamoment"
-    }, 
-    {
-     "indices": [
-      48, 
-      53
-     ], 
-     "text": "hope"
-    }, 
-    {
-     "indices": [
-      54, 
-      60
-     ], 
-     "text": "togua"
-    }, 
-    {
-     "indices": [
-      61, 
-      73
-     ], 
-     "text": "instamoment"
-    }, 
-    {
-     "indices": [
-      74, 
-      81
-     ], 
-     "text": "vector"
+     "text": "JogjaOraDidol"
     }
    ], 
    "urls": [
     {
-     "url": "http://t.co/FASK2qPqb3", 
+     "url": "http://t.co/b1r5fdXpJS", 
      "indices": [
-      82, 
-      104
+      117, 
+      139
      ], 
-     "expanded_url": "http://instagram.com/p/u8HpEHgAi4/", 
-     "display_url": "instagram.com/p/u8HpEHgAi4/"
+     "expanded_url": "http://chirpstory.com/li/237346", 
+     "display_url": "chirpstory.com/li/237346"
     }
    ]
   }, 
   "in_reply_to_screen_name": null, 
   "in_reply_to_user_id": null, 
   "retweet_count": 0, 
-  "id_str": "529264825428639744", 
+  "id_str": "529465353454112768", 
   "favorited": false, 
   "user": {
    "follow_request_sent": false, 
    "profile_use_background_image": true, 
-   "profile_text_color": "666666", 
+   "profile_text_color": "333333", 
    "default_profile_image": false, 
-   "id": 281018332, 
-   "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/729002465/62c3a48ee74f0a688a74f7413fc64e16.jpeg", 
+   "id": 76236021, 
+   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
    "verified": false, 
    "profile_location": null, 
-   "profile_image_url_https": "https://pbs.twimg.com/profile_images/525573778181353472/BGDlM8f1_normal.jpeg", 
-   "profile_sidebar_fill_color": "252429", 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/453505710798557184/9lk3jKYR_normal.jpeg", 
+   "profile_sidebar_fill_color": "DDEEF6", 
    "entities": {
+    "url": {
+     "urls": [
+      {
+       "url": "http://t.co/V8LZlABJzm", 
+       "indices": [
+        0, 
+        22
+       ], 
+       "expanded_url": "http://www.facebook.com/yayaxzz", 
+       "display_url": "facebook.com/yayaxzz"
+      }
+     ]
+    }, 
     "description": {
      "urls": []
     }
    }, 
-   "followers_count": 95, 
-   "profile_sidebar_border_color": "000000", 
-   "id_str": "281018332", 
-   "profile_background_color": "131516", 
-   "listed_count": 0, 
+   "followers_count": 1132, 
+   "profile_sidebar_border_color": "C0DEED", 
+   "id_str": "76236021", 
+   "profile_background_color": "C0DEED", 
+   "listed_count": 8, 
    "is_translation_enabled": false, 
    "utc_offset": 25200, 
-   "statuses_count": 2057, 
-   "description": "yearone | custom clothes | screen printing | +6281931773651 | 740d866c", 
-   "friends_count": 88, 
-   "location": "Yogyakara, ID", 
-   "profile_link_color": "6395EB", 
-   "profile_image_url": "http://pbs.twimg.com/profile_images/525573778181353472/BGDlM8f1_normal.jpeg", 
+   "statuses_count": 93650, 
+   "description": "OrdinaryGirl in OrdinaryWorld:Staff @aikeikpop, Kewerr @jjangkewerr, Founder @yoboseyokpop, @kpoptripjogja Admin @jogjakpopfamily,This isn't an END it's an AND", 
+   "friends_count": 665, 
+   "location": "Yogyakarta to Seoul", 
+   "profile_link_color": "0084B4", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/453505710798557184/9lk3jKYR_normal.jpeg", 
    "following": false, 
-   "geo_enabled": true, 
-   "profile_banner_url": "https://pbs.twimg.com/profile_banners/281018332/1414141526", 
-   "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/729002465/62c3a48ee74f0a688a74f7413fc64e16.jpeg", 
-   "name": "astomo", 
+   "geo_enabled": false, 
+   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+   "name": "#AYAYA", 
+   "lang": "en", 
+   "profile_background_tile": false, 
+   "favourites_count": 985, 
+   "screen_name": "yayaxzz", 
+   "notifications": false, 
+   "url": "http://t.co/V8LZlABJzm", 
+   "created_at": "Tue Sep 22 03:13:55 +0000 2009", 
+   "contributors_enabled": false, 
+   "time_zone": "Jakarta", 
+   "protected": false, 
+   "default_profile": true, 
+   "is_translator": false
+  }, 
+  "geo": null, 
+  "in_reply_to_user_id_str": null, 
+  "possibly_sensitive": false, 
+  "lang": "in", 
+  "created_at": "Tue Nov 04 02:49:11 +0000 2014", 
+  "in_reply_to_status_id_str": null, 
+  "place": null, 
+  "metadata": {
+   "iso_language_code": "in", 
+   "result_type": "recent"
+  }
+ }, 
+ {
+  "contributors": null, 
+  "truncated": false, 
+  "text": "RT @chirpstory: .@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8Dn\u2026", 
+  "in_reply_to_status_id": null, 
+  "id": 529464169620570113, 
+  "favorite_count": 0, 
+  "source": "<a href=\"http://blackberry.com/twitter\" rel=\"nofollow\">Twitter for BlackBerry\u00ae</a>", 
+  "retweeted": false, 
+  "coordinates": null, 
+  "entities": {
+   "symbols": [], 
+   "user_mentions": [
+    {
+     "id": 216317449, 
+     "indices": [
+      3, 
+      14
+     ], 
+     "id_str": "216317449", 
+     "screen_name": "chirpstory", 
+     "name": "chirpstory"
+    }, 
+    {
+     "id": 88390023, 
+     "indices": [
+      17, 
+      27
+     ], 
+     "id_str": "88390023", 
+     "screen_name": "killthedj", 
+     "name": "Marzuki Mohamad"
+    }, 
+    {
+     "id": 316259606, 
+     "indices": [
+      70, 
+      86
+     ], 
+     "id_str": "316259606", 
+     "screen_name": "dodoputrabangsa", 
+     "name": "Dodo  Jogja"
+    }
+   ], 
+   "hashtags": [
+    {
+     "indices": [
+      56, 
+      66
+     ], 
+     "text": "JogjaAsat"
+    }, 
+    {
+     "indices": [
+      87, 
+      101
+     ], 
+     "text": "JogjaOraDidol"
+    }
+   ], 
+   "urls": [
+    {
+     "url": "http://t.co/wq8DnmUE8U", 
+     "indices": [
+      139, 
+      140
+     ], 
+     "expanded_url": "http://chirpstory.com/li/237346", 
+     "display_url": "chirpstory.com/li/237346"
+    }
+   ]
+  }, 
+  "in_reply_to_screen_name": null, 
+  "in_reply_to_user_id": null, 
+  "retweet_count": 6, 
+  "id_str": "529464169620570113", 
+  "favorited": false, 
+  "retweeted_status": {
+   "contributors": null, 
+   "truncated": false, 
+   "text": ".@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8DnmUE8U", 
+   "in_reply_to_status_id": null, 
+   "id": 529364395793473536, 
+   "favorite_count": 1, 
+   "source": "<a href=\"http://chirpstory.com/\" rel=\"nofollow\">Chirpstory</a>", 
+   "retweeted": false, 
+   "coordinates": null, 
+   "entities": {
+    "symbols": [], 
+    "user_mentions": [
+     {
+      "id": 88390023, 
+      "indices": [
+       1, 
+       11
+      ], 
+      "id_str": "88390023", 
+      "screen_name": "killthedj", 
+      "name": "Marzuki Mohamad"
+     }, 
+     {
+      "id": 316259606, 
+      "indices": [
+       54, 
+       70
+      ], 
+      "id_str": "316259606", 
+      "screen_name": "dodoputrabangsa", 
+      "name": "Dodo  Jogja"
+     }
+    ], 
+    "hashtags": [
+     {
+      "indices": [
+       40, 
+       50
+      ], 
+      "text": "JogjaAsat"
+     }, 
+     {
+      "indices": [
+       71, 
+       85
+      ], 
+      "text": "JogjaOraDidol"
+     }
+    ], 
+    "urls": [
+     {
+      "url": "http://t.co/wq8DnmUE8U", 
+      "indices": [
+       106, 
+       128
+      ], 
+      "expanded_url": "http://chirpstory.com/li/237346", 
+      "display_url": "chirpstory.com/li/237346"
+     }
+    ]
+   }, 
+   "in_reply_to_screen_name": null, 
+   "in_reply_to_user_id": null, 
+   "retweet_count": 6, 
+   "id_str": "529364395793473536", 
+   "favorited": false, 
+   "user": {
+    "follow_request_sent": false, 
+    "profile_use_background_image": true, 
+    "profile_text_color": "333333", 
+    "default_profile_image": false, 
+    "id": 216317449, 
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif", 
+    "verified": false, 
+    "profile_location": null, 
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/483643552274997249/7vIu9Kjk_normal.png", 
+    "profile_sidebar_fill_color": "F6F6F6", 
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "http://t.co/csD0xiVceY", 
+        "indices": [
+         0, 
+         22
+        ], 
+        "expanded_url": "http://chirpstory.com", 
+        "display_url": "chirpstory.com"
+       }
+      ]
+     }, 
+     "description": {
+      "urls": [
+       {
+        "url": "http://t.co/csD0xiVceY", 
+        "indices": [
+         33, 
+         55
+        ], 
+        "expanded_url": "http://chirpstory.com", 
+        "display_url": "chirpstory.com"
+       }
+      ]
+     }
+    }, 
+    "followers_count": 59900, 
+    "profile_sidebar_border_color": "EEEEEE", 
+    "id_str": "216317449", 
+    "profile_background_color": "ACDED6", 
+    "listed_count": 241, 
+    "is_translation_enabled": false, 
+    "utc_offset": -36000, 
+    "statuses_count": 137872, 
+    "description": "The official Twitter account for http://t.co/csD0xiVceY", 
+    "friends_count": 69, 
+    "location": "", 
+    "profile_link_color": "038543", 
+    "profile_image_url": "http://pbs.twimg.com/profile_images/483643552274997249/7vIu9Kjk_normal.png", 
+    "following": false, 
+    "geo_enabled": false, 
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif", 
+    "name": "chirpstory", 
+    "lang": "en", 
+    "profile_background_tile": false, 
+    "favourites_count": 1, 
+    "screen_name": "chirpstory", 
+    "notifications": false, 
+    "url": "http://t.co/csD0xiVceY", 
+    "created_at": "Tue Nov 16 11:15:55 +0000 2010", 
+    "contributors_enabled": false, 
+    "time_zone": "Hawaii", 
+    "protected": false, 
+    "default_profile": false, 
+    "is_translator": false
+   }, 
+   "geo": null, 
+   "in_reply_to_user_id_str": null, 
+   "possibly_sensitive": false, 
+   "lang": "in", 
+   "created_at": "Mon Nov 03 20:08:01 +0000 2014", 
+   "in_reply_to_status_id_str": null, 
+   "place": null, 
+   "metadata": {
+    "iso_language_code": "in", 
+    "result_type": "recent"
+   }
+  }, 
+  "user": {
+   "follow_request_sent": false, 
+   "profile_use_background_image": true, 
+   "profile_text_color": "000000", 
+   "default_profile_image": false, 
+   "id": 79881674, 
+   "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/525933914620055553/C5vHLdcW.jpeg", 
+   "verified": false, 
+   "profile_location": null, 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/527315805084450816/XRPl7URm_normal.jpeg", 
+   "profile_sidebar_fill_color": "FFDD9E", 
+   "entities": {
+    "url": {
+     "urls": [
+      {
+       "url": "http://t.co/knh5L2PC9t", 
+       "indices": [
+        0, 
+        22
+       ], 
+       "expanded_url": "http://instagram.com/gabyswastika", 
+       "display_url": "instagram.com/gabyswastika"
+      }
+     ]
+    }, 
+    "description": {
+     "urls": []
+    }
+   }, 
+   "followers_count": 470, 
+   "profile_sidebar_border_color": "FFFFFF", 
+   "id_str": "79881674", 
+   "profile_background_color": "F5F5F5", 
+   "listed_count": 1, 
+   "is_translation_enabled": false, 
+   "utc_offset": 25200, 
+   "statuses_count": 16661, 
+   "description": "A spectator, scholar, and youngster. An admirer. Berlaukkan kata-kata.", 
+   "friends_count": 484, 
+   "location": "Yogyakarta, Indonesia", 
+   "profile_link_color": "CC0808", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/527315805084450816/XRPl7URm_normal.jpeg", 
+   "following": false, 
+   "geo_enabled": false, 
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/79881674/1414227074", 
+   "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/525933914620055553/C5vHLdcW.jpeg", 
+   "name": "Gaby Swastika", 
    "lang": "en", 
    "profile_background_tile": true, 
-   "favourites_count": 7, 
-   "screen_name": "astomo_", 
+   "favourites_count": 285, 
+   "screen_name": "gabrielalaras", 
    "notifications": false, 
-   "url": null, 
-   "created_at": "Tue Apr 12 13:24:13 +0000 2011", 
+   "url": "http://t.co/knh5L2PC9t", 
+   "created_at": "Mon Oct 05 01:23:16 +0000 2009", 
    "contributors_enabled": false, 
-   "time_zone": "Bangkok", 
+   "time_zone": "Jakarta", 
    "protected": false, 
    "default_profile": false, 
    "is_translator": false
@@ -130,105 +503,281 @@
   "geo": null, 
   "in_reply_to_user_id_str": null, 
   "possibly_sensitive": false, 
-  "lang": "en", 
-  "created_at": "Mon Nov 03 13:32:22 +0000 2014", 
+  "lang": "in", 
+  "created_at": "Tue Nov 04 02:44:29 +0000 2014", 
   "in_reply_to_status_id_str": null, 
   "place": null, 
   "metadata": {
-   "iso_language_code": "en", 
+   "iso_language_code": "in", 
    "result_type": "recent"
   }
  }, 
  {
   "contributors": null, 
   "truncated": false, 
-  "text": "Tim #SumurAsat Miliran akan bentuk tim mengajak ahli utk persiapan pumping test Fave Hotel #JogjaAsat", 
+  "text": "RT @chirpstory: .@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8Dn\u2026", 
   "in_reply_to_status_id": null, 
-  "id": 529247001750171648, 
+  "id": 529462433182523393, 
   "favorite_count": 0, 
-  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+  "source": "<a href=\"http://blackberry.com/twitter\" rel=\"nofollow\">Twitter for BlackBerry\u00ae</a>", 
   "retweeted": false, 
   "coordinates": null, 
   "entities": {
    "symbols": [], 
-   "user_mentions": [], 
-   "hashtags": [
+   "user_mentions": [
     {
+     "id": 216317449, 
      "indices": [
-      4, 
+      3, 
       14
      ], 
-     "text": "SumurAsat"
+     "id_str": "216317449", 
+     "screen_name": "chirpstory", 
+     "name": "chirpstory"
+    }, 
+    {
+     "id": 88390023, 
+     "indices": [
+      17, 
+      27
+     ], 
+     "id_str": "88390023", 
+     "screen_name": "killthedj", 
+     "name": "Marzuki Mohamad"
+    }, 
+    {
+     "id": 316259606, 
+     "indices": [
+      70, 
+      86
+     ], 
+     "id_str": "316259606", 
+     "screen_name": "dodoputrabangsa", 
+     "name": "Dodo  Jogja"
+    }
+   ], 
+   "hashtags": [
+    {
+     "indices": [
+      56, 
+      66
+     ], 
+     "text": "JogjaAsat"
     }, 
     {
      "indices": [
-      91, 
+      87, 
       101
      ], 
-     "text": "JogjaAsat"
+     "text": "JogjaOraDidol"
     }
    ], 
-   "urls": []
+   "urls": [
+    {
+     "url": "http://t.co/wq8DnmUE8U", 
+     "indices": [
+      139, 
+      140
+     ], 
+     "expanded_url": "http://chirpstory.com/li/237346", 
+     "display_url": "chirpstory.com/li/237346"
+    }
+   ]
   }, 
   "in_reply_to_screen_name": null, 
   "in_reply_to_user_id": null, 
-  "retweet_count": 0, 
-  "id_str": "529247001750171648", 
+  "retweet_count": 6, 
+  "id_str": "529462433182523393", 
   "favorited": false, 
+  "retweeted_status": {
+   "contributors": null, 
+   "truncated": false, 
+   "text": ".@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8DnmUE8U", 
+   "in_reply_to_status_id": null, 
+   "id": 529364395793473536, 
+   "favorite_count": 1, 
+   "source": "<a href=\"http://chirpstory.com/\" rel=\"nofollow\">Chirpstory</a>", 
+   "retweeted": false, 
+   "coordinates": null, 
+   "entities": {
+    "symbols": [], 
+    "user_mentions": [
+     {
+      "id": 88390023, 
+      "indices": [
+       1, 
+       11
+      ], 
+      "id_str": "88390023", 
+      "screen_name": "killthedj", 
+      "name": "Marzuki Mohamad"
+     }, 
+     {
+      "id": 316259606, 
+      "indices": [
+       54, 
+       70
+      ], 
+      "id_str": "316259606", 
+      "screen_name": "dodoputrabangsa", 
+      "name": "Dodo  Jogja"
+     }
+    ], 
+    "hashtags": [
+     {
+      "indices": [
+       40, 
+       50
+      ], 
+      "text": "JogjaAsat"
+     }, 
+     {
+      "indices": [
+       71, 
+       85
+      ], 
+      "text": "JogjaOraDidol"
+     }
+    ], 
+    "urls": [
+     {
+      "url": "http://t.co/wq8DnmUE8U", 
+      "indices": [
+       106, 
+       128
+      ], 
+      "expanded_url": "http://chirpstory.com/li/237346", 
+      "display_url": "chirpstory.com/li/237346"
+     }
+    ]
+   }, 
+   "in_reply_to_screen_name": null, 
+   "in_reply_to_user_id": null, 
+   "retweet_count": 6, 
+   "id_str": "529364395793473536", 
+   "favorited": false, 
+   "user": {
+    "follow_request_sent": false, 
+    "profile_use_background_image": true, 
+    "profile_text_color": "333333", 
+    "default_profile_image": false, 
+    "id": 216317449, 
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif", 
+    "verified": false, 
+    "profile_location": null, 
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/483643552274997249/7vIu9Kjk_normal.png", 
+    "profile_sidebar_fill_color": "F6F6F6", 
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "http://t.co/csD0xiVceY", 
+        "indices": [
+         0, 
+         22
+        ], 
+        "expanded_url": "http://chirpstory.com", 
+        "display_url": "chirpstory.com"
+       }
+      ]
+     }, 
+     "description": {
+      "urls": [
+       {
+        "url": "http://t.co/csD0xiVceY", 
+        "indices": [
+         33, 
+         55
+        ], 
+        "expanded_url": "http://chirpstory.com", 
+        "display_url": "chirpstory.com"
+       }
+      ]
+     }
+    }, 
+    "followers_count": 59900, 
+    "profile_sidebar_border_color": "EEEEEE", 
+    "id_str": "216317449", 
+    "profile_background_color": "ACDED6", 
+    "listed_count": 241, 
+    "is_translation_enabled": false, 
+    "utc_offset": -36000, 
+    "statuses_count": 137872, 
+    "description": "The official Twitter account for http://t.co/csD0xiVceY", 
+    "friends_count": 69, 
+    "location": "", 
+    "profile_link_color": "038543", 
+    "profile_image_url": "http://pbs.twimg.com/profile_images/483643552274997249/7vIu9Kjk_normal.png", 
+    "following": false, 
+    "geo_enabled": false, 
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif", 
+    "name": "chirpstory", 
+    "lang": "en", 
+    "profile_background_tile": false, 
+    "favourites_count": 1, 
+    "screen_name": "chirpstory", 
+    "notifications": false, 
+    "url": "http://t.co/csD0xiVceY", 
+    "created_at": "Tue Nov 16 11:15:55 +0000 2010", 
+    "contributors_enabled": false, 
+    "time_zone": "Hawaii", 
+    "protected": false, 
+    "default_profile": false, 
+    "is_translator": false
+   }, 
+   "geo": null, 
+   "in_reply_to_user_id_str": null, 
+   "possibly_sensitive": false, 
+   "lang": "in", 
+   "created_at": "Mon Nov 03 20:08:01 +0000 2014", 
+   "in_reply_to_status_id_str": null, 
+   "place": null, 
+   "metadata": {
+    "iso_language_code": "in", 
+    "result_type": "recent"
+   }
+  }, 
   "user": {
    "follow_request_sent": false, 
    "profile_use_background_image": true, 
    "profile_text_color": "333333", 
    "default_profile_image": false, 
-   "id": 316259606, 
-   "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000057893669/c1b72798ec77ccd9454fced41d67536e.jpeg", 
+   "id": 71462705, 
+   "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/262139660/sbk_1198_1198_emo_03.jpg", 
    "verified": false, 
    "profile_location": null, 
-   "profile_image_url_https": "https://pbs.twimg.com/profile_images/516619198668091392/dueq1IHE_normal.jpeg", 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/522270993583063040/g7OUZPNH_normal.png", 
    "profile_sidebar_fill_color": "DDEEF6", 
    "entities": {
-    "url": {
-     "urls": [
-      {
-       "url": "http://t.co/ad6IKJsdVz", 
-       "indices": [
-        0, 
-        22
-       ], 
-       "expanded_url": "http://urbanpoorblog.wordpress.com/perihal/", 
-       "display_url": "urbanpoorblog.wordpress.com/perihal/"
-      }
-     ]
-    }, 
     "description": {
      "urls": []
     }
    }, 
-   "followers_count": 1943, 
-   "profile_sidebar_border_color": "000000", 
-   "id_str": "316259606", 
-   "profile_background_color": "E30C2F", 
-   "listed_count": 8, 
+   "followers_count": 405, 
+   "profile_sidebar_border_color": "C0DEED", 
+   "id_str": "71462705", 
+   "profile_background_color": "C0DEED", 
+   "listed_count": 4, 
    "is_translation_enabled": false, 
    "utc_offset": -28800, 
-   "statuses_count": 34506, 
-   "description": "Bakrie Perusak Bumi Perampok Uang Negara", 
-   "friends_count": 1293, 
-   "location": "#8thLumpurLapindo ", 
+   "statuses_count": 16868, 
+   "description": "Profesional & Entrpreneur yang masih berusaha utk #Hoki #DukungPilkadaLangsung", 
+   "friends_count": 194, 
+   "location": "Jakarta", 
    "profile_link_color": "0084B4", 
-   "profile_image_url": "http://pbs.twimg.com/profile_images/516619198668091392/dueq1IHE_normal.jpeg", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/522270993583063040/g7OUZPNH_normal.png", 
    "following": false, 
-   "geo_enabled": true, 
-   "profile_banner_url": "https://pbs.twimg.com/profile_banners/316259606/1412006566", 
-   "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000057893669/c1b72798ec77ccd9454fced41d67536e.jpeg", 
-   "name": "Dodo  Jogja", 
-   "lang": "en-gb", 
-   "profile_background_tile": true, 
-   "favourites_count": 370, 
-   "screen_name": "dodoputrabangsa", 
+   "geo_enabled": false, 
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/71462705/1385524152", 
+   "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/262139660/sbk_1198_1198_emo_03.jpg", 
+   "name": "Kurniawan #Bejo", 
+   "lang": "en", 
+   "profile_background_tile": false, 
+   "favourites_count": 68, 
+   "screen_name": "st_kurniawan", 
    "notifications": false, 
-   "url": "http://t.co/ad6IKJsdVz", 
-   "created_at": "Mon Jun 13 05:26:20 +0000 2011", 
+   "url": null, 
+   "created_at": "Fri Sep 04 05:24:51 +0000 2009", 
    "contributors_enabled": false, 
    "time_zone": "Pacific Time (US & Canada)", 
    "protected": false, 
@@ -237,8 +786,9 @@
   }, 
   "geo": null, 
   "in_reply_to_user_id_str": null, 
+  "possibly_sensitive": false, 
   "lang": "in", 
-  "created_at": "Mon Nov 03 12:21:32 +0000 2014", 
+  "created_at": "Tue Nov 04 02:37:35 +0000 2014", 
   "in_reply_to_status_id_str": null, 
   "place": null, 
   "metadata": {
@@ -249,103 +799,280 @@
  {
   "contributors": null, 
   "truncated": false, 
-  "text": "Malam ini tim baru #SumurAsat yg melibatkan byk warga muda &amp; perempuan akan merumuskan kembali langkah &amp; sikap terkait sikap #JogjaAsat", 
+  "text": "RT @chirpstory: .@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8Dn\u2026", 
   "in_reply_to_status_id": null, 
-  "id": 529246575986348034, 
+  "id": 529462351913709568, 
   "favorite_count": 0, 
-  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
   "retweeted": false, 
   "coordinates": null, 
   "entities": {
    "symbols": [], 
-   "user_mentions": [], 
+   "user_mentions": [
+    {
+     "id": 216317449, 
+     "indices": [
+      3, 
+      14
+     ], 
+     "id_str": "216317449", 
+     "screen_name": "chirpstory", 
+     "name": "chirpstory"
+    }, 
+    {
+     "id": 88390023, 
+     "indices": [
+      17, 
+      27
+     ], 
+     "id_str": "88390023", 
+     "screen_name": "killthedj", 
+     "name": "Marzuki Mohamad"
+    }, 
+    {
+     "id": 316259606, 
+     "indices": [
+      70, 
+      86
+     ], 
+     "id_str": "316259606", 
+     "screen_name": "dodoputrabangsa", 
+     "name": "Dodo  Jogja"
+    }
+   ], 
    "hashtags": [
     {
      "indices": [
-      19, 
-      29
+      56, 
+      66
      ], 
-     "text": "SumurAsat"
+     "text": "JogjaAsat"
     }, 
     {
      "indices": [
-      133, 
-      143
+      87, 
+      101
      ], 
-     "text": "JogjaAsat"
+     "text": "JogjaOraDidol"
     }
    ], 
-   "urls": []
+   "urls": [
+    {
+     "url": "http://t.co/wq8DnmUE8U", 
+     "indices": [
+      139, 
+      140
+     ], 
+     "expanded_url": "http://chirpstory.com/li/237346", 
+     "display_url": "chirpstory.com/li/237346"
+    }
+   ]
   }, 
   "in_reply_to_screen_name": null, 
   "in_reply_to_user_id": null, 
-  "retweet_count": 0, 
-  "id_str": "529246575986348034", 
+  "retweet_count": 6, 
+  "id_str": "529462351913709568", 
   "favorited": false, 
+  "retweeted_status": {
+   "contributors": null, 
+   "truncated": false, 
+   "text": ".@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8DnmUE8U", 
+   "in_reply_to_status_id": null, 
+   "id": 529364395793473536, 
+   "favorite_count": 1, 
+   "source": "<a href=\"http://chirpstory.com/\" rel=\"nofollow\">Chirpstory</a>", 
+   "retweeted": false, 
+   "coordinates": null, 
+   "entities": {
+    "symbols": [], 
+    "user_mentions": [
+     {
+      "id": 88390023, 
+      "indices": [
+       1, 
+       11
+      ], 
+      "id_str": "88390023", 
+      "screen_name": "killthedj", 
+      "name": "Marzuki Mohamad"
+     }, 
+     {
+      "id": 316259606, 
+      "indices": [
+       54, 
+       70
+      ], 
+      "id_str": "316259606", 
+      "screen_name": "dodoputrabangsa", 
+      "name": "Dodo  Jogja"
+     }
+    ], 
+    "hashtags": [
+     {
+      "indices": [
+       40, 
+       50
+      ], 
+      "text": "JogjaAsat"
+     }, 
+     {
+      "indices": [
+       71, 
+       85
+      ], 
+      "text": "JogjaOraDidol"
+     }
+    ], 
+    "urls": [
+     {
+      "url": "http://t.co/wq8DnmUE8U", 
+      "indices": [
+       106, 
+       128
+      ], 
+      "expanded_url": "http://chirpstory.com/li/237346", 
+      "display_url": "chirpstory.com/li/237346"
+     }
+    ]
+   }, 
+   "in_reply_to_screen_name": null, 
+   "in_reply_to_user_id": null, 
+   "retweet_count": 6, 
+   "id_str": "529364395793473536", 
+   "favorited": false, 
+   "user": {
+    "follow_request_sent": false, 
+    "profile_use_background_image": true, 
+    "profile_text_color": "333333", 
+    "default_profile_image": false, 
+    "id": 216317449, 
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif", 
+    "verified": false, 
+    "profile_location": null, 
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/483643552274997249/7vIu9Kjk_normal.png", 
+    "profile_sidebar_fill_color": "F6F6F6", 
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "http://t.co/csD0xiVceY", 
+        "indices": [
+         0, 
+         22
+        ], 
+        "expanded_url": "http://chirpstory.com", 
+        "display_url": "chirpstory.com"
+       }
+      ]
+     }, 
+     "description": {
+      "urls": [
+       {
+        "url": "http://t.co/csD0xiVceY", 
+        "indices": [
+         33, 
+         55
+        ], 
+        "expanded_url": "http://chirpstory.com", 
+        "display_url": "chirpstory.com"
+       }
+      ]
+     }
+    }, 
+    "followers_count": 59900, 
+    "profile_sidebar_border_color": "EEEEEE", 
+    "id_str": "216317449", 
+    "profile_background_color": "ACDED6", 
+    "listed_count": 241, 
+    "is_translation_enabled": false, 
+    "utc_offset": -36000, 
+    "statuses_count": 137872, 
+    "description": "The official Twitter account for http://t.co/csD0xiVceY", 
+    "friends_count": 69, 
+    "location": "", 
+    "profile_link_color": "038543", 
+    "profile_image_url": "http://pbs.twimg.com/profile_images/483643552274997249/7vIu9Kjk_normal.png", 
+    "following": false, 
+    "geo_enabled": false, 
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif", 
+    "name": "chirpstory", 
+    "lang": "en", 
+    "profile_background_tile": false, 
+    "favourites_count": 1, 
+    "screen_name": "chirpstory", 
+    "notifications": false, 
+    "url": "http://t.co/csD0xiVceY", 
+    "created_at": "Tue Nov 16 11:15:55 +0000 2010", 
+    "contributors_enabled": false, 
+    "time_zone": "Hawaii", 
+    "protected": false, 
+    "default_profile": false, 
+    "is_translator": false
+   }, 
+   "geo": null, 
+   "in_reply_to_user_id_str": null, 
+   "possibly_sensitive": false, 
+   "lang": "in", 
+   "created_at": "Mon Nov 03 20:08:01 +0000 2014", 
+   "in_reply_to_status_id_str": null, 
+   "place": null, 
+   "metadata": {
+    "iso_language_code": "in", 
+    "result_type": "recent"
+   }
+  }, 
   "user": {
    "follow_request_sent": false, 
    "profile_use_background_image": true, 
-   "profile_text_color": "333333", 
+   "profile_text_color": "666666", 
    "default_profile_image": false, 
-   "id": 316259606, 
-   "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000057893669/c1b72798ec77ccd9454fced41d67536e.jpeg", 
+   "id": 380761087, 
+   "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000101406380/0cc04c8c9d818897d4501320a587eb89.jpeg", 
    "verified": false, 
    "profile_location": null, 
-   "profile_image_url_https": "https://pbs.twimg.com/profile_images/516619198668091392/dueq1IHE_normal.jpeg", 
-   "profile_sidebar_fill_color": "DDEEF6", 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/520632910563405824/OoDe2Vcl_normal.jpeg", 
+   "profile_sidebar_fill_color": "252429", 
    "entities": {
-    "url": {
-     "urls": [
-      {
-       "url": "http://t.co/ad6IKJsdVz", 
-       "indices": [
-        0, 
-        22
-       ], 
-       "expanded_url": "http://urbanpoorblog.wordpress.com/perihal/", 
-       "display_url": "urbanpoorblog.wordpress.com/perihal/"
-      }
-     ]
-    }, 
     "description": {
      "urls": []
     }
    }, 
-   "followers_count": 1943, 
+   "followers_count": 19199, 
    "profile_sidebar_border_color": "000000", 
-   "id_str": "316259606", 
-   "profile_background_color": "E30C2F", 
-   "listed_count": 8, 
+   "id_str": "380761087", 
+   "profile_background_color": "1A1B1F", 
+   "listed_count": 10, 
    "is_translation_enabled": false, 
-   "utc_offset": -28800, 
-   "statuses_count": 34506, 
-   "description": "Bakrie Perusak Bumi Perampok Uang Negara", 
-   "friends_count": 1293, 
-   "location": "#8thLumpurLapindo ", 
-   "profile_link_color": "0084B4", 
-   "profile_image_url": "http://pbs.twimg.com/profile_images/516619198668091392/dueq1IHE_normal.jpeg", 
+   "utc_offset": null, 
+   "statuses_count": 43623, 
+   "description": "An Dou #Dompu. Lawyer/Advokat. PECINTA TAMBORA. Penikmat Filsafat, Budaya, Hukum & Politik bersama Kretek & Kopi. Imamnya @nova_naumi | 296658E5", 
+   "friends_count": 1572, 
+   "location": "NUSA ANTARA", 
+   "profile_link_color": "ED2F2F", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/520632910563405824/OoDe2Vcl_normal.jpeg", 
    "following": false, 
    "geo_enabled": true, 
-   "profile_banner_url": "https://pbs.twimg.com/profile_banners/316259606/1412006566", 
-   "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000057893669/c1b72798ec77ccd9454fced41d67536e.jpeg", 
-   "name": "Dodo  Jogja", 
-   "lang": "en-gb", 
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/380761087/1414397437", 
+   "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000101406380/0cc04c8c9d818897d4501320a587eb89.jpeg", 
+   "name": "RIO RAMABASKARA \u2022 RR", 
+   "lang": "en", 
    "profile_background_tile": true, 
-   "favourites_count": 370, 
-   "screen_name": "dodoputrabangsa", 
+   "favourites_count": 325, 
+   "screen_name": "Rio_Ramabaskara", 
    "notifications": false, 
-   "url": "http://t.co/ad6IKJsdVz", 
-   "created_at": "Mon Jun 13 05:26:20 +0000 2011", 
+   "url": null, 
+   "created_at": "Tue Sep 27 05:42:13 +0000 2011", 
    "contributors_enabled": false, 
-   "time_zone": "Pacific Time (US & Canada)", 
+   "time_zone": null, 
    "protected": false, 
    "default_profile": false, 
    "is_translator": false
   }, 
   "geo": null, 
   "in_reply_to_user_id_str": null, 
+  "possibly_sensitive": false, 
   "lang": "in", 
-  "created_at": "Mon Nov 03 12:19:51 +0000 2014", 
+  "created_at": "Tue Nov 04 02:37:16 +0000 2014", 
   "in_reply_to_status_id_str": null, 
   "place": null, 
   "metadata": {
@@ -356,9 +1083,306 @@
  {
   "contributors": null, 
   "truncated": false, 
-  "text": "RT @chirpstory: .@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOra..\" is being talked about. http://t.co/wq8D\u2026", 
+  "text": "RT @chirpstory: .@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8Dn\u2026", 
   "in_reply_to_status_id": null, 
-  "id": 529243113160577025, 
+  "id": 529461612143341568, 
+  "favorite_count": 0, 
+  "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>", 
+  "retweeted": false, 
+  "coordinates": null, 
+  "entities": {
+   "symbols": [], 
+   "user_mentions": [
+    {
+     "id": 216317449, 
+     "indices": [
+      3, 
+      14
+     ], 
+     "id_str": "216317449", 
+     "screen_name": "chirpstory", 
+     "name": "chirpstory"
+    }, 
+    {
+     "id": 88390023, 
+     "indices": [
+      17, 
+      27
+     ], 
+     "id_str": "88390023", 
+     "screen_name": "killthedj", 
+     "name": "Marzuki Mohamad"
+    }, 
+    {
+     "id": 316259606, 
+     "indices": [
+      70, 
+      86
+     ], 
+     "id_str": "316259606", 
+     "screen_name": "dodoputrabangsa", 
+     "name": "Dodo  Jogja"
+    }
+   ], 
+   "hashtags": [
+    {
+     "indices": [
+      56, 
+      66
+     ], 
+     "text": "JogjaAsat"
+    }, 
+    {
+     "indices": [
+      87, 
+      101
+     ], 
+     "text": "JogjaOraDidol"
+    }
+   ], 
+   "urls": [
+    {
+     "url": "http://t.co/wq8DnmUE8U", 
+     "indices": [
+      122, 
+      140
+     ], 
+     "expanded_url": "http://chirpstory.com/li/237346", 
+     "display_url": "chirpstory.com/li/237346"
+    }
+   ]
+  }, 
+  "in_reply_to_screen_name": null, 
+  "in_reply_to_user_id": null, 
+  "retweet_count": 6, 
+  "id_str": "529461612143341568", 
+  "favorited": false, 
+  "retweeted_status": {
+   "contributors": null, 
+   "truncated": false, 
+   "text": ".@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8DnmUE8U", 
+   "in_reply_to_status_id": null, 
+   "id": 529364395793473536, 
+   "favorite_count": 1, 
+   "source": "<a href=\"http://chirpstory.com/\" rel=\"nofollow\">Chirpstory</a>", 
+   "retweeted": false, 
+   "coordinates": null, 
+   "entities": {
+    "symbols": [], 
+    "user_mentions": [
+     {
+      "id": 88390023, 
+      "indices": [
+       1, 
+       11
+      ], 
+      "id_str": "88390023", 
+      "screen_name": "killthedj", 
+      "name": "Marzuki Mohamad"
+     }, 
+     {
+      "id": 316259606, 
+      "indices": [
+       54, 
+       70
+      ], 
+      "id_str": "316259606", 
+      "screen_name": "dodoputrabangsa", 
+      "name": "Dodo  Jogja"
+     }
+    ], 
+    "hashtags": [
+     {
+      "indices": [
+       40, 
+       50
+      ], 
+      "text": "JogjaAsat"
+     }, 
+     {
+      "indices": [
+       71, 
+       85
+      ], 
+      "text": "JogjaOraDidol"
+     }
+    ], 
+    "urls": [
+     {
+      "url": "http://t.co/wq8DnmUE8U", 
+      "indices": [
+       106, 
+       128
+      ], 
+      "expanded_url": "http://chirpstory.com/li/237346", 
+      "display_url": "chirpstory.com/li/237346"
+     }
+    ]
+   }, 
+   "in_reply_to_screen_name": null, 
+   "in_reply_to_user_id": null, 
+   "retweet_count": 6, 
+   "id_str": "529364395793473536", 
+   "favorited": false, 
+   "user": {
+    "follow_request_sent": false, 
+    "profile_use_background_image": true, 
+    "profile_text_color": "333333", 
+    "default_profile_image": false, 
+    "id": 216317449, 
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif", 
+    "verified": false, 
+    "profile_location": null, 
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/483643552274997249/7vIu9Kjk_normal.png", 
+    "profile_sidebar_fill_color": "F6F6F6", 
+    "entities": {
+     "url": {
+      "urls": [
+       {
+        "url": "http://t.co/csD0xiVceY", 
+        "indices": [
+         0, 
+         22
+        ], 
+        "expanded_url": "http://chirpstory.com", 
+        "display_url": "chirpstory.com"
+       }
+      ]
+     }, 
+     "description": {
+      "urls": [
+       {
+        "url": "http://t.co/csD0xiVceY", 
+        "indices": [
+         33, 
+         55
+        ], 
+        "expanded_url": "http://chirpstory.com", 
+        "display_url": "chirpstory.com"
+       }
+      ]
+     }
+    }, 
+    "followers_count": 59900, 
+    "profile_sidebar_border_color": "EEEEEE", 
+    "id_str": "216317449", 
+    "profile_background_color": "ACDED6", 
+    "listed_count": 241, 
+    "is_translation_enabled": false, 
+    "utc_offset": -36000, 
+    "statuses_count": 137872, 
+    "description": "The official Twitter account for http://t.co/csD0xiVceY", 
+    "friends_count": 69, 
+    "location": "", 
+    "profile_link_color": "038543", 
+    "profile_image_url": "http://pbs.twimg.com/profile_images/483643552274997249/7vIu9Kjk_normal.png", 
+    "following": false, 
+    "geo_enabled": false, 
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif", 
+    "name": "chirpstory", 
+    "lang": "en", 
+    "profile_background_tile": false, 
+    "favourites_count": 1, 
+    "screen_name": "chirpstory", 
+    "notifications": false, 
+    "url": "http://t.co/csD0xiVceY", 
+    "created_at": "Tue Nov 16 11:15:55 +0000 2010", 
+    "contributors_enabled": false, 
+    "time_zone": "Hawaii", 
+    "protected": false, 
+    "default_profile": false, 
+    "is_translator": false
+   }, 
+   "geo": null, 
+   "in_reply_to_user_id_str": null, 
+   "possibly_sensitive": false, 
+   "lang": "in", 
+   "created_at": "Mon Nov 03 20:08:01 +0000 2014", 
+   "in_reply_to_status_id_str": null, 
+   "place": null, 
+   "metadata": {
+    "iso_language_code": "in", 
+    "result_type": "recent"
+   }
+  }, 
+  "user": {
+   "follow_request_sent": false, 
+   "profile_use_background_image": true, 
+   "profile_text_color": "000000", 
+   "default_profile_image": false, 
+   "id": 88390023, 
+   "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/356390543/DSC00720resize.jpg", 
+   "verified": false, 
+   "profile_location": null, 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/527762606296035328/FDkMEHXt_normal.jpeg", 
+   "profile_sidebar_fill_color": "FFFFFF", 
+   "entities": {
+    "url": {
+     "urls": [
+      {
+       "url": "http://t.co/M9BU12AcMt", 
+       "indices": [
+        0, 
+        22
+       ], 
+       "expanded_url": "http://killtheblog.com/", 
+       "display_url": "killtheblog.com"
+      }
+     ]
+    }, 
+    "description": {
+     "urls": []
+    }
+   }, 
+   "followers_count": 34386, 
+   "profile_sidebar_border_color": "FF0000", 
+   "id_str": "88390023", 
+   "profile_background_color": "FFFFFF", 
+   "listed_count": 174, 
+   "is_translation_enabled": false, 
+   "utc_offset": 25200, 
+   "statuses_count": 48971, 
+   "description": "Petani yang nyambi nge-rap di unit hip hop agraris; Jogja Hip Hop Foundation", 
+   "friends_count": 483, 
+   "location": "Klaten - Yogyakarta PP", 
+   "profile_link_color": "FF0000", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/527762606296035328/FDkMEHXt_normal.jpeg", 
+   "following": true, 
+   "geo_enabled": true, 
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/88390023/1404990904", 
+   "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/356390543/DSC00720resize.jpg", 
+   "name": "Marzuki Mohamad", 
+   "lang": "en", 
+   "profile_background_tile": true, 
+   "favourites_count": 38, 
+   "screen_name": "killthedj", 
+   "notifications": false, 
+   "url": "http://t.co/M9BU12AcMt", 
+   "created_at": "Sun Nov 08 09:59:18 +0000 2009", 
+   "contributors_enabled": false, 
+   "time_zone": "Jakarta", 
+   "protected": false, 
+   "default_profile": false, 
+   "is_translator": false
+  }, 
+  "geo": null, 
+  "in_reply_to_user_id_str": null, 
+  "possibly_sensitive": false, 
+  "lang": "in", 
+  "created_at": "Tue Nov 04 02:34:19 +0000 2014", 
+  "in_reply_to_status_id_str": null, 
+  "place": null, 
+  "metadata": {
+   "iso_language_code": "in", 
+   "result_type": "recent"
+  }
+ }, 
+ {
+  "contributors": null, 
+  "truncated": false, 
+  "text": "RT @chirpstory: .@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8Dn\u2026", 
+  "in_reply_to_status_id": null, 
+  "id": 529456876480499712, 
   "favorite_count": 0, 
   "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
   "retweeted": false, 
@@ -408,9 +1432,9 @@
     {
      "indices": [
       87, 
-      96
+      101
      ], 
-     "text": "JogjaOra"
+     "text": "JogjaOraDidol"
     }
    ], 
    "urls": [
@@ -427,16 +1451,16 @@
   }, 
   "in_reply_to_screen_name": null, 
   "in_reply_to_user_id": null, 
-  "retweet_count": 2, 
-  "id_str": "529243113160577025", 
+  "retweet_count": 6, 
+  "id_str": "529456876480499712", 
   "favorited": false, 
   "retweeted_status": {
    "contributors": null, 
    "truncated": false, 
-   "text": ".@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOra..\" is being talked about. http://t.co/wq8DnmUE8U", 
+   "text": ".@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8DnmUE8U", 
    "in_reply_to_status_id": null, 
-   "id": 529211388913147906, 
-   "favorite_count": 0, 
+   "id": 529364395793473536, 
+   "favorite_count": 1, 
    "source": "<a href=\"http://chirpstory.com/\" rel=\"nofollow\">Chirpstory</a>", 
    "retweeted": false, 
    "coordinates": null, 
@@ -475,17 +1499,17 @@
      {
       "indices": [
        71, 
-       80
+       85
       ], 
-      "text": "JogjaOra"
+      "text": "JogjaOraDidol"
      }
     ], 
     "urls": [
      {
       "url": "http://t.co/wq8DnmUE8U", 
       "indices": [
-       107, 
-       129
+       106, 
+       128
       ], 
       "expanded_url": "http://chirpstory.com/li/237346", 
       "display_url": "chirpstory.com/li/237346"
@@ -494,8 +1518,8 @@
    }, 
    "in_reply_to_screen_name": null, 
    "in_reply_to_user_id": null, 
-   "retweet_count": 2, 
-   "id_str": "529211388913147906", 
+   "retweet_count": 6, 
+   "id_str": "529364395793473536", 
    "favorited": false, 
    "user": {
     "follow_request_sent": false, 
@@ -536,14 +1560,14 @@
       ]
      }
     }, 
-    "followers_count": 59842, 
+    "followers_count": 59900, 
     "profile_sidebar_border_color": "EEEEEE", 
     "id_str": "216317449", 
     "profile_background_color": "ACDED6", 
     "listed_count": 241, 
     "is_translation_enabled": false, 
     "utc_offset": -36000, 
-    "statuses_count": 137805, 
+    "statuses_count": 137872, 
     "description": "The official Twitter account for http://t.co/csD0xiVceY", 
     "friends_count": 69, 
     "location": "", 
@@ -570,7 +1594,7 @@
    "in_reply_to_user_id_str": null, 
    "possibly_sensitive": false, 
    "lang": "in", 
-   "created_at": "Mon Nov 03 10:00:02 +0000 2014", 
+   "created_at": "Mon Nov 03 20:08:01 +0000 2014", 
    "in_reply_to_status_id_str": null, 
    "place": null, 
    "metadata": {
@@ -642,7 +1666,7 @@
   "in_reply_to_user_id_str": null, 
   "possibly_sensitive": false, 
   "lang": "in", 
-  "created_at": "Mon Nov 03 12:06:05 +0000 2014", 
+  "created_at": "Tue Nov 04 02:15:30 +0000 2014", 
   "in_reply_to_status_id_str": null, 
   "place": null, 
   "metadata": {
@@ -653,31 +1677,31 @@
  {
   "contributors": null, 
   "truncated": false, 
-  "text": "RT @Dandhy_Laksono: Menyimak TL @dodoputrabangsa tentang kompetisi perebutan air tanah antara warga vs hotel #JogjaAsat", 
+  "text": "Pak Wali kok ga ada? \"@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" http://t.co/GCLddesCS0 \"", 
   "in_reply_to_status_id": null, 
-  "id": 529240667231227906, 
+  "id": 529376866042249216, 
   "favorite_count": 0, 
-  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+  "source": "<a href=\"http://blackberry.com/twitter\" rel=\"nofollow\">Twitter for BlackBerry\u00ae</a>", 
   "retweeted": false, 
   "coordinates": null, 
   "entities": {
    "symbols": [], 
    "user_mentions": [
     {
-     "id": 159919812, 
+     "id": 88390023, 
      "indices": [
-      3, 
-      18
+      22, 
+      32
      ], 
-     "id_str": "159919812", 
-     "screen_name": "Dandhy_Laksono", 
-     "name": "Dandhy Laksono"
+     "id_str": "88390023", 
+     "screen_name": "killthedj", 
+     "name": "Marzuki Mohamad"
     }, 
     {
      "id": 316259606, 
      "indices": [
-      32, 
-      48
+      75, 
+      91
      ], 
      "id_str": "316259606", 
      "screen_name": "dodoputrabangsa", 
@@ -687,1060 +1711,88 @@
    "hashtags": [
     {
      "indices": [
-      109, 
-      119
-     ], 
-     "text": "JogjaAsat"
-    }
-   ], 
-   "urls": []
-  }, 
-  "in_reply_to_screen_name": null, 
-  "in_reply_to_user_id": null, 
-  "retweet_count": 15, 
-  "id_str": "529240667231227906", 
-  "favorited": false, 
-  "retweeted_status": {
-   "contributors": null, 
-   "truncated": false, 
-   "text": "Menyimak TL @dodoputrabangsa tentang kompetisi perebutan air tanah antara warga vs hotel #JogjaAsat", 
-   "in_reply_to_status_id": null, 
-   "id": 529085322190000128, 
-   "favorite_count": 0, 
-   "source": "<a href=\"http://www.twitter.com\" rel=\"nofollow\">Twitter for BlackBerry</a>", 
-   "retweeted": false, 
-   "coordinates": null, 
-   "entities": {
-    "symbols": [], 
-    "user_mentions": [
-     {
-      "id": 316259606, 
-      "indices": [
-       12, 
-       28
-      ], 
-      "id_str": "316259606", 
-      "screen_name": "dodoputrabangsa", 
-      "name": "Dodo  Jogja"
-     }
-    ], 
-    "hashtags": [
-     {
-      "indices": [
-       89, 
-       99
-      ], 
-      "text": "JogjaAsat"
-     }
-    ], 
-    "urls": []
-   }, 
-   "in_reply_to_screen_name": null, 
-   "in_reply_to_user_id": null, 
-   "retweet_count": 15, 
-   "id_str": "529085322190000128", 
-   "favorited": false, 
-   "user": {
-    "follow_request_sent": false, 
-    "profile_use_background_image": true, 
-    "profile_text_color": "333333", 
-    "default_profile_image": false, 
-    "id": 159919812, 
-    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
-    "verified": false, 
-    "profile_location": null, 
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/527629295913422849/A1m_yenF_normal.jpeg", 
-    "profile_sidebar_fill_color": "DDEEF6", 
-    "entities": {
-     "description": {
-      "urls": []
-     }
-    }, 
-    "followers_count": 27034, 
-    "profile_sidebar_border_color": "C0DEED", 
-    "id_str": "159919812", 
-    "profile_background_color": "C0DEED", 
-    "listed_count": 131, 
-    "is_translation_enabled": false, 
-    "utc_offset": null, 
-    "statuses_count": 38379, 
-    "description": "WATCHDOC | video journalist |  Divisi Penyiaran AJI | sutradara YANG KETU7UH", 
-    "friends_count": 1330, 
-    "location": "", 
-    "profile_link_color": "0084B4", 
-    "profile_image_url": "http://pbs.twimg.com/profile_images/527629295913422849/A1m_yenF_normal.jpeg", 
-    "following": false, 
-    "geo_enabled": false, 
-    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-    "name": "Dandhy Laksono", 
-    "lang": "en", 
-    "profile_background_tile": false, 
-    "favourites_count": 82, 
-    "screen_name": "Dandhy_Laksono", 
-    "notifications": false, 
-    "url": null, 
-    "created_at": "Sat Jun 26 17:35:47 +0000 2010", 
-    "contributors_enabled": false, 
-    "time_zone": null, 
-    "protected": false, 
-    "default_profile": true, 
-    "is_translator": false
-   }, 
-   "geo": null, 
-   "in_reply_to_user_id_str": null, 
-   "lang": "in", 
-   "created_at": "Mon Nov 03 01:39:05 +0000 2014", 
-   "in_reply_to_status_id_str": null, 
-   "place": null, 
-   "metadata": {
-    "iso_language_code": "in", 
-    "result_type": "recent"
-   }
-  }, 
-  "user": {
-   "follow_request_sent": false, 
-   "profile_use_background_image": true, 
-   "profile_text_color": "333333", 
-   "default_profile_image": false, 
-   "id": 134413496, 
-   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
-   "verified": false, 
-   "profile_location": null, 
-   "profile_image_url_https": "https://pbs.twimg.com/profile_images/491453615874142208/_pH3bynQ_normal.jpeg", 
-   "profile_sidebar_fill_color": "DDEEF6", 
-   "entities": {
-    "description": {
-     "urls": []
-    }
-   }, 
-   "followers_count": 493, 
-   "profile_sidebar_border_color": "C0DEED", 
-   "id_str": "134413496", 
-   "profile_background_color": "C0DEED", 
-   "listed_count": 6, 
-   "is_translation_enabled": false, 
-   "utc_offset": null, 
-   "statuses_count": 15854, 
-   "description": "proud member of #youngbureaucrats :)) #IndonesiaTanpaJIL", 
-   "friends_count": 645, 
-   "location": "", 
-   "profile_link_color": "0084B4", 
-   "profile_image_url": "http://pbs.twimg.com/profile_images/491453615874142208/_pH3bynQ_normal.jpeg", 
-   "following": false, 
-   "geo_enabled": false, 
-   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-   "name": "Dedy Bagus Prakasa", 
-   "lang": "en", 
-   "profile_background_tile": false, 
-   "favourites_count": 23, 
-   "screen_name": "debapirez", 
-   "notifications": false, 
-   "url": null, 
-   "created_at": "Sun Apr 18 10:16:54 +0000 2010", 
-   "contributors_enabled": false, 
-   "time_zone": null, 
-   "protected": false, 
-   "default_profile": true, 
-   "is_translator": false
-  }, 
-  "geo": null, 
-  "in_reply_to_user_id_str": null, 
-  "lang": "in", 
-  "created_at": "Mon Nov 03 11:56:22 +0000 2014", 
-  "in_reply_to_status_id_str": null, 
-  "place": null, 
-  "metadata": {
-   "iso_language_code": "in", 
-   "result_type": "recent"
-  }
- }, 
- {
-  "contributors": null, 
-  "truncated": false, 
-  "text": "RT @anasir: solusinya, ganti logo RT @Dandhy_Laksono: Menyimak TL @dodoputrabangsa ttg kompetisi perebutan air tanah antara warga vs hotel \u2026", 
-  "in_reply_to_status_id": null, 
-  "id": 529240657013911552, 
-  "favorite_count": 0, 
-  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
-  "retweeted": false, 
-  "coordinates": null, 
-  "entities": {
-   "symbols": [], 
-   "user_mentions": [
-    {
-     "id": 9700052, 
-     "indices": [
-      3, 
-      10
-     ], 
-     "id_str": "9700052", 
-     "screen_name": "anasir", 
-     "name": "Akhmad Nasir"
-    }, 
-    {
-     "id": 159919812, 
-     "indices": [
-      37, 
-      52
-     ], 
-     "id_str": "159919812", 
-     "screen_name": "Dandhy_Laksono", 
-     "name": "Dandhy Laksono"
-    }, 
-    {
-     "id": 316259606, 
-     "indices": [
-      66, 
-      82
-     ], 
-     "id_str": "316259606", 
-     "screen_name": "dodoputrabangsa", 
-     "name": "Dodo  Jogja"
-    }
-   ], 
-   "hashtags": [
-    {
-     "indices": [
-      139, 
-      140
-     ], 
-     "text": "JogjaAsat"
-    }
-   ], 
-   "urls": []
-  }, 
-  "in_reply_to_screen_name": null, 
-  "in_reply_to_user_id": null, 
-  "retweet_count": 3, 
-  "id_str": "529240657013911552", 
-  "favorited": false, 
-  "retweeted_status": {
-   "contributors": null, 
-   "truncated": false, 
-   "text": "solusinya, ganti logo RT @Dandhy_Laksono: Menyimak TL @dodoputrabangsa ttg kompetisi perebutan air tanah antara warga vs hotel #JogjaAsat", 
-   "in_reply_to_status_id": null, 
-   "id": 529086309735071745, 
-   "favorite_count": 0, 
-   "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>", 
-   "retweeted": false, 
-   "coordinates": null, 
-   "entities": {
-    "symbols": [], 
-    "user_mentions": [
-     {
-      "id": 159919812, 
-      "indices": [
-       25, 
-       40
-      ], 
-      "id_str": "159919812", 
-      "screen_name": "Dandhy_Laksono", 
-      "name": "Dandhy Laksono"
-     }, 
-     {
-      "id": 316259606, 
-      "indices": [
-       54, 
-       70
-      ], 
-      "id_str": "316259606", 
-      "screen_name": "dodoputrabangsa", 
-      "name": "Dodo  Jogja"
-     }
-    ], 
-    "hashtags": [
-     {
-      "indices": [
-       127, 
-       137
-      ], 
-      "text": "JogjaAsat"
-     }
-    ], 
-    "urls": []
-   }, 
-   "in_reply_to_screen_name": null, 
-   "in_reply_to_user_id": null, 
-   "retweet_count": 3, 
-   "id_str": "529086309735071745", 
-   "favorited": false, 
-   "user": {
-    "follow_request_sent": false, 
-    "profile_use_background_image": true, 
-    "profile_text_color": "333333", 
-    "default_profile_image": false, 
-    "id": 9700052, 
-    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/154515845/twilk_background_4ca08aacce0e5.jpg", 
-    "verified": false, 
-    "profile_location": null, 
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/478795756568993792/XymiNtb9_normal.jpeg", 
-    "profile_sidebar_fill_color": "EFEFEF", 
-    "entities": {
-     "url": {
-      "urls": [
-       {
-        "url": "http://t.co/Wx7QshX6kb", 
-        "indices": [
-         0, 
-         22
-        ], 
-        "expanded_url": "http://nasir.web.id", 
-        "display_url": "nasir.web.id"
-       }
-      ]
-     }, 
-     "description": {
-      "urls": []
-     }
-    }, 
-    "followers_count": 1679, 
-    "profile_sidebar_border_color": "EEEEEE", 
-    "id_str": "9700052", 
-    "profile_background_color": "131516", 
-    "listed_count": 19, 
-    "is_translation_enabled": false, 
-    "utc_offset": 25200, 
-    "statuses_count": 7307, 
-    "description": "Media-Convergence Strategist", 
-    "friends_count": 285, 
-    "location": "Yogyakarta, Indonesia", 
-    "profile_link_color": "009999", 
-    "profile_image_url": "http://pbs.twimg.com/profile_images/478795756568993792/XymiNtb9_normal.jpeg", 
-    "following": false, 
-    "geo_enabled": false, 
-    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/154515845/twilk_background_4ca08aacce0e5.jpg", 
-    "name": "Akhmad Nasir", 
-    "lang": "en", 
-    "profile_background_tile": true, 
-    "favourites_count": 4, 
-    "screen_name": "anasir", 
-    "notifications": false, 
-    "url": "http://t.co/Wx7QshX6kb", 
-    "created_at": "Fri Oct 26 02:27:42 +0000 2007", 
-    "contributors_enabled": false, 
-    "time_zone": "Jakarta", 
-    "protected": false, 
-    "default_profile": false, 
-    "is_translator": false
-   }, 
-   "geo": null, 
-   "in_reply_to_user_id_str": null, 
-   "lang": "in", 
-   "created_at": "Mon Nov 03 01:43:00 +0000 2014", 
-   "in_reply_to_status_id_str": null, 
-   "place": null, 
-   "metadata": {
-    "iso_language_code": "in", 
-    "result_type": "recent"
-   }
-  }, 
-  "user": {
-   "follow_request_sent": false, 
-   "profile_use_background_image": true, 
-   "profile_text_color": "333333", 
-   "default_profile_image": false, 
-   "id": 134413496, 
-   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
-   "verified": false, 
-   "profile_location": null, 
-   "profile_image_url_https": "https://pbs.twimg.com/profile_images/491453615874142208/_pH3bynQ_normal.jpeg", 
-   "profile_sidebar_fill_color": "DDEEF6", 
-   "entities": {
-    "description": {
-     "urls": []
-    }
-   }, 
-   "followers_count": 493, 
-   "profile_sidebar_border_color": "C0DEED", 
-   "id_str": "134413496", 
-   "profile_background_color": "C0DEED", 
-   "listed_count": 6, 
-   "is_translation_enabled": false, 
-   "utc_offset": null, 
-   "statuses_count": 15854, 
-   "description": "proud member of #youngbureaucrats :)) #IndonesiaTanpaJIL", 
-   "friends_count": 645, 
-   "location": "", 
-   "profile_link_color": "0084B4", 
-   "profile_image_url": "http://pbs.twimg.com/profile_images/491453615874142208/_pH3bynQ_normal.jpeg", 
-   "following": false, 
-   "geo_enabled": false, 
-   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-   "name": "Dedy Bagus Prakasa", 
-   "lang": "en", 
-   "profile_background_tile": false, 
-   "favourites_count": 23, 
-   "screen_name": "debapirez", 
-   "notifications": false, 
-   "url": null, 
-   "created_at": "Sun Apr 18 10:16:54 +0000 2010", 
-   "contributors_enabled": false, 
-   "time_zone": null, 
-   "protected": false, 
-   "default_profile": true, 
-   "is_translator": false
-  }, 
-  "geo": null, 
-  "in_reply_to_user_id_str": null, 
-  "lang": "in", 
-  "created_at": "Mon Nov 03 11:56:20 +0000 2014", 
-  "in_reply_to_status_id_str": null, 
-  "place": null, 
-  "metadata": {
-   "iso_language_code": "in", 
-   "result_type": "recent"
-  }
- }, 
- {
-  "contributors": null, 
-  "truncated": false, 
-  "text": "RT @wargaberdaya: \u201c@xcodefilmsjogja: @dodoputrabangsa @wargaberdaya http://t.co/jJ5dc0lhYg\u201d cc @anasir @Dandhy_Laksono @Teguh_es #JogjaAsat\u2026", 
-  "in_reply_to_status_id": null, 
-  "id": 529239187698888704, 
-  "favorite_count": 0, 
-  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
-  "retweeted": false, 
-  "coordinates": null, 
-  "entities": {
-   "symbols": [], 
-   "user_mentions": [
-    {
-     "id": 1374467551, 
-     "indices": [
-      3, 
-      16
-     ], 
-     "id_str": "1374467551", 
-     "screen_name": "wargaberdaya", 
-     "name": "Warga Yogya Berdaya"
-    }, 
-    {
-     "id": 2251743367, 
-     "indices": [
-      19, 
-      35
-     ], 
-     "id_str": "2251743367", 
-     "screen_name": "xcodefilmsjogja", 
-     "name": "X-CODE films"
-    }, 
-    {
-     "id": 316259606, 
-     "indices": [
-      37, 
-      53
-     ], 
-     "id_str": "316259606", 
-     "screen_name": "dodoputrabangsa", 
-     "name": "Dodo  Jogja"
-    }, 
-    {
-     "id": 1374467551, 
-     "indices": [
-      54, 
-      67
-     ], 
-     "id_str": "1374467551", 
-     "screen_name": "wargaberdaya", 
-     "name": "Warga Yogya Berdaya"
-    }, 
-    {
-     "id": 9700052, 
-     "indices": [
-      95, 
-      102
-     ], 
-     "id_str": "9700052", 
-     "screen_name": "anasir", 
-     "name": "Akhmad Nasir"
-    }, 
-    {
-     "id": 159919812, 
-     "indices": [
-      103, 
-      118
-     ], 
-     "id_str": "159919812", 
-     "screen_name": "Dandhy_Laksono", 
-     "name": "Dandhy Laksono"
-    }, 
-    {
-     "id": 215521477, 
-     "indices": [
-      119, 
-      128
-     ], 
-     "id_str": "215521477", 
-     "screen_name": "Teguh_es", 
-     "name": "Teguh Supriyadi"
-    }
-   ], 
-   "hashtags": [
-    {
-     "indices": [
-      129, 
-      139
+      61, 
+      71
      ], 
      "text": "JogjaAsat"
     }, 
     {
      "indices": [
-      139, 
-      140
+      92, 
+      106
      ], 
-     "text": "Jogja"
+     "text": "JogjaOraDidol"
     }
    ], 
    "urls": [
     {
-     "url": "http://t.co/jJ5dc0lhYg", 
+     "url": "http://t.co/GCLddesCS0", 
      "indices": [
-      68, 
-      90
+      108, 
+      130
      ], 
-     "expanded_url": "http://youtu.be/tJjXzXIBFvU", 
-     "display_url": "youtu.be/tJjXzXIBFvU"
+     "expanded_url": "http://chirpstory.com/li/237346", 
+     "display_url": "chirpstory.com/li/237346"
     }
    ]
   }, 
   "in_reply_to_screen_name": null, 
   "in_reply_to_user_id": null, 
-  "retweet_count": 2, 
-  "id_str": "529239187698888704", 
+  "retweet_count": 0, 
+  "id_str": "529376866042249216", 
   "favorited": false, 
-  "retweeted_status": {
-   "contributors": null, 
-   "truncated": false, 
-   "text": "\u201c@xcodefilmsjogja: @dodoputrabangsa @wargaberdaya http://t.co/jJ5dc0lhYg\u201d cc @anasir @Dandhy_Laksono @Teguh_es #JogjaAsat #Jogja", 
-   "in_reply_to_status_id": null, 
-   "id": 529200258102734848, 
-   "favorite_count": 1, 
-   "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
-   "retweeted": false, 
-   "coordinates": null, 
-   "entities": {
-    "symbols": [], 
-    "user_mentions": [
-     {
-      "id": 2251743367, 
-      "indices": [
-       1, 
-       17
-      ], 
-      "id_str": "2251743367", 
-      "screen_name": "xcodefilmsjogja", 
-      "name": "X-CODE films"
-     }, 
-     {
-      "id": 316259606, 
-      "indices": [
-       19, 
-       35
-      ], 
-      "id_str": "316259606", 
-      "screen_name": "dodoputrabangsa", 
-      "name": "Dodo  Jogja"
-     }, 
-     {
-      "id": 1374467551, 
-      "indices": [
-       36, 
-       49
-      ], 
-      "id_str": "1374467551", 
-      "screen_name": "wargaberdaya", 
-      "name": "Warga Yogya Berdaya"
-     }, 
-     {
-      "id": 9700052, 
-      "indices": [
-       77, 
-       84
-      ], 
-      "id_str": "9700052", 
-      "screen_name": "anasir", 
-      "name": "Akhmad Nasir"
-     }, 
-     {
-      "id": 159919812, 
-      "indices": [
-       85, 
-       100
-      ], 
-      "id_str": "159919812", 
-      "screen_name": "Dandhy_Laksono", 
-      "name": "Dandhy Laksono"
-     }, 
-     {
-      "id": 215521477, 
-      "indices": [
-       101, 
-       110
-      ], 
-      "id_str": "215521477", 
-      "screen_name": "Teguh_es", 
-      "name": "Teguh Supriyadi"
-     }
-    ], 
-    "hashtags": [
-     {
-      "indices": [
-       111, 
-       121
-      ], 
-      "text": "JogjaAsat"
-     }, 
-     {
-      "indices": [
-       122, 
-       128
-      ], 
-      "text": "Jogja"
-     }
-    ], 
-    "urls": [
-     {
-      "url": "http://t.co/jJ5dc0lhYg", 
-      "indices": [
-       50, 
-       72
-      ], 
-      "expanded_url": "http://youtu.be/tJjXzXIBFvU", 
-      "display_url": "youtu.be/tJjXzXIBFvU"
-     }
-    ]
-   }, 
-   "in_reply_to_screen_name": null, 
-   "in_reply_to_user_id": null, 
-   "retweet_count": 2, 
-   "id_str": "529200258102734848", 
-   "favorited": false, 
-   "user": {
-    "follow_request_sent": false, 
-    "profile_use_background_image": true, 
-    "profile_text_color": "333333", 
-    "default_profile_image": false, 
-    "id": 1374467551, 
-    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
-    "verified": false, 
-    "profile_location": null, 
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/3564157867/57cf2c169eb9962e81da2df5f8521bbd_normal.jpeg", 
-    "profile_sidebar_fill_color": "DDEEF6", 
-    "entities": {
-     "url": {
-      "urls": [
-       {
-        "url": "http://t.co/K28tPAvBbF", 
-        "indices": [
-         0, 
-         22
-        ], 
-        "expanded_url": "http://wargaberdaya.wordpress.com/", 
-        "display_url": "wargaberdaya.wordpress.com"
-       }
-      ]
-     }, 
-     "description": {
-      "urls": []
-     }
-    }, 
-    "followers_count": 245, 
-    "profile_sidebar_border_color": "C0DEED", 
-    "id_str": "1374467551", 
-    "profile_background_color": "C0DEED", 
-    "listed_count": 0, 
-    "is_translation_enabled": false, 
-    "utc_offset": 25200, 
-    "statuses_count": 422, 
-    "description": "TERUS BERKARYA, JANGAN BERHARAP PADA NEGARA", 
-    "friends_count": 208, 
-    "location": "Yogyakarta", 
-    "profile_link_color": "0084B4", 
-    "profile_image_url": "http://pbs.twimg.com/profile_images/3564157867/57cf2c169eb9962e81da2df5f8521bbd_normal.jpeg", 
-    "following": false, 
-    "geo_enabled": false, 
-    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-    "name": "Warga Yogya Berdaya", 
-    "lang": "en", 
-    "profile_background_tile": false, 
-    "favourites_count": 5, 
-    "screen_name": "wargaberdaya", 
-    "notifications": false, 
-    "url": "http://t.co/K28tPAvBbF", 
-    "created_at": "Tue Apr 23 11:38:29 +0000 2013", 
-    "contributors_enabled": false, 
-    "time_zone": "Bangkok", 
-    "protected": false, 
-    "default_profile": true, 
-    "is_translator": false
-   }, 
-   "geo": null, 
-   "in_reply_to_user_id_str": null, 
-   "possibly_sensitive": false, 
-   "lang": "und", 
-   "created_at": "Mon Nov 03 09:15:48 +0000 2014", 
-   "in_reply_to_status_id_str": null, 
-   "place": null, 
-   "metadata": {
-    "iso_language_code": "und", 
-    "result_type": "recent"
-   }
-  }, 
   "user": {
    "follow_request_sent": false, 
    "profile_use_background_image": true, 
    "profile_text_color": "333333", 
    "default_profile_image": false, 
-   "id": 316259606, 
-   "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000057893669/c1b72798ec77ccd9454fced41d67536e.jpeg", 
+   "id": 476042689, 
+   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png", 
    "verified": false, 
    "profile_location": null, 
-   "profile_image_url_https": "https://pbs.twimg.com/profile_images/516619198668091392/dueq1IHE_normal.jpeg", 
-   "profile_sidebar_fill_color": "DDEEF6", 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/3538042667/139a2e85d8e99ef7fc20c2060a7e2658_normal.jpeg", 
+   "profile_sidebar_fill_color": "C0DFEC", 
    "entities": {
-    "url": {
-     "urls": [
-      {
-       "url": "http://t.co/ad6IKJsdVz", 
-       "indices": [
-        0, 
-        22
-       ], 
-       "expanded_url": "http://urbanpoorblog.wordpress.com/perihal/", 
-       "display_url": "urbanpoorblog.wordpress.com/perihal/"
-      }
-     ]
-    }, 
     "description": {
      "urls": []
     }
    }, 
-   "followers_count": 1943, 
-   "profile_sidebar_border_color": "000000", 
-   "id_str": "316259606", 
-   "profile_background_color": "E30C2F", 
-   "listed_count": 8, 
+   "followers_count": 802, 
+   "profile_sidebar_border_color": "A8C7F7", 
+   "id_str": "476042689", 
+   "profile_background_color": "022330", 
+   "listed_count": 3, 
    "is_translation_enabled": false, 
-   "utc_offset": -28800, 
-   "statuses_count": 34506, 
-   "description": "Bakrie Perusak Bumi Perampok Uang Negara", 
-   "friends_count": 1293, 
-   "location": "#8thLumpurLapindo ", 
+   "utc_offset": 25200, 
+   "statuses_count": 11480, 
+   "description": "numpang di ndalem Den BEI", 
+   "friends_count": 597, 
+   "location": "", 
    "profile_link_color": "0084B4", 
-   "profile_image_url": "http://pbs.twimg.com/profile_images/516619198668091392/dueq1IHE_normal.jpeg", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/3538042667/139a2e85d8e99ef7fc20c2060a7e2658_normal.jpeg", 
    "following": false, 
-   "geo_enabled": true, 
-   "profile_banner_url": "https://pbs.twimg.com/profile_banners/316259606/1412006566", 
-   "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000057893669/c1b72798ec77ccd9454fced41d67536e.jpeg", 
-   "name": "Dodo  Jogja", 
-   "lang": "en-gb", 
-   "profile_background_tile": true, 
-   "favourites_count": 370, 
-   "screen_name": "dodoputrabangsa", 
+   "geo_enabled": false, 
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/476042689/1408684708", 
+   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png", 
+   "name": "penumpang gelap", 
+   "lang": "en", 
+   "profile_background_tile": false, 
+   "favourites_count": 41, 
+   "screen_name": "penumpang_gelap", 
    "notifications": false, 
-   "url": "http://t.co/ad6IKJsdVz", 
-   "created_at": "Mon Jun 13 05:26:20 +0000 2011", 
+   "url": null, 
+   "created_at": "Fri Jan 27 18:17:30 +0000 2012", 
    "contributors_enabled": false, 
-   "time_zone": "Pacific Time (US & Canada)", 
+   "time_zone": "Bangkok", 
    "protected": false, 
    "default_profile": false, 
    "is_translator": false
   }, 
   "geo": null, 
   "in_reply_to_user_id_str": null, 
-  "possibly_sensitive": false, 
-  "lang": "und", 
-  "created_at": "Mon Nov 03 11:50:29 +0000 2014", 
-  "in_reply_to_status_id_str": null, 
-  "place": null, 
-  "metadata": {
-   "iso_language_code": "und", 
-   "result_type": "recent"
-  }
- }, 
- {
-  "contributors": null, 
-  "truncated": false, 
-  "text": "RT @omahekendeng: Yg dikota besar berebut air dgn pemilik hotel di #JogjaAsat . Sdgkan yg di desa berebut air dgn tambang #savekendeng http\u2026", 
-  "in_reply_to_status_id": null, 
-  "id": 529230069114224640, 
-  "favorite_count": 0, 
-  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
-  "retweeted": false, 
-  "coordinates": null, 
-  "entities": {
-   "symbols": [], 
-   "user_mentions": [
-    {
-     "id": 474586458, 
-     "indices": [
-      3, 
-      16
-     ], 
-     "id_str": "474586458", 
-     "screen_name": "omahekendeng", 
-     "name": "omahekendeng"
-    }
-   ], 
-   "hashtags": [
-    {
-     "indices": [
-      67, 
-      77
-     ], 
-     "text": "JogjaAsat"
-    }, 
-    {
-     "indices": [
-      122, 
-      134
-     ], 
-     "text": "savekendeng"
-    }
-   ], 
-   "urls": [], 
-   "media": [
-    {
-     "source_status_id_str": "529102023396843520", 
-     "expanded_url": "http://twitter.com/omahekendeng/status/529102023396843520/photo/1", 
-     "display_url": "pic.twitter.com/vJJxhAI7Eu", 
-     "url": "http://t.co/vJJxhAI7Eu", 
-     "media_url_https": "https://pbs.twimg.com/media/B1e_Wy5CQAA5ZvW.jpg", 
-     "source_status_id": 529102023396843520, 
-     "id_str": "529101879578345472", 
-     "sizes": {
-      "large": {
-       "h": 480, 
-       "resize": "fit", 
-       "w": 640
-      }, 
-      "small": {
-       "h": 255, 
-       "resize": "fit", 
-       "w": 340
-      }, 
-      "medium": {
-       "h": 450, 
-       "resize": "fit", 
-       "w": 600
-      }, 
-      "thumb": {
-       "h": 150, 
-       "resize": "crop", 
-       "w": 150
-      }
-     }, 
-     "indices": [
-      139, 
-      140
-     ], 
-     "type": "photo", 
-     "id": 529101879578345472, 
-     "media_url": "http://pbs.twimg.com/media/B1e_Wy5CQAA5ZvW.jpg"
-    }
-   ]
-  }, 
-  "in_reply_to_screen_name": null, 
-  "in_reply_to_user_id": null, 
-  "retweet_count": 11, 
-  "id_str": "529230069114224640", 
-  "favorited": false, 
-  "retweeted_status": {
-   "contributors": null, 
-   "truncated": false, 
-   "text": "Yg dikota besar berebut air dgn pemilik hotel di #JogjaAsat . Sdgkan yg di desa berebut air dgn tambang #savekendeng http://t.co/vJJxhAI7Eu", 
-   "in_reply_to_status_id": null, 
-   "id": 529102023396843520, 
-   "favorite_count": 0, 
-   "source": "<a href=\"https://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android Tablets</a>", 
-   "retweeted": false, 
-   "coordinates": null, 
-   "entities": {
-    "symbols": [], 
-    "user_mentions": [], 
-    "hashtags": [
-     {
-      "indices": [
-       49, 
-       59
-      ], 
-      "text": "JogjaAsat"
-     }, 
-     {
-      "indices": [
-       104, 
-       116
-      ], 
-      "text": "savekendeng"
-     }
-    ], 
-    "urls": [], 
-    "media": [
-     {
-      "expanded_url": "http://twitter.com/omahekendeng/status/529102023396843520/photo/1", 
-      "display_url": "pic.twitter.com/vJJxhAI7Eu", 
-      "url": "http://t.co/vJJxhAI7Eu", 
-      "media_url_https": "https://pbs.twimg.com/media/B1e_Wy5CQAA5ZvW.jpg", 
-      "id_str": "529101879578345472", 
-      "sizes": {
-       "large": {
-        "h": 480, 
-        "resize": "fit", 
-        "w": 640
-       }, 
-       "small": {
-        "h": 255, 
-        "resize": "fit", 
-        "w": 340
-       }, 
-       "medium": {
-        "h": 450, 
-        "resize": "fit", 
-        "w": 600
-       }, 
-       "thumb": {
-        "h": 150, 
-        "resize": "crop", 
-        "w": 150
-       }
-      }, 
-      "indices": [
-       117, 
-       139
-      ], 
-      "type": "photo", 
-      "id": 529101879578345472, 
-      "media_url": "http://pbs.twimg.com/media/B1e_Wy5CQAA5ZvW.jpg"
-     }
-    ]
-   }, 
-   "in_reply_to_screen_name": null, 
-   "in_reply_to_user_id": null, 
-   "retweet_count": 11, 
-   "id_str": "529102023396843520", 
-   "favorited": false, 
-   "user": {
-    "follow_request_sent": false, 
-    "profile_use_background_image": true, 
-    "profile_text_color": "333333", 
-    "default_profile_image": false, 
-    "id": 474586458, 
-    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
-    "verified": false, 
-    "profile_location": null, 
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/506870083348471808/Ekykzaz0_normal.png", 
-    "profile_sidebar_fill_color": "DDEEF6", 
-    "entities": {
-     "url": {
-      "urls": [
-       {
-        "url": "http://t.co/hAbpwttzsq", 
-        "indices": [
-         0, 
-         22
-        ], 
-        "expanded_url": "http://omahkendeng.org", 
-        "display_url": "omahkendeng.org"
-       }
-      ]
-     }, 
-     "description": {
-      "urls": []
-     }
-    }, 
-    "followers_count": 1141, 
-    "profile_sidebar_border_color": "C0DEED", 
-    "id_str": "474586458", 
-    "profile_background_color": "C0DEED", 
-    "listed_count": 1, 
-    "is_translation_enabled": false, 
-    "utc_offset": 25200, 
-    "statuses_count": 1584, 
-    "description": "Sebuah rumah bersama utk pnyelamatan pegunungan kendeng utara. Sarana blajar utk smua manusia.", 
-    "friends_count": 230, 
-    "location": "Pati Selatan", 
-    "profile_link_color": "0084B4", 
-    "profile_image_url": "http://pbs.twimg.com/profile_images/506870083348471808/Ekykzaz0_normal.png", 
-    "following": false, 
-    "geo_enabled": false, 
-    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-    "name": "omahekendeng", 
-    "lang": "id", 
-    "profile_background_tile": false, 
-    "favourites_count": 3, 
-    "screen_name": "omahekendeng", 
-    "notifications": false, 
-    "url": "http://t.co/hAbpwttzsq", 
-    "created_at": "Thu Jan 26 04:21:27 +0000 2012", 
-    "contributors_enabled": false, 
-    "time_zone": "Bangkok", 
-    "protected": false, 
-    "default_profile": true, 
-    "is_translator": false
-   }, 
-   "geo": null, 
-   "in_reply_to_user_id_str": null, 
-   "possibly_sensitive": false, 
-   "lang": "in", 
-   "created_at": "Mon Nov 03 02:45:27 +0000 2014", 
-   "in_reply_to_status_id_str": null, 
-   "place": null, 
-   "metadata": {
-    "iso_language_code": "in", 
-    "result_type": "recent"
-   }
-  }, 
-  "user": {
-   "follow_request_sent": false, 
-   "profile_use_background_image": true, 
-   "profile_text_color": "333333", 
-   "default_profile_image": false, 
-   "id": 2829986647, 
-   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
-   "verified": false, 
-   "profile_location": null, 
-   "profile_image_url_https": "https://pbs.twimg.com/profile_images/523081483796217857/SGI6f-vl_normal.jpeg", 
-   "profile_sidebar_fill_color": "DDEEF6", 
-   "entities": {
-    "description": {
-     "urls": []
-    }
-   }, 
-   "followers_count": 18, 
-   "profile_sidebar_border_color": "C0DEED", 
-   "id_str": "2829986647", 
-   "profile_background_color": "C0DEED", 
-   "listed_count": 0, 
-   "is_translation_enabled": false, 
-   "utc_offset": null, 
-   "statuses_count": 34, 
-   "description": "", 
-   "friends_count": 20, 
-   "location": "", 
-   "profile_link_color": "0084B4", 
-   "profile_image_url": "http://pbs.twimg.com/profile_images/523081483796217857/SGI6f-vl_normal.jpeg", 
-   "following": false, 
-   "geo_enabled": false, 
-   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
-   "name": "Agung Wiyono", 
-   "lang": "en", 
-   "profile_background_tile": false, 
-   "favourites_count": 0, 
-   "screen_name": "agung_tft", 
-   "notifications": false, 
-   "url": null, 
-   "created_at": "Wed Sep 24 14:08:43 +0000 2014", 
-   "contributors_enabled": false, 
-   "time_zone": null, 
-   "protected": false, 
-   "default_profile": true, 
-   "is_translator": false
-  }, 
-  "geo": null, 
-  "in_reply_to_user_id_str": null, 
-  "possibly_sensitive": false, 
+  "possibly_sensitive": true, 
   "lang": "in", 
-  "created_at": "Mon Nov 03 11:14:15 +0000 2014", 
+  "created_at": "Mon Nov 03 20:57:34 +0000 2014", 
   "in_reply_to_status_id_str": null, 
   "place": null, 
   "metadata": {
@@ -1751,9 +1803,9 @@
  {
   "contributors": null, 
   "truncated": false, 
-  "text": "RT @chirpstory: .@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOra..\" is being talked about. http://t.co/wq8D\u2026", 
+  "text": "RT @chirpstory: .@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8Dn\u2026", 
   "in_reply_to_status_id": null, 
-  "id": 529213539257704448, 
+  "id": 529365253227036672, 
   "favorite_count": 0, 
   "source": "<a href=\"https://roundteam.co\" rel=\"nofollow\">RoundTeam</a>", 
   "retweeted": false, 
@@ -1803,9 +1855,9 @@
     {
      "indices": [
       87, 
-      96
+      101
      ], 
-     "text": "JogjaOra"
+     "text": "JogjaOraDidol"
     }
    ], 
    "urls": [
@@ -1822,16 +1874,16 @@
   }, 
   "in_reply_to_screen_name": null, 
   "in_reply_to_user_id": null, 
-  "retweet_count": 2, 
-  "id_str": "529213539257704448", 
+  "retweet_count": 6, 
+  "id_str": "529365253227036672", 
   "favorited": false, 
   "retweeted_status": {
    "contributors": null, 
    "truncated": false, 
-   "text": ".@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOra..\" is being talked about. http://t.co/wq8DnmUE8U", 
+   "text": ".@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8DnmUE8U", 
    "in_reply_to_status_id": null, 
-   "id": 529211388913147906, 
-   "favorite_count": 0, 
+   "id": 529364395793473536, 
+   "favorite_count": 1, 
    "source": "<a href=\"http://chirpstory.com/\" rel=\"nofollow\">Chirpstory</a>", 
    "retweeted": false, 
    "coordinates": null, 
@@ -1870,17 +1922,17 @@
      {
       "indices": [
        71, 
-       80
+       85
       ], 
-      "text": "JogjaOra"
+      "text": "JogjaOraDidol"
      }
     ], 
     "urls": [
      {
       "url": "http://t.co/wq8DnmUE8U", 
       "indices": [
-       107, 
-       129
+       106, 
+       128
       ], 
       "expanded_url": "http://chirpstory.com/li/237346", 
       "display_url": "chirpstory.com/li/237346"
@@ -1889,8 +1941,8 @@
    }, 
    "in_reply_to_screen_name": null, 
    "in_reply_to_user_id": null, 
-   "retweet_count": 2, 
-   "id_str": "529211388913147906", 
+   "retweet_count": 6, 
+   "id_str": "529364395793473536", 
    "favorited": false, 
    "user": {
     "follow_request_sent": false, 
@@ -1931,14 +1983,14 @@
       ]
      }
     }, 
-    "followers_count": 59842, 
+    "followers_count": 59900, 
     "profile_sidebar_border_color": "EEEEEE", 
     "id_str": "216317449", 
     "profile_background_color": "ACDED6", 
     "listed_count": 241, 
     "is_translation_enabled": false, 
     "utc_offset": -36000, 
-    "statuses_count": 137805, 
+    "statuses_count": 137872, 
     "description": "The official Twitter account for http://t.co/csD0xiVceY", 
     "friends_count": 69, 
     "location": "", 
@@ -1965,7 +2017,7 @@
    "in_reply_to_user_id_str": null, 
    "possibly_sensitive": false, 
    "lang": "in", 
-   "created_at": "Mon Nov 03 10:00:02 +0000 2014", 
+   "created_at": "Mon Nov 03 20:08:01 +0000 2014", 
    "in_reply_to_status_id_str": null, 
    "place": null, 
    "metadata": {
@@ -1996,7 +2048,7 @@
    "listed_count": 1, 
    "is_translation_enabled": false, 
    "utc_offset": null, 
-   "statuses_count": 17050, 
+   "statuses_count": 17109, 
    "description": "", 
    "friends_count": 7, 
    "location": "", 
@@ -2023,7 +2075,7 @@
   "in_reply_to_user_id_str": null, 
   "possibly_sensitive": false, 
   "lang": "in", 
-  "created_at": "Mon Nov 03 10:08:34 +0000 2014", 
+  "created_at": "Mon Nov 03 20:11:26 +0000 2014", 
   "in_reply_to_status_id_str": null, 
   "place": null, 
   "metadata": {
@@ -2034,10 +2086,10 @@
  {
   "contributors": null, 
   "truncated": false, 
-  "text": ".@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOra..\" is being talked about. http://t.co/wq8DnmUE8U", 
+  "text": ".@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8DnmUE8U", 
   "in_reply_to_status_id": null, 
-  "id": 529211388913147906, 
-  "favorite_count": 0, 
+  "id": 529364395793473536, 
+  "favorite_count": 1, 
   "source": "<a href=\"http://chirpstory.com/\" rel=\"nofollow\">Chirpstory</a>", 
   "retweeted": false, 
   "coordinates": null, 
@@ -2076,17 +2128,17 @@
     {
      "indices": [
       71, 
-      80
+      85
      ], 
-     "text": "JogjaOra"
+     "text": "JogjaOraDidol"
     }
    ], 
    "urls": [
     {
      "url": "http://t.co/wq8DnmUE8U", 
      "indices": [
-      107, 
-      129
+      106, 
+      128
      ], 
      "expanded_url": "http://chirpstory.com/li/237346", 
      "display_url": "chirpstory.com/li/237346"
@@ -2095,8 +2147,8 @@
   }, 
   "in_reply_to_screen_name": null, 
   "in_reply_to_user_id": null, 
-  "retweet_count": 2, 
-  "id_str": "529211388913147906", 
+  "retweet_count": 6, 
+  "id_str": "529364395793473536", 
   "favorited": false, 
   "user": {
    "follow_request_sent": false, 
@@ -2137,14 +2189,14 @@
      ]
     }
    }, 
-   "followers_count": 59842, 
+   "followers_count": 59900, 
    "profile_sidebar_border_color": "EEEEEE", 
    "id_str": "216317449", 
    "profile_background_color": "ACDED6", 
    "listed_count": 241, 
    "is_translation_enabled": false, 
    "utc_offset": -36000, 
-   "statuses_count": 137805, 
+   "statuses_count": 137872, 
    "description": "The official Twitter account for http://t.co/csD0xiVceY", 
    "friends_count": 69, 
    "location": "", 
@@ -2171,7 +2223,7 @@
   "in_reply_to_user_id_str": null, 
   "possibly_sensitive": false, 
   "lang": "in", 
-  "created_at": "Mon Nov 03 10:00:02 +0000 2014", 
+  "created_at": "Mon Nov 03 20:08:01 +0000 2014", 
   "in_reply_to_status_id_str": null, 
   "place": null, 
   "metadata": {
