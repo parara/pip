@@ -13,7 +13,7 @@ con = mdb.connect('localhost','twitapp','tw1t4pp','testdb', use_unicode=True,cha
 
 with con:
   cekid = con.cursor(mdb.cursors.DictCursor)
-  cekid.execute("SELECT Id FROM Lapor")
+  cekid.execute("SELECT id_twit FROM Lapor")
 # read from http://www.tutorialspoint.com/python/python_for_loop.htm
 
 # add kondisi to nilai
@@ -38,11 +38,11 @@ for index in range(len(statuses)):
   screen_name = '@'+statuses[index]['user']['screen_name']
   coordinates = statuses[index]['coordinates']
   created_at = statuses[index]['created_at']
-  if (statuses[index]['id']!=)
+  id_twit = statuses[index]['id']
   #input to sql
   with con:
     cur = con.cursor(mdb.cursors.DictCursor)
-    cur.execute("""INSERT INTO Lapor(Tanggal, Name, Isi, Verifikasi) VALUES (%s,%s,%s,%s) """, (created_at,screen_name,text,kondisi))
+    cur.execute("""INSERT INTO Lapor(id_twit, Tanggal, Name, Isi, Verifikasi) VALUES (%s,%s,%s,%s,%s) """, (id_twit, created_at,screen_name,text,kondisi))
 
   print "sukses"
 

@@ -4,31 +4,29 @@ rows=[{'Isi': u'City Of Yours #3\n#jogja #jogjaasat #instamoment #hope #togua #i
 
 statuses =[{"text": "City Of Yours #3\n#jogja #jogjaasat #instamoment #hope #togua #instamoment #vector http://t.co/FASK2qPqb3"}, {"text": "Tim #SumurAsat Miliran akan bentuk tim mengajak ahli utk persiapan pumping test Fave Hotel #JogjaAsat"}, {"text": "RT @chirpstory: .@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOra..\" is being talked about. http://t.co/wq8D\u2026"}, {"text": "RT @Dandhy_Laksono: Menyimak TL @dodoputrabangsa tentang kompetisi perebutan air tanah antara warga vs hotel #JogjaAsat"}, {"text": "RT @wargaberdaya: \u201c@xcodefilmsjogja: @dodoputrabangsa @wargaberdaya http://t.co/jJ5dc0lhYg\u201d cc @anasir @Dandhy_Laksono @Teguh_es #JogjaAsat\u2026"}, {"text": "RT @omahekendeng: Yg dikota besar berebut air dgn pemilik hotel di #JogjaAsat . Sdgkan yg di desa berebut air dgn tambang #savekendeng http\u2026"}, {"text": "RT @chirpstory: .@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOra..\" is being talked about. http://t.co/wq8D\u2026"}, {"text": ".@killthedj's \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOra..\" is being talked about. http://t.co/wq8DnmUE8U"}]
 
-#print rows
-#print myList
-#print statuses
-#rows = db
-#status = input
-#bandingkan input dgn db
-#input dlu baru db
-
-for status in statuses:
-  print status["text"]
-  if status["text"] in rows:
-    print "ada"
-    #print rows['Isi']
-    #print status['text']
-  else:
-    print "ndak ada"
-  #print status['text']
-  #print rows
- 		# else:
- 		# 	print "ndak sama"
+# for status in statuses:
+#   print status["text"]
+#   if status["text"] in rows:
+#     print "ada"
+#     #print rows['Isi']
+#     #print status['text']
+#   else:
+#     print "ndak ada"
+#   #print status['text']
+#   #print rows
+#  		# else:
+#  		# 	print "ndak sama"
 	
-	#print "status",status["text"]
-  ## 
-myList=[1,2,3,4,5,6] #newstatus
-myFile=[10,5,7,8] #database
+# 	#print "status",status["text"]
+#   ## 
+myList=[{"text": "1"},{"text": "2"},{"text": "3"},{"text": "4"},{"text": "5"},{"text": "6"}] #newstatus
+myNewFile=[{"text": "10"},{"text": "5"},{"text": "7"},{"text": "8"}] #database
+
+for index in range(len(myFile)):
+  if (myList[index]["text"]==myNewFile[index]["text"]):
+    print "ada"
+  else:
+    print "input"
 
 # for n in myFile:
 #   if n in myList:

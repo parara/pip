@@ -8,7 +8,7 @@
 # jika berubah level 2, lakukan twit setelah jam 9 (besoknya)
 
 pyhton mining.py > mining.json
-python save.py
+python insert.py
 #manusia chekin
 python sendmail.py
 python sendtwit.py

@@ -23,7 +23,7 @@ with con:
     CONSUMER_SECRET = row["CONSUMER_SECRET"]
     OAUTH_TOKEN = row["OAUTH_TOKEN"]
     OAUTH_TOKEN_SECRET = row["OAUTH_TOKEN_SECRET"]
-#     q = row["HASTAG"]
+    q = row["HASTAG"]
 
 # CONSUMER_KEY="ZI1PLPq7emJnHWkcyq3tFDeWV"
 # CONSUMER_SECRET="YCqck9ZB6rWGuEG5tCRVoOjHHnDd0Y6iFHSbleq70cDIjqTMHQ"
@@ -35,10 +35,9 @@ auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
 twitter_api = twitter.Twitter(auth=auth)
 
 # since:2010-12-27 
+# q = "@tuanpembual since:2014-11-4 until:2014-11-5"
 # jumlah query
-count = 1000
-
-q = "@tuanpembual since:2014-11-4 until:2014-11-5"
+count = 200
 
 # See https://dev.twitter.com/docs/api/1.1/get/search/tweets
 search_results = twitter_api.search.tweets(q=q, count=count)
@@ -63,4 +62,4 @@ for _ in range(count):
 print json.dumps(statuses[0:count], indent=1)
 
 # run
-# python crawl.py > jmr.json | or name output, whatever
+# python mining.py > mining.json
