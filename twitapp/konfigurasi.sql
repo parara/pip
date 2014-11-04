@@ -16,7 +16,7 @@ CREATE TABLE admin(id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(30), username
 INSERT INTO admin(name, username, password, email) VALUES ('admin','admin','admin','estu@btech.co.id');
 
 ## Create table for result of mining
-CREATE TABLE Lapor(Id INT PRIMARY KEY AUTO_INCREMENT, Tanggal VARCHAR(25), Name VARCHAR(25), Isi VARCHAR (160), Status VARCHAR(15));
+CREATE TABLE Lapor(Id INT PRIMARY KEY AUTO_INCREMENT, Tanggal VARCHAR(50), Name VARCHAR(25), Isi VARCHAR (160), Verifikasi VARCHAR(25));
 
 ## Create table for twitter api;
 CREATE TABLE Twitter(CONSUMER_KEY VARCHAR(50), CONSUMER_SECRET VARCHAR(50), OAUTH_TOKEN VARCHAR(50), OAUTH_TOKEN_SECRET VARCHAR(50), HASTAG VARCHAR(25), app VARCHAR(15));

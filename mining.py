@@ -31,7 +31,7 @@ twitter_api = twitter.Twitter(auth=auth)
 
 # since:2010-12-27 
 # jumlah query
-count = 1000
+count = 10
 
 # See https://dev.twitter.com/docs/api/1.1/get/search/tweets
 search_results = twitter_api.search.tweets(q=q, count=count)

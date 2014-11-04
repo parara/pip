@@ -55,7 +55,7 @@ include('config.php');
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
       <table class="table table-hover sortable">
       <?php
-      $tampil = mysql_query("SELECT * FROM Lapor limit 0,10");
+      $tampil = mysql_query("SELECT * FROM Lapor");
       echo
       "<tr>
             <th>No</th>
@@ -67,10 +67,10 @@ include('config.php');
        while ($row = mysql_fetch_array($tampil)) {
        	echo "<tr>";
        	echo "<td>" . $row['Id'] . "</td>";
-       	echo "<td>" . $row['Date'] . "</td>";
+       	echo "<td>" . $row['Tanggal'] . "</td>";
        	echo "<td>" . $row['Name'] . "</td>";
        	echo "<td>" . $row['Isi'] . "</td>";
-       	echo "<td>" . $row['Status'] . "</td>";
+       	echo "<td>" . $row['Verifikasi'] . "</td>";
        }
 			?>
 			</table>

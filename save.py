@@ -22,23 +22,19 @@ statuses = json.loads(open('mining.json').read())
 # discard retuit, how?  | done
 # add better algoritme?
 for index in range(len(statuses)):
+  text = statuses[index]['text']
+  #if (text[0:2] != 'RT'):
+    # if date duplicate
+  screen_name = '@'+statuses[index]['user']['screen_name']
+  coordinates = statuses[index]['coordinates']
   created_at = statuses[index]['created_at']
+
+  #input to sql
   with con:
     cur = con.cursor(mdb.cursors.DictCursor)
-    cur.execute("SELECT Tanggal FROM Lapor")
+    cur.execute("""INSERT INTO Lapor(Tanggal, Name, Isi, Verifikasi) VALUES (%s,%s,%s,%s) """, (created_at,screen_name,text,kondisi))
 
-    text = statuses[index]['text']
-    if (text[0:2] != 'RT'):
-      # if date duplicate
-      screen_name = '@'+statuses[index]['user']['screen_name']
-      coordinates = statuses[index]['coordinates']
-
-      #input to sql
-      with con:
-        cur = con.cursor(mdb.cursors.DictCursor)
-        cur.execute("""INSERT INTO Lapor(Tanggal, Name, Isi, Status) VALUES (%s,%s,%s,%s) """, (created_at,screen_name,text,kondisi))
-
-      print "sukses"
+  print "sukses"
 
   #else:
   #  print index,"duplicate"
