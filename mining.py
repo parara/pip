@@ -6,6 +6,7 @@
 # All rights reserved. Released under the MIT license.
 
 import twitter
+import datetime
 import json
 import MySQLdb as mdb
 
@@ -25,11 +26,6 @@ with con:
     OAUTH_TOKEN_SECRET = row["OAUTH_TOKEN_SECRET"]
     q = row["HASTAG"]
 
-# CONSUMER_KEY="ZI1PLPq7emJnHWkcyq3tFDeWV"
-# CONSUMER_SECRET="YCqck9ZB6rWGuEG5tCRVoOjHHnDd0Y6iFHSbleq70cDIjqTMHQ"
-# OAUTH_TOKEN="79529075-cnQlwAjcaiHYwYb8gGfe9Sq4W7mvhEwtpljLwstyL"
-# OAUTH_TOKEN_SECRET="QEUUgVjFR568jDXpcuxxyXDe7qouWYkOebQZziYXqGgIJ"
-
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                            CONSUMER_KEY, CONSUMER_SECRET)
 twitter_api = twitter.Twitter(auth=auth)
@@ -39,8 +35,12 @@ twitter_api = twitter.Twitter(auth=auth)
 # jumlah query
 count = 200
 
+hariini = str(datetime.date.today())
+besok = str(datetime.today()+datetime.timedelta(days=1))
+query =q+" since:"+hariini+" until:"+besok
+
 # See https://dev.twitter.com/docs/api/1.1/get/search/tweets
-search_results = twitter_api.search.tweets(q=q, count=count)
+search_results = twitter_api.search.tweets(q=query, count=count)
 statuses = search_results['statuses']
 
 # Iterate through count more batches of results by following the cursor
