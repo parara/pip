@@ -12,26 +12,37 @@ statuses =[{"text": "City Of Yours #3\n#jogja #jogjaasat #instamoment #hope #tog
 #bandingkan input dgn db
 #input dlu baru db
 
-# for status in statuses:
-# 	for row in rows:
-# 		#print "db",row["Isi"]
-# 		if (status["text"]==row["Isi"]):
-# 			print status["text"]
-# 			print "sama"
-# 			print row["Isi"]
-# 		else:
-# 			print "ndak sama"
+for status in statuses:
+  print status["text"]
+  if status["text"] in rows:
+    print "ada"
+    #print rows['Isi']
+    #print status['text']
+  else:
+    print "ndak ada"
+  #print status['text']
+  #print rows
+ 		# else:
+ 		# 	print "ndak sama"
 	
 	#print "status",status["text"]
-
+  ## 
 myList=[1,2,3,4,5,6] #newstatus
 myFile=[10,5,7,8] #database
 
-for index in range(len(myList)):
-	for i in range(len(myFile)):
-		pass
-		if (myList[index]==myFile[i]):
-			pass
-			print myList[index]," sama ",myFile[i]
-		else:
-			print myList[index]," tidak sama ",myFile[i]
+# for n in myFile:
+#   if n in myList:
+#     print "ada",n
+#   else:
+#     print "ndak ada"
+
+    ## jave ascii art 
+
+# for index in range(len(myList)):
+# 	for i in range(len(myFile)):
+# 		pass
+# 		if (myList[index]==myFile[i]):
+# 			pass
+# 			print myList[index]," sama ",myFile[i]
+# 		else:
+# 			print myList[index]," tidak sama ",myFile[i]

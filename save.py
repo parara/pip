@@ -10,6 +10,10 @@ import MySQLdb as mdb
 
 #http://zetcode.com/db/mysqlpython/ & http://stackoverflow.com/questions/18465411/python-mysqldb-insert-with-variables-as-parameters
 con = mdb.connect('localhost','twitapp','tw1t4pp','testdb', use_unicode=True,charset='utf8');
+
+with con:
+  cekid = con.cursor(mdb.cursors.DictCursor)
+  cekid.execute("SELECT Id FROM Lapor")
 # read from http://www.tutorialspoint.com/python/python_for_loop.htm
 
 # add kondisi to nilai
@@ -17,6 +21,12 @@ kondisi ='Belum Verifikasi'
 
 # read json file
 statuses = json.loads(open('mining.json').read())
+
+## tambah id.
+
+#dari id twitter, bandingkan dari id dari db
+#kalo ada skip,
+
 
 # extract from statuses | done
 # discard retuit, how?  | done
@@ -28,7 +38,7 @@ for index in range(len(statuses)):
   screen_name = '@'+statuses[index]['user']['screen_name']
   coordinates = statuses[index]['coordinates']
   created_at = statuses[index]['created_at']
-
+  if (statuses[index]['id']!=)
   #input to sql
   with con:
     cur = con.cursor(mdb.cursors.DictCursor)
@@ -38,5 +48,4 @@ for index in range(len(statuses)):
 
   #else:
   #  print index,"duplicate"
-
 #end
