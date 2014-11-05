@@ -24,7 +24,7 @@ with con:
     CONSUMER_SECRET = row["CONSUMER_SECRET"]
     OAUTH_TOKEN = row["OAUTH_TOKEN"]
     OAUTH_TOKEN_SECRET = row["OAUTH_TOKEN_SECRET"]
-    q = row["HASTAG"]
+    #q = row["HASTAG"]
 
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                            CONSUMER_KEY, CONSUMER_SECRET)
@@ -32,11 +32,12 @@ twitter_api = twitter.Twitter(auth=auth)
 
 # since:2010-12-27 
 # q = "@tuanpembual since:2014-11-4 until:2014-11-5"
+# q="RaboSoto"
 # jumlah query
 count = 200
 
 hariini = str(datetime.date.today())
-besok = str(datetime.today()+datetime.timedelta(days=1))
+besok = str(datetime.date.today()+datetime.timedelta(days=1))
 query =q+" since:"+hariini+" until:"+besok
 
 # See https://dev.twitter.com/docs/api/1.1/get/search/tweets

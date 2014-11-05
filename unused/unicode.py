@@ -20,13 +20,33 @@ statuses =[{"text": "City Of Yours #3\n#jogja #jogjaasat #instamoment #hope #tog
 # 	#print "status",status["text"]
 #   ## 
 myList=[{"text": "1"},{"text": "2"},{"text": "3"},{"text": "4"},{"text": "5"},{"text": "6"}] #newstatus
-myNewFile=[{"text": "10"},{"text": "5"},{"text": "7"},{"text": "8"}] #database
+myFile=[{"text": "10"},{"text": "5"},{"text": "7"},{"text": "8"}] #database
 
-for index in range(len(myFile)):
-  if (myList[index]["text"]==myNewFile[index]["text"]):
-    print "ada"
-  else:
+set1= set(item for d in myList for item in d.items())
+set2= set(item for d in myFile for item in d.items())
+
+#print "setsatu",set1
+#print "setdua",set2
+
+print set1.intersection(set2)
+
+#print {item[0]:item[1] for item in set1 & set2}
+q = len(myFile)
+for index in range(q):
+  for ind_list in range(len(myList)):
+
+    if (myList[ind_list]["text"]==myFile[index]["text"]):
+      print "ada"
+      #print myList[ind_list]["text"],myFile[index]["text"]
+    #else:
     print "input"
+    print myList[ind_list]["text"],myFile[index]["text"]
+
+# for index in range(len(myFile)):
+#   if (myList[index]["text"]==myFile):
+#     print "ada"
+#   else:
+#     print "input"
 
 # for n in myFile:
 #   if n in myList:
