@@ -1,4 +1,7 @@
 <?php
+include('lock.php');
+include('config.php');
+
 switch($_GET['id']) {
   
   case "home";
