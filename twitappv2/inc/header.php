@@ -22,8 +22,8 @@
       <li><a href="index.php?id=pengaduan">Pengaduan</a></li>
       <li><a href="index.php?id=langganan">Langganan</a></li>
       <li><a href="index.php?id=pengaturan">Pengaturan</a></li>
-      <li><a href="index.php?id=akun">Akun</a></li>
-      <li><a href="inc/logout.php">Sign Out</a></li>
+      <li><a href="index.php?id=akun" role="tab" data-toggle="tab">Akun</a></li>
+      <li><a href="logout.php">Sign Out</a></li>
     </ul>
   </div>
 <body>

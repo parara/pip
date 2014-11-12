@@ -21,7 +21,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 	// If result matched $myusername and $mypassword, table row must be 1 row
 	if($count==1) {
 		$_SESSION['login_user']=$myusername;
-		header('location:../index.php?id=home');
+		header('location:index.php?id=home');
     exit();
     ## set last login
 	}
@@ -35,12 +35,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Administrator Login Form</title>
-<link type="text/css" rel="stylesheet" href="../css/style.css">
+<link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div id="stylized">
 	<div class="loginform">
-    <div class="logo"><img src="../img/logo2.png" height="80" width="80"><br><br><br>
+    <div class="logo"><img src="img/logo2.png" height="80" width="80"><br><br><br>
     <p><b>Badan Pelayanan Perizinan Terpadu dan Penanaman Modal</b><br><font size="2">KOTA BOGOR</font></p>
     </div>
     <form action="" method="post">
