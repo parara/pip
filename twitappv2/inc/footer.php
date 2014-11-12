@@ -1,3 +1,4 @@
+</body>
 <footer class="bs-docs-footer" role="contentinfo">
   <div class="container">
     <p>Dev by <a href="http://twitter.com/tuanpembual" target="_blank">@tuanpembual</a>.</p>
@@ -5,3 +6,4 @@
     <p>&copy; 2014, Boer Technology</p>
   </div>
 </footer>
+</html>
