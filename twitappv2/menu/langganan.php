@@ -1,13 +1,12 @@
 <?php
-  include('inc/lock.php');
-  include('inc/config.php');
   include('inc/header.php');
 ?>
+
 <div class="container">
-  <h2>Laporan Hasil Crawling</h2>
+  <h2>Laporan yang Telah Diverifikasi</h2>
     <table class="table table-hover sortable">
     <?php
-    $tampil = mysql_query("SELECT * FROM Lapor WHERE Verifikasi='Belum Verifikasi'");
+    $tampil = mysql_query("SELECT * FROM Lapor WHERE Verifikasi='Verifikasi'");
     echo
     "<tr>
           <th>No</th>
