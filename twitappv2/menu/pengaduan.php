@@ -5,7 +5,8 @@
   <h2>Laporan Hasil Crawling</h2>
     <table class="table table-hover sortable">
     <?php
-    $tampil = mysql_query("SELECT * FROM Lapor WHERE Verifikasi='Belum Verifikasi'");
+    $hastag = mysql_query("SELECT HASTAG FROM Twitter")
+    $tampil = mysql_query("SELECT * FROM Lapor WHERE Verifikasi='Belum Verifikasi' AND HASTAG=$hastag");
     echo
     "<tr>
           <th>No</th>

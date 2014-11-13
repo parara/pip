@@ -8,8 +8,16 @@
 # jika berubah level 2, lakukan twit setelah jam 9 (besoknya)
 
 pyhton mining.py > mining.json #use move old twit
-
-python insert.py
+python save.py #populate twit by 
+#python insert.py
 #manusia chekin
 #python sendmail.py
 #python sendtwit.py
+- list todo
+* user manajemen,
+add user, email,
+change user, password
+----- done -----
+
+* editable table
+-- delete
