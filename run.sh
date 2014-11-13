@@ -7,8 +7,9 @@
 # jika ada query dengan status verifiaksi (level 1) jam 5 sore
 # jika berubah level 2, lakukan twit setelah jam 9 (besoknya)
 
-pyhton mining.py > mining.json
+pyhton mining.py > mining.json #use move old twit
+
 python insert.py
 #manusia chekin
-python sendmail.py
-python sendtwit.py
+#python sendmail.py
+#python sendtwit.py

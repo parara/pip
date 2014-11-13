@@ -7,6 +7,9 @@
 
 import json
 import MySQLdb as mdb
+import datetime
+import os
+import shutil
 
 #http://zetcode.com/db/mysqlpython/ & http://stackoverflow.com/questions/18465411/python-mysqldb-insert-with-variables-as-parameters
 con = mdb.connect('localhost','twitapp','tw1t4pp','testdb', use_unicode=True,charset='utf8');
@@ -45,7 +48,9 @@ for index in range(len(statuses)):
     cur.execute("""INSERT INTO Lapor(id_twit, Tanggal, Name, Isi, Verifikasi) VALUES (%s,%s,%s,%s,%s) """, (id_twit, created_at,screen_name,text,kondisi))
 
   print "sukses"
-
-  #else:
-  #  print index,"duplicate"
 #end
+# rename file and store in deference folder
+dt = str(datetime.date.today())
+newname = 'file_'+dt+'.json'
+os.rename('mining.json', newname)
+shutil.move(newname, 'db_json/'+newname)

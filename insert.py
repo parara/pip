@@ -1,39 +1,57 @@
 #!/usr/bin/env python
-#
-# Crawling Twitter
-#
-# Copyright (c) 2014, Estu Fardani <estu@di.blankon.in>
-# All rights reserved. Released under the MIT license.
-# http://zetcode.com/db/mysqlpython/
-# http://stackoverflow.com/questions/18465411/python-mysqldb-insert-with-variables-as-parameters
-# http://www.tutorialspoint.com/python/python_for_loop.htm
-## query anti duplikate
 
+# import module
 import json
 import MySQLdb as mdb
 
-# add kondisi to nilai
-kondisi ='Belum Verifikasi'
-con = mdb.connect('localhost','twitapp','tw1t4pp','testdb', use_unicode=True,charset='utf8');
+kondisi = 'Belum terverifikasi'
 
-# read json file
-statuses = json.loads(open('mining.json').read())
-with con:
-  cur = con.cursor(mdb.cursors.DictCursor)
-  cur.execute("SELECT id_twit FROM Lapor")
-  rows = cur.fetchall()
+# masukkan data file ke variabel
+open_file = open('mining.json','r').read()
 
-for index in range(len(rows)):
-  if (statuses[index]["id"]==rows[index]["id_twit"]):
-    print "ada"
+# load data ke array
+data = json.loads(open_file)
+
+# iterasi data array
+for tweet in data:
+  # buka koneksi ke database
+  db = mdb.connect('localhost','twitapp','tw1t4pp','testdb', use_unicode=True,charset='utf8')
+  cursor = db.cursor(mdb.cursors.DictCursor)
+
+  # inisialisasi
+  text = tweet['text']
+  tweet_id = tweet['id']
+  screen_name = tweet['user']['screen_name']
+  created_at = tweet['created_at']
+
+  # query untuk cek ke database apakah twit tersebut ada atau tidak
+  sql_select = '''SELECT 
+                    id_twit 
+                  FROM 
+                    Lapor 
+                  WHERE id_twit=%s'''
+  cursor.execute(sql_select, (tweet_id,))
+  check_tweet = cursor.fetchone()
+
+  # kalau tidak ada, insert data ke database
+  if not check_tweet:
+    insert_data = '''INSERT INTO 
+                        Lapor (id_twit, 
+                               Tanggal, 
+                               Name, 
+                               Isi, 
+                               Verifikasi)
+                     VALUES (%s, %s, %s, %s, %s)'''
+    cursor.execute(insert_data, (tweet_id,
+                                 created_at,
+                                 screen_name,
+                                 text,
+                                 kondisi,))
+    # commit data ke database
+    db.commit()
+    print 'insert sukses'
   else:
-    print "input"
-    screen_name = '@'+statuses[index]['user']['screen_name']
-    coordinates = statuses[index]['coordinates']
-    created_at = statuses[index]['created_at']
-    id_twit = statuses[index]['id']
-    text = statuses[index]['text']
-    with con:
-      cekinput = con.cursor(mdb.cursors.DictCursor)
-      cekinput.execute("""INSERT INTO Lapor(id_twit, Tanggal, Name, Isi, Verifikasi) VALUES (%s,%s,%s,%s,%s) """, (id_twit, created_at,screen_name,text,kondisi))
-    print "sukses"
+    print 'sudah ada datanya, tidak dimasukkan'
+
+  # tutup koneksi database
+  db.close()

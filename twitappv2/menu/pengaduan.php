@@ -1,6 +1,4 @@
 <?php
-  include('inc/lock.php');
-  include('inc/config.php');
   include('inc/header.php');
 ?>
 <div class="container">
