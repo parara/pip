@@ -27,3 +27,8 @@ switch($_GET['id']) {
 
 }  
 ?>
+<html>
+<body>
+  sni
+</body>
+</html>
