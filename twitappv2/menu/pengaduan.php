@@ -1,38 +1,40 @@
 <?php
-  include('inc/header.php');
+include("config.php");
+include("inc/header.php")
 ?>
-<div class="container">
-  <h2>Laporan Hasil Crawling</h2>
-    <table class="table table-hover sortable">
-    <?php
-    /*$cari = mysql_query("SELECT HASTAG FROM Twitter");
-    while ($kata = mysql_fetch_array($cari)) {
-      $hastag = $kata['HASTAG'];
-    }
-    echo $hastag;*/
-    $tampil = mysql_query("SELECT * FROM Lapor WHERE Verifikasi='Belum Verifikasi'");
-    $i=0;
-    echo
-    "<tr>
-          <th>No</th>
-          <th>Tanggal</th>
-          <th>Username</th>
-          <th>Isi Laporan</th>
-          <th>Status</th>
-      </tr>";
-    while ($row = mysql_fetch_array($tampil)) {
-      if($i%2==0) $class = 'even'; else $class = 'odd';
-      echo'<tr class="'.$class.'">
-            <td>'.$row['Id'].'</td>
-            <td>'.$row['Tanggal'].'</td>
-            <td>'.$row['Name'].'</td>
-            <td>'.$row['Isi'].'</td>
-            <td><span class= "xedit" id="'.$row['Id'].'">'.$row['Verifikasi'].'</span></td>
-        </tr>';             
-     }
-    ?>
-    </table>
-</div>
+<div class="container">    
+  <h2>Laporan yang Telah Diverifikasi</h2>
+  <table class= "table table-hover sortable">
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Tanggal</th>
+        <th>Username</th>
+        <th>Isi Laporan</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <?php
+        $query = mysql_query("select * from Lapor");
+        $i=0;
+        while($fetch = mysql_fetch_array($query))
+        {
+        if($i%2==0) $class = 'even'; else $class = 'odd';
+        echo'<tr class="'.$class.'">
+              <td>'.$fetch['Id'].'</td>
+              <td>'.$fetch['Tanggal'].'</td>
+              <td>'.$fetch['Name'].'</td>
+              <td>'.$fetch['Isi'].'</td>
+              <td><span class= "xedit" id="'.$fetch['Id'].'">'.$fetch['Verifikasi'].'</span></td>
+          </tr>';             
+        }
+        ?>
+    </tbody>
+  </table>
+  <script src="lib/jquery-1.11.0.js"></script> 
+  <script src="lib/bootstrap.js"></script>
+  <script src="lib/bootstrap-editable.js" type="text/javascript"></script> 
   <script type="text/javascript">
   jQuery(document).ready(function() {  
           $.fn.editable.defaults.mode = 'popup';
@@ -42,7 +44,7 @@
         var y = $('.input-sm').val();
         var z = $(this).closest('td').children('span');
         $.ajax({
-          url: "process.php?id="+x+"&data="+y,
+          url: "menu/process.php?id="+x+"&data="+y,
           type: 'GET',
           success: function(s){
             if(s == 'status'){
@@ -58,6 +60,12 @@
   });
   </script>
 
-<?php
-include('inc/footer.php');
-?>
+</body>
+<footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+    <p>Dev by <a href="http://twitter.com/tuanpembual" target="_blank">@tuanpembual</a>.</p>
+    <p>Lisensi kode sumber dibawah <a href="https://github.com/tuanpembual/pip/blob/master/LICENSE" target="_blank">MIT</a>
+    <p>&copy; 2014, Boer Technology</p>
+  </div>
+</footer>
+</html>

@@ -11,7 +11,6 @@
 <link href="css/xeditable.css" rel="stylesheet">
 <link href="css/table.css" rel="stylesheet">
 <link href="css/justified-nav.css" rel="stylesheet">
-</div>
 </head>
 
 <div class="container">

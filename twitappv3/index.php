@@ -18,22 +18,26 @@ include("connect.php");
   <table class= "table table-striped table-bordered table-hover">
     <thead>
       <tr>
-        <th colspan="1" rowspan="1" style="width: 180px;" tabindex="0">Name</th>
-        <th colspan="1" rowspan="1" style="width: 220px;" tabindex="0">Description</th>
-        <th colspan="1" rowspan="1" style="width: 288px;" tabindex="0">Status</th>
+        <th>No</th>
+        <th>Tanggal</th>
+        <th>Username</th>
+        <th>Isi Laporan</th>
+        <th>Status</th>
       </tr>
     </thead>
     <tbody>
       <?php
-        $query = mysql_query("select * from information");
+        $query = mysql_query("select * from Lapor");
         $i=0;
         while($fetch = mysql_fetch_array($query))
         {
         if($i%2==0) $class = 'even'; else $class = 'odd';
         echo'<tr class="'.$class.'">
-              <td><span class= "xedit" id="'.$fetch['id'].'">'.$fetch['name'].'</span></td>
-              <td>'.$fetch['details'].'</td>
-              <td>'.$fetch['status'].'</td>
+              <td>'.$fetch['Id'].'</td>
+              <td>'.$fetch['Tanggal'].'</td>
+              <td>'.$fetch['Name'].'</td>
+              <td>'.$fetch['Isi'].'</td>
+              <td><span class= "xedit" id="'.$fetch['Id'].'">'.$fetch['Verifikasi'].'</span></td>
           </tr>';							
         }
         ?>

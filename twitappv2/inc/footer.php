@@ -5,7 +5,6 @@
   <script src="lib/bootstrap.js"></script>
   <script src="lib/docs.min.js"></script>
   <script src="lib/sorttable.js"></script>
-  <script src="lib/bootstrap-editable.js" type="text/javascript"></script> 
 </body>
 <footer class="bs-docs-footer" role="contentinfo">
   <div class="container">

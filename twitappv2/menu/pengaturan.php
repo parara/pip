@@ -4,11 +4,6 @@
 
 <div class="container">
 <h2>Pengaturan Twitter</h2>
-    kode id, hastag
-    bikin form,
-    isi form query, klo udh pake metode insert,
-    butuh validasi isi
-
     <ul class="nav nav-tabs" role="tablist">
       <li role="presentation"><a href="#twitter" role="tab" data-toggle="tab">Twitter</a></li>
       <li role="presentation"><a href="#email" role="tab" data-toggle="tab">Surel</a></li>
