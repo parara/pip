@@ -1,8 +1,6 @@
 <?php
   include('inc/header.php');
 ?>
-
-<div class="container">
 <h2>Pengaturan Twitter</h2>
     <ul class="nav nav-tabs" role="tablist">
       <li role="presentation"><a href="#twitter" role="tab" data-toggle="tab">Twitter</a></li>

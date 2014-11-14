@@ -1,8 +1,6 @@
 <?php
   include('inc/header.php');
 ?>
-
-<div class="container">
   <h2>Laporan yang Telah Diverifikasi</h2>
     <table class="table table-hover sortable">
     <?php

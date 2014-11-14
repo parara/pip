@@ -1,16 +1,15 @@
 <?php
 include("config.php");
 include("inc/header.php")
-?>
-<div class="container">    
-  <h2>Laporan yang Telah Diverifikasi</h2>
+?> 
+<h2>Laporan yang Telah Diverifikasi</h2>
   <table class= "table table-hover sortable">
     <thead>
       <tr>
         <th>No</th>
         <th>Tanggal</th>
         <th>Username</th>
-        <th>Isi Laporan</th>
+        <th >Isi Laporan</th>
         <th>Status</th>
       </tr>
     </thead>
@@ -32,6 +31,7 @@ include("inc/header.php")
         ?>
     </tbody>
   </table>
+</div>
   <script src="lib/jquery-1.11.0.js"></script> 
   <script src="lib/bootstrap.js"></script>
   <script src="lib/bootstrap-editable.js" type="text/javascript"></script> 
