@@ -19,5 +19,7 @@ add user, email,
 change user, password
 ----- done -----
 
-* editable table
+* editable table | v
 -- delete
+
+* Add menu, edit from sisapp

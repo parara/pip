@@ -1,4 +1,5 @@
 <?php
+echo "sni";
 include('lock.php');
 include('config.php');
 
