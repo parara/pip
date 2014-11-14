@@ -15,7 +15,7 @@ include("inc/header.php")
     </thead>
     <tbody>
       <?php
-        $query = mysql_query("select * from Lapor");
+        $query = mysql_query("SELECT * FROM Lapor WHERE Verifikasi='Belum Verifikasi'");
         $i=0;
         while($fetch = mysql_fetch_array($query))
         {

@@ -20,9 +20,9 @@ switch($_GET['id']) {
   include('menu/pengaturan.php');
   break;
 
-  case "akun":
+  /*case "akun":
   include('menu/akun.php');
-  break;
+  break;*/
 
 }  
 ?>
