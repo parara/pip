@@ -5,8 +5,11 @@
   <h2>Laporan Hasil Crawling</h2>
     <table class="table table-hover sortable">
     <?php
-    $hastag = mysql_query("SELECT HASTAG FROM Twitter")
-    $tampil = mysql_query("SELECT * FROM Lapor WHERE Verifikasi='Belum Verifikasi' AND HASTAG=$hastag");
+    /*while ($kata = mysql_fetch_array(mysql_query("SELECT HASTAG FROM Twitter"))) {
+      $hastag = $kata['HASTAG'];
+    }
+    echo $hastag;
+  */  $tampil = mysql_query("SELECT * FROM Lapor WHERE Verifikasi='Belum Verifikasi'# AND HASTAG=$hastag");
     echo
     "<tr>
           <th>No</th>
