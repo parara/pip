@@ -11,3 +11,11 @@ Cek tanggal created twit, jika beda, inset ke database (dan ditampilkan) dengan 
 Manusia melakukan pengecekan jam 8 pagi hingga 4 sore,
 jika ada query dengan status verifiaksi (level 1) jam 5 sore
 jika berubah level 2, lakukan twit setelah jam 9 (besoknya)
+
+# list todo
+* user manajemen,
+add user, email,
+* change user, password
+* editable table | v
+* delete
+* Add menu, edit from sisapp

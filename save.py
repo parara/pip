@@ -12,24 +12,14 @@ import os
 import shutil
 
 #http://zetcode.com/db/mysqlpython/ & http://stackoverflow.com/questions/18465411/python-mysqldb-insert-with-variables-as-parameters
-con = mdb.connect('localhost','twitapp','tw1t4pp','testdb', use_unicode=True,charset='utf8');
-
-with con:
-  cekid = con.cursor(mdb.cursors.DictCursor)
-  cekid.execute("SELECT id_twit FROM Lapor")
 # read from http://www.tutorialspoint.com/python/python_for_loop.htm
+con = mdb.connect('localhost','twitapp','tw1t4pp','testdb', use_unicode=True,charset='utf8');
 
 # add kondisi to nilai
 kondisi ='Belum Verifikasi'
 
 # read json file
 statuses = json.loads(open('mining.json').read())
-
-## tambah id.
-
-#dari id twitter, bandingkan dari id dari db
-#kalo ada skip,
-
 
 # extract from statuses | done
 # discard retuit, how?  | done
