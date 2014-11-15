@@ -26,18 +26,18 @@ statuses = json.loads(open('mining.json').read())
 # add better algoritme?
 for index in range(len(statuses)):
   text = statuses[index]['text']
-  #if (text[0:2] != 'RT'):
+  if (text[0:2] != 'RT'):
     # if date duplicate
-  screen_name = '@'+statuses[index]['user']['screen_name']
-  coordinates = statuses[index]['coordinates']
-  created_at = statuses[index]['created_at']
-  id_twit = statuses[index]['id']
-  #input to sql
-  with con:
-    cur = con.cursor(mdb.cursors.DictCursor)
-    cur.execute("""INSERT INTO Lapor(id_twit, Tanggal, Name, Isi, Verifikasi) VALUES (%s,%s,%s,%s,%s) """, (id_twit, created_at,screen_name,text,kondisi))
+      screen_name = '@'+statuses[index]['user']['screen_name']
+      coordinates = statuses[index]['coordinates']
+      created_at = statuses[index]['created_at']
+      id_twit = statuses[index]['id']
+      #input to sql
+      with con:
+        cur = con.cursor(mdb.cursors.DictCursor)
+        cur.execute("""INSERT INTO Lapor(id_twit, Tanggal, Name, Isi, Verifikasi) VALUES (%s,%s,%s,%s,%s) """, (id_twit, created_at,screen_name,text,kondisi))
 
-  print "sukses"
+      print "sukses"
 #end
 # rename file and store in deference folder
 dt = str(datetime.date.today())
