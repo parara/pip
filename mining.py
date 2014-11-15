@@ -24,7 +24,7 @@ with con:
     CONSUMER_SECRET = row["CONSUMER_SECRET"]
     OAUTH_TOKEN = row["OAUTH_TOKEN"]
     OAUTH_TOKEN_SECRET = row["OAUTH_TOKEN_SECRET"]
-    #q = row["HASTAG"]
+    q = row["HASTAG"]
 
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                            CONSUMER_KEY, CONSUMER_SECRET)
