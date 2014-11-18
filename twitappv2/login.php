@@ -49,9 +49,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
           <li><h2>Username</h2>&nbsp;<input name="username" id="username" type="text"></li>
           <li><h2>Password</h2>&nbsp;<input name="password" id="password" type="password"></li>
           <li><button type="submit">Log In</button></li>
+
       </ul>
 			</div>
 		</form>
+
   </div>
   <p style="margin-bottom: 10px;margin-left: 40px;"><span style="color: red;font-style: italic;"></span></p>
   <div class="footer">

@@ -1,10 +1,10 @@
 <?php
 include ("utama/header.php");
 ?>
-<h2>Laporan yang Telah Diverifikasi</h2>
+<h2>Laporan Verifikasi</h2>
     <table class="table table-hover sortable">
     <?php
-    $tampil = mysql_query("SELECT * FROM Lapor WHERE Verifikasi='Verifikasi'");
+    $tampil = mysql_query("SELECT * FROM Lapor");
     echo
     "<tr>
           <th>No</th>
