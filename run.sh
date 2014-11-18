@@ -1,4 +1,4 @@
 #!/bin/bash
 
-python mining.py > mining.json #use move old twit
-python save.py
+python /home/nona/pip/mining.py > /home/nona/pip/mining.json #use move old twit
+python /home/nona/pip/save.py
