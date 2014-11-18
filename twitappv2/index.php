@@ -1,28 +1,35 @@
 <?php
-include('lock.php');
-include('config.php');
+include "inc/config.php";
 
-switch($_GET['id']) {
-  
-  case "home";
-  include('menu/home.php');
-  break;
+$mod = $_GET['mod'];  
+  switch($mod){
+    case "home" :
+    $view = "utama/home.php";
+    break;
+    case "daftar" :
+    $view = "utama/daftar.php";
+    break;
+    
+    case "user" :
+    $view = "adm/home.php";
+    break;
+    case "pengaturan" :
+    $view = "adm/pengaturan.php";
+    break;
+    case "langganan" :
+    $view = "adm/langganan.php";
+    break;
+    case "pengaduan" :
+    $view = "adm/pengaduan.php";
+    break;
+    case "tentang" :
+    $view = "utama/tentang.php";
+    break;
+}
+    include $view;
 
-  case "langganan":
-  include('menu/langganan.php');
-  break;
-
-  case "pengaduan":
-  include('menu/pengaduan.php');
-  break;
-
-  case "pengaturan":
-  include('menu/pengaturan.php');
-  break;
-
-  /*case "akun":
-  include('menu/akun.php');
-  break;*/
-
-}  
+if(empty($_GET['mod'])){
+  header("location:?mod=home");
+}
+include ("utama/footer.php");
 ?>

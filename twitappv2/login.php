@@ -1,6 +1,6 @@
 <?php
 
-include('config.php');
+include('inc/config.php');
 session_start();
 
 if($_SERVER["REQUEST_METHOD"] == "POST")
@@ -21,7 +21,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 	// If result matched $myusername and $mypassword, table row must be 1 row
 	if($count==1) {
 		$_SESSION['login_user']=$myusername;
-		header('location:index.php?id=home');
+		header('location:index.php?mod=pengaturan');
     exit();
     ## set last login
 	}

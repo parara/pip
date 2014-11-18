@@ -1,5 +1,5 @@
 <?php
-  include('inc/header.php');
+  include('utama/header_private.php');
 ?>
   <h2>Laporan yang Telah Diverifikasi</h2>
     <table class="table table-hover sortable">
@@ -24,7 +24,3 @@
     ?>
     </table>
 </div>
-
-<?php
-include('inc/footer.php');
-?>

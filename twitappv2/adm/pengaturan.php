@@ -1,5 +1,5 @@
 <?php
-  include('inc/header.php');
+include ("utama/header_private.php");
 ?>
 <h2>Pengaturan Twitter</h2>
     <ul class="nav nav-tabs" role="tablist">
@@ -16,7 +16,7 @@
         <?php 
           // save
           // how if it no clue
-          include('config.php');
+          //include('inc/config.php');
           if($_SERVER["REQUEST_METHOD"] == "POST") {
             $CONSUMER_KEY=addslashes($_POST['KunciPelanggan']);
             $CONSUMER_SECRET= addslashes($_POST['KodeRahasiaPelanggan']);
@@ -94,7 +94,3 @@
       </div>
     </div>
 </div>
-
-<?php
-include('inc/footer.php');
-?>

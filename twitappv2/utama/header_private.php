@@ -17,11 +17,11 @@
   <div class="masthead">
     <h4 class="text-muted">Badan Pelayanan Perizinan Terpadu dan Penanaman Modal Kota Bogor</h4>
     <ul class="nav nav-justified nav-tabs" role="tablist">
-      <li><a href="index.php?id=home">Home</a></li>
-      <li><a href="index.php?id=pengaduan">Pengaduan</a></li>
-      <li><a href="index.php?id=langganan">Langganan</a></li>
-      <li><a href="index.php?id=pengaturan">Pengaturan</a></li>
-      <li><a href="index.php?id=akun">Akun</a></li>
+      <li><a href="index.php?mod=user">Home</a></li>
+      <li><a href="index.php?mod=langganan">Laporan Verifikasi</a></li>
+      <li><a href="index.php?mod=pengaduan">Laporan Masuk</a></li>
+      <li><a href="index.php?mod=pengaturan">Pengaturan</a></li>
+      <!-- <li><a href="index.php?id=akun">Akun</a></li> -->
       <li><a href="logout.php">Sign Out</a></li>
     </ul>
   </div>
