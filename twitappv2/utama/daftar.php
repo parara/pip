@@ -4,7 +4,7 @@ include ("utama/header.php");
 <h2>Laporan Verifikasi</h2>
     <table class="table table-hover sortable">
     <?php
-    $tampil = mysql_query("SELECT * FROM Lapor");
+    $tampil = mysql_query("SELECT * FROM lapor");
     echo
     "<tr>
           <th>No</th>
@@ -14,12 +14,24 @@ include ("utama/header.php");
           <th>Status</th>
       </tr>";
      while ($row = mysql_fetch_array($tampil)) {
+      while ($row = mysql_fetch_array($tampil)) {
       echo "<tr>";
-      echo "<td>" . $row['Id'] . "</td>";
-      echo "<td>" . $row['Tanggal'] . "</td>";
-      echo "<td>" . $row['Name'] . "</td>";
-      echo "<td>" . $row['Isi'] . "</td>";
-      echo "<td>" . $row['Verifikasi'] . "</td>";
+      if($row['id_progres']=='1') {
+        $status = "Verifikasi";
+      }else if ($row['id_progres']=='2') {
+        $status = "Pengecekan Lapangan";
+      }else if ($row['id_progres']=='3') {
+        $status = "Pembahasan";
+      }else if ($row['id_progres']=='4') {
+        $status = "Jawaban";
+      }else {
+        $status = "Belum Verifikasi";}
+      echo "<tr>";
+      echo "<td>" . $row['id'] . "</td>";
+      echo "<td>" . $row['tanggal'] . "</td>";
+      echo "<td>" . $row['name'] . "</td>";
+      echo "<td>" . $row['isi'] . "</td>";
+      echo "<td>" . $status . "</td>";
      }
     ?>
     </table>
