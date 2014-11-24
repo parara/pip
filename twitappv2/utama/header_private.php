@@ -6,11 +6,7 @@
 
 <link href="css/bootstrap-theme.css" rel="stylesheet">
 <link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/carousel.css" rel="stylesheet">
 <link href="css/docs.min.css" rel="stylesheet">
-<link href="css/xeditable.css" rel="stylesheet">
-<link href="css/table.css" rel="stylesheet">
-<link href="css/justified-nav.css" rel="stylesheet">
 </head>
 
 <div class="container">

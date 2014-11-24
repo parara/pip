@@ -24,3 +24,6 @@ include ("utama/header.php");
     ?>
     </table>
 </div>
+<?php
+include ("utama/footer.php");
+?>

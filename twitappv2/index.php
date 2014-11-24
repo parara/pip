@@ -32,5 +32,4 @@ $mod = $_GET['mod'];
 if(empty($_GET['mod'])){
   header("location:?mod=home");
 }
-include ("utama/footer.php");
 ?>

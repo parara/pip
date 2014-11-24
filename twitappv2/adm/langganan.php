@@ -15,12 +15,26 @@
       </tr>";
      while ($row = mysql_fetch_array($tampil)) {
       echo "<tr>";
+      if($row['id_progres']=='1') {
+        $status = "Verifikasi";
+      }else if ($row['id_progres']=='2') {
+        $status = "Pengecekan Lapangan";
+      }else if ($row['id_progres']=='3') {
+        $status = "Pembahasan";
+      }else if ($row['id_progres']=='4') {
+        $status = "Jawaban";
+      }else {
+        $status = "Belum Verifikasi";}
+      echo "<tr>";
       echo "<td>" . $row['id'] . "</td>";
       echo "<td>" . $row['tanggal'] . "</td>";
       echo "<td>" . $row['name'] . "</td>";
       echo "<td>" . $row['isi'] . "</td>";
-      echo "<td>" . $row['id_progres'] . "</td>";
+      echo "<td>" . $status . "</td>";
      }
     ?>
     </table>
 </div>
+<?php
+  include ("utama/footer.php");
+?>

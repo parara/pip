@@ -12,4 +12,6 @@ include ("utama/header.php");
   Line: bpptpmkotabogor
   email: bpptpm@kotabogor.go.id</pre> 
 </div>
-
+<?php
+include ("utama/footer.php");
+?>

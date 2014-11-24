@@ -94,3 +94,6 @@ include ("utama/header_private.php");
       </div>
     </div>
 </div>
+<?php
+include ("utama/footer.php");
+?>

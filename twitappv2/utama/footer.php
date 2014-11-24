@@ -4,7 +4,6 @@
   <script src="lib/jquery-1.11.0.js"></script>
   <script src="lib/bootstrap.js"></script>
   <script src="lib/docs.min.js"></script>
-  <script src="lib/sorttable.js"></script>
 </body>
 <footer class="bs-docs-footer" role="contentinfo">
   <div class="container">
