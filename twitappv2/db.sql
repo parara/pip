@@ -47,3 +47,4 @@ CREATE TABLE `twitter` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `twitter` VALUES ('ZI1PLPq7emJnHWkcyq3tFDeWV','YCqck9ZB6rWGuEG5tCRVoOjHHnDd0Y6iFHSbleq70cDIjqTMHQ','79529075-cnQlwAjcaiHYwYb8gGfe9Sq4W7mvhEwtpljLwstyL','QEUUgVjFR568jDXpcuxxyXDe7qouWYkOebQZziYXqGgIJ','#JogjaAsat','twitter');
+

@@ -35,7 +35,7 @@ for index in range(len(statuses)):
       #input to sql
       with con:
         cur = con.cursor(mdb.cursors.DictCursor)
-        cur.execute("""INSERT INTO Lapor(id_twit, Tanggal, Name, Isi, Verifikasi) VALUES (%s,%s,%s,%s,%s) """, (id_twit, created_at,screen_name,text,kondisi))
+        cur.execute("""INSERT INTO lapor(id_twit, tanggal, name, isi, id_progres) VALUES (%s,%s,%s,%s,%s) """, (id_twit, created_at,screen_name,text,kondisi))
 
       print "sukses"
 #end

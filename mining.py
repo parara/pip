@@ -15,7 +15,7 @@ con = mdb.connect('localhost','twitapp','tw1t4pp','testdb', use_unicode=True,cha
 with con:
 
   cur = con.cursor(mdb.cursors.DictCursor)
-  cur.execute("SELECT * FROM Twitter")
+  cur.execute("SELECT * FROM twitter")
 
   rows = cur.fetchall()
   for row in rows:
