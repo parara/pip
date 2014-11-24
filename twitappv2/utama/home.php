@@ -1,8 +1,15 @@
 <?php
 include ("utama/header.php");
 ?>
-<h2>Ini disi apa</h2>
+<h2>Layanan Pengaduan BPPTPM</h2>
   <p class="text-danger">Menu Pengaduan</p>
-  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p> 
+  <pre>
+  Pengaduan Online bisa dilayangkan melalui beberapa tautan berikut:
+  Facebook: bpptpm Kota Bogor
+  Twitter: @BPPTPMKotaBogor dengan hastag #Pengaduan
+  BBM: 7958F3F3
+  SMS/WhatsApp: +62 877 703 20885
+  Line: bpptpmkotabogor
+  email: bpptpm@kotabogor.go.id</pre> 
 </div>
 

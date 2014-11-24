@@ -22,6 +22,7 @@ $mod = $_GET['mod'];
     case "pengaduan" :
     $view = "adm/pengaduan.php";
     break;
+    
     case "tentang" :
     $view = "utama/tentang.php";
     break;

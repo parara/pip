@@ -15,7 +15,7 @@
 
 <div class="container">
   <div class="masthead">
-    <h4 class="text-muted">Badan Pelayanan Perizinan Terpadu dan Penanaman Modal Kota Bogor</h4>
+    <h4>Badan Pelayanan Perizinan Terpadu dan Penanaman Modal Kota Bogor</h4>
     <div class="navbar navbar-default">
       <ul class="nav navbar-nav">
         <li><a href="?mod=home">Home</a></li>

@@ -16,7 +16,7 @@ import shutil
 con = mdb.connect('localhost','twitapp','tw1t4pp','testdb', use_unicode=True,charset='utf8');
 
 # add kondisi to nilai
-kondisi ='Belum Verifikasi'
+kondisi ='0'
 
 # read json file
 statuses = json.loads(open('mining.json').read())
