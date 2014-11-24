@@ -4,7 +4,7 @@
   <h2>Laporan Verifikasi</h2>
     <table class="table table-hover sortable">
     <?php
-    $tampil = mysql_query("SELECT * FROM Lapor WHERE Verifikasi='Verifikasi'");
+    $tampil = mysql_query("SELECT * FROM lapor WHERE id_progres='1'");
     echo
     "<tr>
           <th>No</th>
@@ -15,11 +15,11 @@
       </tr>";
      while ($row = mysql_fetch_array($tampil)) {
       echo "<tr>";
-      echo "<td>" . $row['Id'] . "</td>";
-      echo "<td>" . $row['Tanggal'] . "</td>";
-      echo "<td>" . $row['Name'] . "</td>";
-      echo "<td>" . $row['Isi'] . "</td>";
-      echo "<td>" . $row['Verifikasi'] . "</td>";
+      echo "<td>" . $row['id'] . "</td>";
+      echo "<td>" . $row['tanggal'] . "</td>";
+      echo "<td>" . $row['name'] . "</td>";
+      echo "<td>" . $row['isi'] . "</td>";
+      echo "<td>" . $row['id_progres'] . "</td>";
      }
     ?>
     </table>

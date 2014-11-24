@@ -24,12 +24,12 @@ include ("utama/header_private.php");
             $OAUTH_TOKEN_SECRET=addslashes($_POST['KodeRahasiaToken']);
             $HASTAG=addslashes($_POST['hastag']);
 
-            $apdate = mysql_query("UPDATE Twitter SET CONSUMER_KEY='$CONSUMER_KEY', CONSUMER_SECRET='$CONSUMER_SECRET', OAUTH_TOKEN='$OAUTH_TOKEN', OAUTH_TOKEN_SECRET='$OAUTH_TOKEN_SECRET', HASTAG='$HASTAG' WHERE app='twitter'");
+            $apdate = mysql_query("UPDATE twitter SET CONSUMER_KEY='$CONSUMER_KEY', CONSUMER_SECRET='$CONSUMER_SECRET', OAUTH_TOKEN='$OAUTH_TOKEN', OAUTH_TOKEN_SECRET='$OAUTH_TOKEN_SECRET', HASTAG='$HASTAG' WHERE app='twitter'");
           }
         ?>
         <form role="form" action="" method="POST">
         <?php
-          $atur = mysql_query("SELECT * FROM Twitter");
+          $atur = mysql_query("SELECT * FROM twitter");
           while ($row = mysql_fetch_array($atur)) { 
         ?>
           

@@ -59,7 +59,8 @@ $grid->addColumn('tanggal', 'Tanggal', 'string');
 $grid->addColumn('name', 'Name', 'string');  
 $grid->addColumn('isi', 'Isi', 'string');  
 /* The column id_country and id_continent will show a list of all available countries and continents. So, we select all rows from the tables */
-$grid->addColumn('id_progres', 'Status', 'string' , fetch_pairs($mysqli,'SELECT id, name FROM progres'),true);  
+$grid->addColumn('id_progres', 'Status', 'string' , fetch_pairs($mysqli,'SELECT id, name FROM progres'),true);
+$grid->addColumn('lastvisit', 'Lastvisit', 'date');
 $grid->addColumn('action', 'Action', 'html', NULL, false, 'id');  
                                                                        
 $result = $mysqli->query('SELECT *, date_format(lastvisit, "%d/%m/%Y") as lastvisit FROM lapor');
