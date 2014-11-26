@@ -9,14 +9,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 	$myusername=addslashes($_POST['username']); 
 	$mypassword=addslashes($_POST['password']);
 
-
-	$sql="SELECT id FROM admin WHERE username='$myusername' and password='$mypassword'";
+	$sql="SELECT id FROM admin WHERE username='$myusername' and password=md5('$mypassword')";
 	$result=mysql_query($sql);
 	$row=mysql_fetch_array($result);
 	$active=$row['active'];
 
 	$count=mysql_num_rows($result);
-  echo $count;
 
 	// If result matched $myusername and $mypassword, table row must be 1 row
 	if($count==1) {

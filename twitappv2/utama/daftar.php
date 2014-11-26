@@ -14,7 +14,6 @@ include ("utama/header.php");
           <th>Status</th>
       </tr>";
      while ($row = mysql_fetch_array($tampil)) {
-      while ($row = mysql_fetch_array($tampil)) {
       echo "<tr>";
       if($row['id_progres']=='1') {
         $status = "Verifikasi";
