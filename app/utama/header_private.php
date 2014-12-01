@@ -4,9 +4,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <title>Home | Aplikasi Pelayanan Perizinan Terpadu</title>
 
-<link href="css/bootstrap-theme.css" rel="stylesheet">
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/docs.min.css" rel="stylesheet">
+    <link href="css/stylev2.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="css/font-awesome-4.1.0/css/font-awesome.min.css" type="text/css" media="screen">
+
 </head>
 
 <div class="container">

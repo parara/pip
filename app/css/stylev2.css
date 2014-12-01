@@ -14,6 +14,22 @@ body {
 	font-size:11px;
 }
 
+.container {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.bs-docs-footer {
+padding-top: 10px;
+padding-bottom: 20px;
+margin-top: 20px;
+color: #777;
+text-align: center;
+border-top: 1px solid #e5e5e5;
+}
+
 h1 { 
 	font-size: 15px;
 }
