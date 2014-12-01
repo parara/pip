@@ -1,0 +1,23 @@
+/* 
+    Document   : global.css
+    Created on : 07 Okt 10, 15:52:13
+    Author     : dichi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+label.error { float: none; color: red; padding-left: .5em; vertical-align: top; }
+
+.isi {  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana; font-size: 12px; color: #000000}
+.isi a, a.isi{ font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana; font-size: 12px; color: #000000; text-decoration: none;}
+.isi a:hover, a.isi:hover{ color: #999999; text-decoration: underline; }
+
+.link2-wrc {  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana; font-size: 12px; color: #999999}
+.link2-wrc a, a.link2-wrc{ font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana; font-size: 12px; color: #999999; text-decoration: none;}
+.link2-wrc a:hover, a.link2-wrc:hover{ color: #000000; text-decoration: underline; }
+
