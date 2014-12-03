@@ -1,0 +1,165 @@
+body{
+/*    font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+*/  
+  font-family:Arial;
+  font-size:12px;
+    color: #e3e3e3;
+    background: #eee;
+}
+
+p, h1, h2, form, button{border:0; margin:0; padding:0;}
+
+/* ----------- stylized ----------- */
+#stylized{
+    position: relative;
+    width: 411px;
+    height: 411px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.loginform {
+    
+    margin: 0 auto;
+    position: relative;
+    min-height: 450px;
+    margin: auto;
+    background: #1F90FF;
+    border-radius: 10px;
+    display: block;
+}
+
+.loginform .logo 
+{
+   position: absolute;
+   width: 75%;
+   top: 50px;
+   left:50px;
+    margin: 0 auto;
+   
+}
+
+.loginform .logo img
+{
+    
+    margin-left: 115px;
+   
+}
+
+#stylized .loginform .logo p
+{
+    text-align: center;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: sans-serif;
+   text-shadow: 0px 2px 5px #000000;
+   opacity:0.90;
+
+    
+}
+
+
+.form {
+    padding-top: 225px;
+    padding-left: 60px;
+}
+
+#stylized ul {
+    display: inline;
+}
+
+#stylized ul li {
+    list-style: none;
+    clear: both;
+}
+
+#stylized h1 {
+    font-size:14px;
+    font-weight:bold;
+}
+#stylized h2 {
+    font-size:12px;
+    font-weight:bold;
+    margin-left: 12px;
+    padding-bottom: 5px;
+}
+#stylized p{
+    font-size:11px;
+    color:#666666;
+    
+}
+#stylized label{
+    display:block;
+    font-weight:bold;
+    text-align:right;
+    width:140px;
+    float:left;
+}
+#stylized .small{
+    color:#666666;
+    display:block;
+    font-size:11px;
+    font-weight:normal;
+    text-align:right;
+    width:140px;
+}
+#stylized input, select{
+    float:left;
+    font-size:12px;
+    padding: .5em;
+    border:5px;
+    width:270px;
+    margin:0px 0 5px 12px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#stylized button{
+    clear:both;
+    background:#83c325;
+    color:#ffffff;
+    margin:4px 0px 0px 12px;
+    border:solid 0px #666666;
+    font-size:11px;
+    font-weight:bold;
+    padding:6px 6px;
+    min-width: 100px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#stylized button:hover {
+    background: #67be00;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.footer {
+}
+
+.footer h3 {
+    font-size: 11px;
+    color: #666;
+    text-align: center;
+}
+
+/* Tutorial button with jQuery */
+.otherbutton {
+  clear: both;
+  position:relative;
+  display:block;
+  height: 38px;
+  width: 570px;
+  background:url(images/contact.png) no-repeat;
+  background-position:0 0;
+  cursor: pointer;
+} 
+.otherbutton span.hover {
+  position: absolute;
+  display: block;
+  height: 38px;
+  width: 570px;
+  background: url(images/contact.png) no-repeat;
+  background-position: bottom;
+}
