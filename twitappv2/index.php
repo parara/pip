@@ -29,6 +29,10 @@ $mod = $_GET['mod'];
     case "pengaturan" :
     $view = "utama/pengaturan.php";
     break;
+
+    case "pengaturan_surel" :
+    $view = "utama/pengaturan_surel.php";
+    break;
 }
     include $view;
 
