@@ -22,7 +22,7 @@
   <script type="text/javascript" src="js/jquery_004.js"></script>
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/jquery_003.js"></script> -->
-  <!-- <link href="css/stylev2.css" rel="stylesheet"> -->
+  <link href="css/stylev2.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
   <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
   <link rel="stylesheet" href="css/font-awesome-4.1.0/css/font-awesome.min.css" type="text/css" media="screen">
