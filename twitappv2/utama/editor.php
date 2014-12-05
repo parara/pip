@@ -40,7 +40,7 @@ include('utama/header_.php');
         <td>'.$fetch['isi'].'</td>
         <td><span class= "xedit" id="'.$fetch['id'].'">'.$fetch['komentar'].'</span></td>
         <td><span class= "xedit" id="'.$fetch['id'].'">'.$fetch['id_progres'].'</span></td>
-        </tr>';             
+        </tr>';
       }
     ?>
     </tbody>
