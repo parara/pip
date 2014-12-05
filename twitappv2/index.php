@@ -26,6 +26,22 @@ $mod = $_GET['mod'];
     $view = "utama/verifikasi.php";
     break;
 
+    case "pengecekan" :
+    $view = "utama/pengecekan.php";
+    break;
+
+    case "pembahasan" :
+    $view = "utama/pembahasan.php";
+    break;
+
+    case "jawaban" :
+    $view = "utama/jawaban.php";
+    break;
+
+    case "editor" :
+    $view = "utama/editor.php";
+    break;
+
     case "pengaturan" :
     $view = "utama/pengaturan.php";
     break;

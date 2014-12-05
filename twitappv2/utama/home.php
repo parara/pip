@@ -1,8 +1,10 @@
 <?php
-include ("utama/header.php");
+include ("utama/header_.php");
 ?>  
     <div id="content">
-      <img src="img/home.jpg">
+      <div id="wrap">
+        <img src="img/home.jpg">
+      </div>
     </div>
   
 <?php

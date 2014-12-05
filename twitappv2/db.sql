@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS `lapor` (
   `id_progres` char(1) NOT NULL,
   `lastvisit` date DEFAULT NULL,
   `komentar` VARCHAR(300) DEFAULT NULL,
+  `editor` VARCHAR(300) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=501 ;
 
@@ -37,7 +38,7 @@ INSERT INTO `lapor` (`id`,`id_twit`,`tanggal`,`name`,`isi`,`id_progres`,`lastvis
   (9,529365253227036672,'Mon Nov 03 20:11:26 +0000 2014','@sangkunet','RT @chirpstory: .@killthedj\'s \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8Dn…','0','2012-04-17'),
   (10,529364395793473536,'Mon Nov 03 20:08:01 +0000 2014','@chirpstory','.@killthedj\'s \"Perjuangan Warga Miliran #JogjaAsat by @dodoputrabangsa #JogjaOraDidol\" enters lunch talk. http://t.co/wq8DnmUE8U','0','2012-04-17');
 
-DROP TABLE IF EXISTS `twitter`;
+DROP TABLE IF EXISTS `mailserver`;
 CREATE TABLE `mailserver` (
   `username` varchar(30) DEFAULT NULL,
   `password` varchar(30) DEFAULT NULL,

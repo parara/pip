@@ -17,6 +17,7 @@ con = mdb.connect('localhost','twitapp','tw1t4pp','testdb', use_unicode=True,cha
 
 # add kondisi to nilai
 kondisi ='0'
+editor ='admin'
 
 # read json file
 statuses = json.loads(open('mining.json').read())
@@ -35,7 +36,7 @@ for index in range(len(statuses)):
       #input to sql
       with con:
         cur = con.cursor(mdb.cursors.DictCursor)
-        cur.execute("""INSERT INTO lapor(id_twit, tanggal, name, isi, id_progres) VALUES (%s,%s,%s,%s,%s) """, (id_twit, created_at,screen_name,text,kondisi))
+        cur.execute("""INSERT INTO lapor(id_twit, tanggal, name, isi, id_progres, editor) VALUES (%s,%s,%s,%s,%s,%s) """, (id_twit, created_at,screen_name,text,kondisi,editor))
 
       print "sukses"
 #end
