@@ -20,7 +20,7 @@ include ("utama/header.php");
       while ($row = mysql_fetch_array($atur)) { 
     ?>
       <div class="form-group">
-        <label>Kode Pencarian</label>
+        <label>Hastag Pencarian</label>
         <input type="text" class="form-control" name="hastag"
         placeholder=<?php echo $row['HASTAG']; } ?>>
       </div>

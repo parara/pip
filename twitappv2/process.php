@@ -3,7 +3,7 @@ include("inc/config.php");
 
 $user_check="admin";
 // add jam edit;
-if(empty($_GET['id']) or empty($_GET['data']))
+if(empty($_GET['id'])) //or empty($_GET['data']))
 {
   return false;
 }

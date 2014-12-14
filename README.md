@@ -2,8 +2,39 @@
 =========
 oleh Estu Fardani (estu@di.blankon.in)
 
-need python2.7, pip, twitter (pip), mysql-python (pip), tweepy(pip)
+Peer,
 
-EditableGrid. 
+session expired
+ganti user password
+tambah user, set editor by login (session)
 
-Interface need LAMPP
+DB contoh, sample json
+Query pencarian
+Ganti gambar, isi dengan desain keluhan
+aliran kerja
+
+halaman awal,
+klik menu, redireklink login
+
+## Cara Memasang
+=========
+OS Debian, OSX, Fedora
+* Backend
+Install python 2.7
+Install pip
+Install twitter (under pip)
+Install mysql-python (under pip)
+Install tweepy (under pip)
+
+* Frontend
+Install PHP5
+Install mysql-server
+Install apache2 (webserver)
+
+* Lampp
+git clone and save to htdoc directory
+clone db minimal.
+set db token twitter apps (create app | links)
+set db mailserver
+set input query for crawling
+

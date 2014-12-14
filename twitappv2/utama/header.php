@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Home | Aplikasi Pelayanan Pengaduan Online</title>
+<title>Home | Aplikasi Pengaduan Pelayanan Online</title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <!-- <link rel="stylesheet" type="text/css" href="css/facebox.css"> -->
   <link rel="stylesheet" type="text/css" href="css/admin.css">
@@ -21,7 +21,7 @@
       <div id="header">
         <div class="instansi">
           <img src="img/logo2.png" height="70" width="70"><p>
-        Badan Pelayanan Perizinan Terpadu dan Penanaman Modal<br><font size="3">KOTA BOGOR</font></p>
+        Pengaduan Pelayanan Online<br><font size="3">KOTA BOGOR</font></p>
 
         </div>
       </div>
@@ -33,7 +33,7 @@
         <li><a href="index.php?mod=pengecekan">Laporan Pengecekan</a></li>
         <li><a href="index.php?mod=pembahasan">Laporan Pembahasan</a></li>
         <li><a href="index.php?mod=jawaban">Laporan Final</a></li>
-        <li><a href="index.php?mod=editor">Editor Laporan</a></li>
+        <!-- <li><a href="index.php?mod=editor">Editor Laporan</a></li> -->
         <li><a href="index.php?mod=pengaturan">Pengaturan Twitter</a></li>
         <li><a href="index.php?mod=pengaturan_surel">Pengaturan Surel</a></li>
         <li class="navbar-right"><a href="logout.php">Sign Out</a></li>
