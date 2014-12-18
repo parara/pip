@@ -1,3 +1,19 @@
+create user 'twitapp'@'localhost' identified by 'tw1t4pp';
+create database testdb;
+use testdb;
+grant all on testdb to 'twitapp'@'localhost';
+
+CREATE TABLE IF NOT EXISTS `admin` (
+`id` int(11) NOT NULL,
+  `name` varchar(30) DEFAULT NULL,
+  `username` varchar(30) DEFAULT NULL,
+  `password` varchar(50) DEFAULT NULL,
+  `email` varchar(30) DEFAULT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+INSERT INTO `admin` (`id`, `name`, `username`, `password`, `email`) VALUES
+(1, 'admin', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'estu@btech.co.id');
+
 DROP TABLE IF EXISTS `progres`;
 CREATE TABLE IF NOT EXISTS `progres` (
   `id` char(1) NOT NULL,
@@ -48,7 +64,7 @@ CREATE TABLE `mailserver` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `mailserver` (`username`, `password`, `server`, `port`, `app`) VALUES
-('estu@btech.co.id', 'bengkalis', 'smtp.gmail.com', '587', `twitter`);
+('estu@btech.co.id', 'cobainaja', 'smtp.gmail.com', '587', `twitter`);
 
 DROP TABLE IF EXISTS `twitter`;
 CREATE TABLE `twitter` (

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Home | Aplikasi Pengaduan Pelayanan Online</title>
+<title>Home | Aplikasi Pengaduan Pelayanan Perizinan Twitter</title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <!-- <link rel="stylesheet" type="text/css" href="css/facebox.css"> -->
   <link rel="stylesheet" type="text/css" href="css/admin.css">
@@ -25,7 +25,7 @@
       <div id="header">
         <div class="instansi">
           <img src="img/logo2.png" height="70" width="70"><p>
-        Pengaduan Pelayanan Online<br><font size="3">KOTA BOGOR</font></p>
+        Aplikasi Pengaduan Pelayanan Perizinan Twitter<br><font size="3">BPPTPM KOTA BOGOR</font></p>
 
         </div>
       </div>
