@@ -18,11 +18,12 @@ include ("utama/header_.php");
     <?php
       $atur = mysql_query("SELECT * FROM twitter");
       while ($row = mysql_fetch_array($atur)) { 
+        $hastag = $row['HASTAG'];
+      }
     ?>
       <div class="form-group">
         <label>Hastag Pencarian</label>
-        <input type="text" class="form-control" name="hastag"
-        placeholder=<?php echo $row['HASTAG']; } ?>>
+        <input type="text" class="form-control" name="hastag" placeholder="<?php echo $hastag; ?>">
       </div>
       <button type="submit" class="btn btn-default">Simpan</button>
     </form>
