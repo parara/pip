@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+#
+# Crawling Twitter
+#
+# Copyright (c) 2014, Estu Fardani <estu@di.blankon.in>
+# All rights reserved. Released under the MIT license.
 
 # import module
 import json

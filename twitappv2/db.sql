@@ -1,7 +1,7 @@
 create user 'twitapp'@'localhost' identified by 'tw1t4pp';
 create database testdb;
 use testdb;
-grant all on testdb to 'twitapp'@'localhost';
+grant all on *.* to 'twitapp'@'localhost';
 
 CREATE TABLE IF NOT EXISTS `admin` (
 `id` int(11) NOT NULL,

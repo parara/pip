@@ -4,6 +4,7 @@
 #
 # Copyright (c) 2014, Estu Fardani <estu@di.blankon.in>
 # All rights reserved. Released under the MIT license.
+
 ## Send mail from python, retrive from http://stackoverflow.com/questions/882712/sending-html-email-using-python
 ## and from gmail from http://stackoverflow.com/questions/10147455/trying-to-send-email-gmail-as-mail-provider-using-python
 

@@ -1,6 +1,7 @@
 ### Crawling Twitter Base On Hastag
 =========
 oleh Estu Fardani (estu@di.blankon.in)
+Lisensi kode sumber dibawah MIT
 
 ## Cara Memasang
 =========
@@ -11,10 +12,13 @@ Linux, OSX
 ..* Install gitcore
 .... apt-get install gitcore
 
-* Frontend
-..* Install PHP5
+* [Frontend](https://wiki.debian.org/LaMp)
 ..* Install mysql-server
+.... $ sudo apt-get install mysql-server mysql-client
 ..* Install apache2 (webserver)
+.... $ sudo apt-get install apache2
+..* Install PHP5
+.... $ sudo apt-get install install php5 php5-mysql libapache2-mod-php5
 
 * Backend
 ..* Install python 2.7
