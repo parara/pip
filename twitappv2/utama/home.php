@@ -3,7 +3,7 @@ include ("utama/header_.php");
 ?>  
     <div id="content">
       <div id="wrap">
-        <img src="img/home.jpg">
+        <img src="img/tw_01.jpg">
       </div>
     </div>
   
