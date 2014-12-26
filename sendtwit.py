@@ -26,7 +26,7 @@ api = tweepy.API(auth)
 if len(sys.argv) >= 2:  
     tweet_text = sys.argv[1]    
 else:  
-    tweet_text = "Still messing about with tweepy and twitter API. :)"  
+    tweet_text = "Ki mesti cah kae seng ngajari.."  
   
 if len(tweet_text) <= 140:  
     api.update_status(tweet_text)  
