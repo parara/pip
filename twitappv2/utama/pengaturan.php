@@ -23,7 +23,7 @@ include ("utama/header_.php");
     ?>
       <div class="form-group">
         <label>Hastag Pencarian</label>
-        <input type="text" class="form-control" name="hastag" placeholder="<?php echo $hastag; ?>">
+        <input type="text" class="form-control" name="hastag" placeholder="<?php echo $hastag;?>">
       </div>
       <button type="submit" class="btn btn-default">Simpan</button>
     </form>
