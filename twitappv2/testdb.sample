@@ -1,0 +1,197 @@
+-- MySQL dump 10.13  Distrib 5.5.40, for debian-linux-gnu (x86_64)
+--
+-- Host: localhost    Database: testdb
+-- ------------------------------------------------------
+-- Server version	5.5.40-0+wheezy1
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Current Database: `testdb`
+--
+
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `testdb` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+USE `testdb`;
+
+--
+-- Table structure for table `admin`
+--
+
+DROP TABLE IF EXISTS `admin`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `admin` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) DEFAULT NULL,
+  `username` varchar(30) DEFAULT NULL,
+  `password` varchar(50) DEFAULT NULL,
+  `email` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username` (`username`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `admin`
+--
+
+LOCK TABLES `admin` WRITE;
+/*!40000 ALTER TABLE `admin` DISABLE KEYS */;
+INSERT INTO `admin` VALUES (1,'admin','admin','21232f297a57a5a743894a0e4a801fc3','estu@btech.co.id');
+/*!40000 ALTER TABLE `admin` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `langganan`
+--
+
+DROP TABLE IF EXISTS `langganan`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `langganan` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) DEFAULT NULL,
+  `email` varchar(30) DEFAULT NULL,
+  `kategori` varchar(15) DEFAULT NULL,
+  `status` varchar(15) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `langganan`
+--
+
+LOCK TABLES `langganan` WRITE;
+/*!40000 ALTER TABLE `langganan` DISABLE KEYS */;
+INSERT INTO `langganan` VALUES (1,'admin','andro.medh4@gmail.com','izin','true');
+/*!40000 ALTER TABLE `langganan` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `lapor`
+--
+
+DROP TABLE IF EXISTS `lapor`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `lapor` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_twit` bigint(20) NOT NULL,
+  `tanggal` varchar(50) NOT NULL,
+  `name` varchar(25) NOT NULL,
+  `isi` varchar(160) NOT NULL,
+  `id_progres` char(1) NOT NULL,
+  `lastvisit` date DEFAULT NULL,
+  `komentar` varchar(300) DEFAULT NULL,
+  `editor` varchar(300) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=515 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `lapor`
+--
+
+LOCK TABLES `lapor` WRITE;
+/*!40000 ALTER TABLE `lapor` DISABLE KEYS */;
+INSERT INTO `lapor` VALUES (501,545489708034170881,'Thu Dec 18 08:04:15 +0000 2014','@achmad_sandy','@BPPTPMKotaBogor #pengaduan pak,izin sy udah beres beloooom nihhh ???','1',NULL,NULL,'admin'),(502,545489437866463232,'Thu Dec 18 08:03:11 +0000 2014','@achmad_sandy','@BPPTPMKotaBogor apa izin sy udah beres ???','0',NULL,NULL,'admin'),(503,545449149739450368,'Thu Dec 18 05:23:05 +0000 2014','@achmad_sandy','@BPPTPMKotaBogor berkas izin saya udah beres beloooom ?','0',NULL,NULL,'admin'),(504,545440230644281344,'Thu Dec 18 04:47:39 +0000 2014','@Kelik_Supriadi','@BPPTPMKotaBogor pak..IMB sy sdh sebulan nih prosesnya blum ad kabar..kumaha pak?','3',NULL,'Terima kasih telah aduannya melalui Twitter kami, bisa kami minta alamat emailnya, agar kami bisa tindak lanjuti. atau kirimkan no pendaftaran berkas ke alamat email bpptpm@kotabogor.go.id','admin'),(505,545489708034170881,'Thu Dec 18 08:04:15 +0000 2014','@achmad_sandy','@BPPTPMKotaBogor #pengaduan pak,izin sy udah beres beloooom nihhh ???','0',NULL,NULL,'admin'),(506,545489437866463232,'Thu Dec 18 08:03:11 +0000 2014','@achmad_sandy','@BPPTPMKotaBogor apa izin sy udah beres ???','0',NULL,NULL,'admin'),(507,545449149739450368,'Thu Dec 18 05:23:05 +0000 2014','@achmad_sandy','@BPPTPMKotaBogor berkas izin saya udah beres beloooom ?','0',NULL,NULL,'admin'),(508,545440230644281344,'Thu Dec 18 04:47:39 +0000 2014','@Kelik_Supriadi','@BPPTPMKotaBogor pak..IMB sy sdh sebulan nih prosesnya blum ad kabar..kumaha pak?','1',NULL,'Terima kasih. mohon sertakan email bapak. atau kirim ke bpptpm@kotabogor.go.id','admin'),(509,546233506519449601,'Sat Dec 20 09:19:51 +0000 2014','@NPhixs','@BPPTPMKotaBogor pak, mau tanya, imb Rumah saya udah kelar beloom , kok gak kabarnya , udah lebih dari 5 minggu belom ada yg survey.','0',NULL,NULL,'admin'),(510,546224426161688577,'Sat Dec 20 08:43:46 +0000 2014','@Kelik_Supriadi','@BPPTPMKotaBogor kelik_piero@yahoo.com..trims','0',NULL,NULL,'admin'),(511,546222662171631616,'Sat Dec 20 08:36:45 +0000 2014','@achmad_sandy','@BPPTPMKotaBogor achmad.sandy@gmail.com','0',NULL,NULL,'admin'),(512,546200720362311680,'Sat Dec 20 07:09:34 +0000 2014','@tonny_igunawan','@BPPTPMKotaBogor mohon info apakah ijin imb saya sdh selesai? Sdh 2 bln blum beres2....','0',NULL,NULL,'admin'),(513,555379402196803585,'Wed Jan 14 15:02:22 +0000 2015','@dedegunawan100','Kepala BPPTM :Tidak Ada Uang Rp 14 Juta untuk Izin Ruko-Wartakota http://t.co/KFIdqYM3Qy @BPPTPMKotaBogor @Pemkot_Bogor','0',NULL,NULL,'admin'),(514,556094898567258112,'Fri Jan 16 14:25:30 +0000 2015','@dedegunawan100','Polisi Segera Panggil Pengusaha Terkait Laporan Lilis - http://t.co/UoZnyQLw4t @BPPTPMKotaBogor','0',NULL,NULL,'admin');
+/*!40000 ALTER TABLE `lapor` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `mailserver`
+--
+
+DROP TABLE IF EXISTS `mailserver`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `mailserver` (
+  `username` varchar(30) DEFAULT NULL,
+  `password` varchar(30) DEFAULT NULL,
+  `server` varchar(30) DEFAULT NULL,
+  `port` varchar(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mailserver`
+--
+
+LOCK TABLES `mailserver` WRITE;
+/*!40000 ALTER TABLE `mailserver` DISABLE KEYS */;
+INSERT INTO `mailserver` VALUES ('estu@btech.co.id','bengkalis','smtp.gmail.com','587');
+/*!40000 ALTER TABLE `mailserver` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `progres`
+--
+
+DROP TABLE IF EXISTS `progres`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `progres` (
+  `id` char(1) NOT NULL,
+  `name` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `progres`
+--
+
+LOCK TABLES `progres` WRITE;
+/*!40000 ALTER TABLE `progres` DISABLE KEYS */;
+INSERT INTO `progres` VALUES ('0','Belum Verifikasi'),('1','Verifikasi'),('2','Pengecekan Lapangan'),('3','Pembahasan'),('4','Jawaban');
+/*!40000 ALTER TABLE `progres` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `twitter`
+--
+
+DROP TABLE IF EXISTS `twitter`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `twitter` (
+  `CONSUMER_KEY` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `CONSUMER_SECRET` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `OAUTH_TOKEN` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `OAUTH_TOKEN_SECRET` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `HASTAG` varchar(140) DEFAULT NULL,
+  `app` varchar(15) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `twitter`
+--
+
+LOCK TABLES `twitter` WRITE;
+/*!40000 ALTER TABLE `twitter` DISABLE KEYS */;
+INSERT INTO `twitter` VALUES ('ZI1PLPq7emJnHWkcyq3tFDeWV','YCqck9ZB6rWGuEG5tCRVoOjHHnDd0Y6iFHSbleq70cDIjqTMHQ','79529075-cnQlwAjcaiHYwYb8gGfe9Sq4W7mvhEwtpljLwstyL','QEUUgVjFR568jDXpcuxxyXDe7qouWYkOebQZziYXqGgIJ','@BPPTPMKotaBogor','twitter');
+/*!40000 ALTER TABLE `twitter` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2015-01-19 18:38:10
